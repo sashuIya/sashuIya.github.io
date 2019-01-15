@@ -1,5 +1,5 @@
 ```cpp
-int search(vector<int>& nums, int target) {
+int search(const vector<int>& nums, int target) {
   if (nums.empty()) return -1;
 
   int l = 0;
@@ -14,7 +14,7 @@ int search(vector<int>& nums, int target) {
     }
   }
 
-  return a[l] == target ? l : -1;
+  return nums[l] == target ? l : -1;
 }
 ```
 
@@ -36,6 +36,6 @@ int search(vector<int>& nums, int target) {
       r = m;
     }
 ...
-  return a[r] == target ? r : -1;
+  return nums[r] == target ? r : -1;
 ...
 ```
