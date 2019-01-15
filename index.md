@@ -30,7 +30,9 @@ int search(vector<int>& nums, int target) {
   return a[l] == target ? l : -1;
 }
 ```
+
 </details>
+
 
 ### Быстрое возведение в степень
 * [видео-разбор](https://youtu.be/swktXq5COtI)
