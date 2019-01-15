@@ -5,8 +5,6 @@
 ### Бинарный поиск
 * [видео-разбор](https://youtu.be/fZ9VKq8ybq4)
 * [задачка на leetcode](https://leetcode.com/problems/binary-search)
-<details><summary>код</summary>
-<p>
 
 ```C++
 int search(vector<int>& nums, int target) {
@@ -27,9 +25,6 @@ int search(vector<int>& nums, int target) {
   return a[l] == target ? l : -1;
 }
 ```
-
-</p>
-</details>
 
 ### Быстрое возведение в степень
 * [видео-разбор](https://youtu.be/swktXq5COtI)
