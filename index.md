@@ -5,34 +5,7 @@
 ### Бинарный поиск
 * [видео-разбор](https://youtu.be/fZ9VKq8ybq4)
 * [задачка на leetcode](https://leetcode.com/problems/binary-search)
-
-
-
-<details>
-  <summary>Показать код</summary>
-  
-```cpp
-int search(vector<int>& nums, int target) {
-  if (nums.empty()) return -1;
-
-  int l = 0;
-  int r = nums.size(); // element after the last
-
-  while (l + 1 < r) {
-    int m = l + (r - l) / 2;
-    if (a[m] > target) {
-      r = m;
-    } else {
-      l = m;
-    }
-  }
-
-  return a[l] == target ? l : -1;
-}
-```
-
-</details>
-
+* [код и замечания](binsearch.md)
 
 ### Быстрое возведение в степень
 * [видео-разбор](https://youtu.be/swktXq5COtI)
