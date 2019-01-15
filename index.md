@@ -6,6 +6,11 @@
 * [видео-разбор](https://youtu.be/fZ9VKq8ybq4)
 * [задачка на leetcode](https://leetcode.com/problems/binary-search)
 
+
+
+<details>
+  <summary>Показать код</summary>
+  
 ```cpp
 int search(vector<int>& nums, int target) {
   if (nums.empty()) return -1;
@@ -25,15 +30,6 @@ int search(vector<int>& nums, int target) {
   return a[l] == target ? l : -1;
 }
 ```
-
-<details>
-  <summary>Click to expand!</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
 </details>
 
 ### Быстрое возведение в степень
