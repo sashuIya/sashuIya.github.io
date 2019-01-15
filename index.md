@@ -5,7 +5,7 @@
 ### Бинарный поиск
 * [видео-разбор](https://youtu.be/fZ9VKq8ybq4)
 * [задачка на leetcode](https://leetcode.com/problems/binary-search)
-<details><summary>* код</summary>
+<details>* <summary>код</summary>
 <p>
 
 ```C++
