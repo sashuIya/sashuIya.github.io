@@ -26,6 +26,16 @@ int search(vector<int>& nums, int target) {
 }
 ```
 
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
 ### Быстрое возведение в степень
 * [видео-разбор](https://youtu.be/swktXq5COtI)
 * [задачка на leetcode](https://leetcode.com/problems/powx-n)
