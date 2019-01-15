@@ -6,6 +6,7 @@
 * [видео-разбор](https://youtu.be/fZ9VKq8ybq4)
 * [задачка на leetcode](https://leetcode.com/problems/binary-search)
 * <details><summary>код</summary>
+
 ```C++
 int search(vector<int>& nums, int target) {
   if (nums.empty()) return -1;
