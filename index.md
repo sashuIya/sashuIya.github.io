@@ -10,3 +10,8 @@
 ### Быстрое возведение в степень
 * [видео-разбор](https://youtu.be/swktXq5COtI)
 * [задачка на leetcode](https://leetcode.com/problems/powx-n)
+
+### Задача о кузнечике
+Простейшая одномерная динамика. Два красивых математических решения с использованием быстрого возведения в степень.
+* [видео-разбор](https://youtu.be/qoo_P3nbfic)
+* [задачка на leetcode](https://leetcode.com/problems/climbing-stairs)
