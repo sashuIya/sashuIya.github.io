@@ -19,3 +19,6 @@
 ### Задача о водопаде
 Простая задачка на смекалку. Довольно сумбурный разбор - придется смотреть в собранном состоянии.
 * [видео-разбор](https://youtu.be/4ntW5KknHPQ)
+* [задачка на leetcode](https://leetcode.com/problems/trapping-rain-water)
+* [пишем код онлайн](https://youtu.be/lXPKZSUJb94)
+* [код и замечания](trapping_rain_water.md)
