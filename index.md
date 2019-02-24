@@ -5,7 +5,7 @@
 ### 1. Бинарный поиск
 * [видео-разбор](https://youtu.be/fZ9VKq8ybq4)
 * [задачка на leetcode](https://leetcode.com/problems/binary-search)
-  * [код и замечания](binsearch.md)
+  * [код и замечания](solutions/binsearch.md)
 
 ### 2. Быстрое возведение в степень
 * [видео-разбор](https://youtu.be/swktXq5COtI)
@@ -21,7 +21,7 @@
 * [видео-разбор](https://youtu.be/4ntW5KknHPQ)
 * [задачка на leetcode](https://leetcode.com/problems/trapping-rain-water)
   * [пишем код онлайн](https://youtu.be/lXPKZSUJb94)
-  * [код и замечания](trapping_rain_water.md)
+  * [код и замечания](solutions/trapping_rain_water.md)
 
 ### 5. Список (структура данных)
 * [видео по общей теории](https://youtu.be/MGkDPkQMSR4)
@@ -29,4 +29,4 @@
   * [код и замечания](design_linked_list.md)
 * [переворот односвязного списка на leetcode](https://leetcode.com/problems/reverse-linked-list)
   * [пишем код онлайн (рекурсивный способ)](https://youtu.be/fS7MkpRwbZs)
-  * [код и замечания](reverse_linked_list.md)
+  * [код и замечания](solutions/reverse_linked_list.md)
