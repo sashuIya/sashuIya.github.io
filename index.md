@@ -26,7 +26,7 @@
 ### 5. Список (структура данных)
 * [видео по общей теории](https://youtu.be/MGkDPkQMSR4)
 * [имплементация односвязного списка на leetcode](https://leetcode.com/problems/design-linked-list)
-  * [код и замечания](design_linked_list.md)
+  * [код и замечания](solutions/design_linked_list.md)
 * [переворот односвязного списка на leetcode](https://leetcode.com/problems/reverse-linked-list)
   * [пишем код онлайн (рекурсивный способ)](https://youtu.be/fS7MkpRwbZs)
   * [код и замечания](solutions/reverse_linked_list.md)
