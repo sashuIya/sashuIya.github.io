@@ -5,7 +5,7 @@
 ### Бинарный поиск
 * [видео-разбор](https://youtu.be/fZ9VKq8ybq4)
 * [задачка на leetcode](https://leetcode.com/problems/binary-search)
-* [код и замечания](binsearch.md)
+  * [код и замечания](binsearch.md)
 
 ### Быстрое возведение в степень
 * [видео-разбор](https://youtu.be/swktXq5COtI)
@@ -20,8 +20,8 @@
 Простая задачка на смекалку. Довольно сумбурный разбор - придется смотреть в собранном состоянии.
 * [видео-разбор](https://youtu.be/4ntW5KknHPQ)
 * [задачка на leetcode](https://leetcode.com/problems/trapping-rain-water)
-* [пишем код онлайн](https://youtu.be/lXPKZSUJb94)
-* [код и замечания](trapping_rain_water.md)
+  * [пишем код онлайн](https://youtu.be/lXPKZSUJb94)
+  * [код и замечания](trapping_rain_water.md)
 
 ### Список (структура данных)
 * [видео по общей теории](https://youtu.be/MGkDPkQMSR4)
