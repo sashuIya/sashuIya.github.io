@@ -22,3 +22,7 @@
 * [задачка на leetcode](https://leetcode.com/problems/trapping-rain-water)
 * [пишем код онлайн](https://youtu.be/lXPKZSUJb94)
 * [код и замечания](trapping_rain_water.md)
+
+### Списки (структура данных)
+* [видео по общей теории](https://youtu.be/MGkDPkQMSR4)
+* [задачка на leetcode](https://leetcode.com/problems/design-linked-list)
