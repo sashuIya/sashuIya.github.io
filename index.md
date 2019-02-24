@@ -26,3 +26,4 @@
 ### Список (структура данных)
 * [видео по общей теории](https://youtu.be/MGkDPkQMSR4)
 * [задачка на leetcode](https://leetcode.com/problems/design-linked-list)
+** [код и замечания](design_linked_list.md)
