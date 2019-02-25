@@ -34,4 +34,4 @@
   * [пишем код онлайн](https://youtu.be/Hcapz3ixZmQ)
   * [код и замечания](solutions/linked_list_cycle.md)
 * [leetcode: первый элемент в цикле (первый после прецикла)](https://leetcode.com/problems/linked-list-cycle-ii/)
-  * [код и замечания](solutions/lined_list_cycle_ii.md)
+  * [код и замечания](solutions/linked_list_cycle_ii.md)
