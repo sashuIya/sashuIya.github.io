@@ -35,3 +35,6 @@
   * [код и замечания](solutions/linked_list_cycle.md)
 * [leetcode: первый элемент в цикле (первый после прецикла)](https://leetcode.com/problems/linked-list-cycle-ii/)
   * [код и замечания](solutions/linked_list_cycle_ii.md)
+* [leetcode: слияние двух отсортированных списков](https://leetcode.com/problems/merge-two-sorted-lists)
+  * [пишем код онлайн](https://youtu.be/tUePX_E8lJg)
+  * [код и замечания](solutions/merge_two_sorted_lists.md)
