@@ -38,3 +38,6 @@
 * [leetcode: слияние двух отсортированных списков](https://leetcode.com/problems/merge-two-sorted-lists)
   * [пишем код онлайн](https://youtu.be/UiMNCXxqNpM)
   * [код и замечания](solutions/merge_two_sorted_lists.md)
+
+### 6. Массив (структура данных)
+* [видео по общей теории](https://youtu.be/KAuwhdYrN-8)
