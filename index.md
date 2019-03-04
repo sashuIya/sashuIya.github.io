@@ -39,5 +39,5 @@
   * [пишем код онлайн](https://youtu.be/UiMNCXxqNpM)
   * [код и замечания](solutions/merge_two_sorted_lists.md)
 
-### 6. Массив (структура данных)
+### 6. Массив
 * [видео по общей теории](https://youtu.be/KAuwhdYrN-8)
