@@ -49,3 +49,5 @@
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/is_bst.md)
 * [(домашка) leetcode: наименьшая разница между значениями в BST](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/min_diff_in_bst.md)
+* [(домашка) leetcode: найти значение в BST](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+  * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/find_value_in_bst.md)
