@@ -44,3 +44,6 @@
 
 ### 7. Бинарное дерево
 * [видео по общей теории](https://youtu.be/2N4j4Jiy5Ac)
+* [leetcode: является ли дерево деревом поиска](https://leetcode.com/problems/validate-binary-search-tree/)
+  * [разбор и код онлайн](https://youtu.be/bZ6Dpoe9Ycc)
+  * [код и замечания](solutions/is_bst.md)
