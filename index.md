@@ -47,3 +47,5 @@
 * [leetcode: является ли дерево деревом поиска](https://leetcode.com/problems/validate-binary-search-tree/)
   * [разбор и код онлайн](https://youtu.be/bZ6Dpoe9Ycc)
   * [код и замечания](solutions/is_bst.md)
+* [(домашка) leetcode: наименьшая разница между значениями в BST](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
+  * [код и замечания](solutions/min_diff_in_bst.md)
