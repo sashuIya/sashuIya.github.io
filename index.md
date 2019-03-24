@@ -41,6 +41,8 @@
 
 ### 6. Массив
 * [видео по общей теории](https://youtu.be/KAuwhdYrN-8)
+* [leetcode: поиск двух элементов массива с данной суммой](https://youtu.be/7Cwl5PSS-Nc)
+  * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/two_sum_array.md)
 
 ### 7. Бинарное дерево
 * [видео по общей теории](https://youtu.be/2N4j4Jiy5Ac)
