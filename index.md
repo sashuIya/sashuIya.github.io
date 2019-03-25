@@ -54,3 +54,5 @@
 * [(домашка) leetcode: найти значение в BST](https://leetcode.com/problems/search-in-a-binary-search-tree/)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/find_value_in_bst.md)
 * [видео по десериализации бин. дерева](https://www.youtube.com/watch?v=G8BuzXMfdKQ)
+  * [leetcode: десериализация по inorder и postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
+  * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/in_and_post_orders_deserialization.md)
