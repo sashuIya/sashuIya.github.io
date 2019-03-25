@@ -34,5 +34,5 @@ class Solution:
 ```
 
 ## Замечания:
-O(n) по памяти (hashtable + stack)
+O(n) по памяти (hashtable + stack) \
 O(n) по времени (все числа обходим по примерно одному разу)
