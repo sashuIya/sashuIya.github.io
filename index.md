@@ -61,3 +61,4 @@
 
 ### 8. Графы
 * [определение и примеры](https://youtu.be/HJcryz9xb9w)
+* [методы представления графов, часть 1](https://youtu.be/MGhvKGTXWpc)
