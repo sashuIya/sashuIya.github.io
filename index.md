@@ -62,3 +62,10 @@
 ### 8. Графы
 * [определение и примеры](https://youtu.be/HJcryz9xb9w)
 * [методы представления графов, часть 1](https://youtu.be/MGhvKGTXWpc)
+
+
+## Advanced Level (просто интересные задачки)
+
+### Теория вероятностей
+* [задачка про поиск памяти](https://youtu.be/K5-UUpDWnoQ)
+* [задачка про прохождение игры](https://youtu.be/pstBUzWotTI)
