@@ -63,6 +63,9 @@
 * [определение и примеры](https://youtu.be/HJcryz9xb9w)
 * [методы представления графов, часть 1](https://youtu.be/MGhvKGTXWpc)
 
+### 9. Комбинаторика
+* [next permuation (с кодом)](https://youtu.be/pgaf6W7XFuU)
+
 
 ## Advanced Level (просто интересные задачки)
 
