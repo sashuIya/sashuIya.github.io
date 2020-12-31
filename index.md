@@ -66,6 +66,9 @@
 ### 9. Комбинаторика
 * [next permuation (с кодом)](https://youtu.be/pgaf6W7XFuU)
 
+### 10. Два указателя
+* [leetcode: Minimum Window Substring (с кодом)](https://youtu.be/-HxxzBTtLqk)
+
 
 ## Advanced Level (просто интересные задачки)
 
