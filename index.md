@@ -72,6 +72,8 @@
 ### 10. Два указателя
 * [leetcode: Minimum Window Substring (с кодом)](https://youtu.be/-HxxzBTtLqk)
 
+### 11. Динамическое программирование
+* [leetcode: Stock Price](https://youtu.be/fbPABPZBO8I)
 
 ## Advanced Level (просто интересные задачки)
 
