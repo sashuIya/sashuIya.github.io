@@ -73,10 +73,12 @@
 * [leetcode-разбор: Minimum Window Substring (с кодом)](https://youtu.be/-HxxzBTtLqk)
 
 ### 11. Динамическое программирование
-* [leetcode-разбор: Stock Price (с кодом)](https://youtu.be/fbPABPZBO8I)
-* [leetcode-разбор: Regex](https://youtu.be/LbeflFeDONU)
+* [leetcode видео-разбор: Stock Price (с кодом)](https://youtu.be/fbPABPZBO8I)
+* [leetcode видео-разбор: Regex](https://youtu.be/LbeflFeDONU)
   * [мой код](https://gist.github.com/sashuIya/527ed3335561fb2b9b31c659d399e6a0)
-
+* [leetcode видео-разбор: Jump Game II (теория - корневая оптимизация и segment tree)](https://youtu.be/hWVTOr6phl8)
+  * [пишем код online (segment tree)](https://youtu.be/tmv7W9Xw3lo)
+  * [мой код](https://gist.github.com/sashuIya/9afbe716e0475e2a0c5cc5a3c58e248f)
 ## Advanced Level (просто интересные задачки)
 
 ### Теория вероятностей
