@@ -67,13 +67,15 @@
 * [методы представления графов, часть 1](https://youtu.be/MGhvKGTXWpc)
 
 ### 9. Комбинаторика
-* [next permuation (с кодом)](https://youtu.be/pgaf6W7XFuU)
+* [leetcode-разбор: next permuation (с кодом)](https://youtu.be/pgaf6W7XFuU)
 
 ### 10. Два указателя
-* [leetcode: Minimum Window Substring (с кодом)](https://youtu.be/-HxxzBTtLqk)
+* [leetcode-разбор: Minimum Window Substring (с кодом)](https://youtu.be/-HxxzBTtLqk)
 
 ### 11. Динамическое программирование
-* [leetcode: Stock Price](https://youtu.be/fbPABPZBO8I)
+* [leetcode-разбор: Stock Price (с кодом)](https://youtu.be/fbPABPZBO8I)
+* [leetcode-разбор: Regex](https://youtu.be/LbeflFeDONU)
+  * [мой код](https://gist.github.com/sashuIya/527ed3335561fb2b9b31c659d399e6a0)
 
 ## Advanced Level (просто интересные задачки)
 
