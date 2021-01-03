@@ -79,6 +79,7 @@
 * [leetcode видео-разбор: Jump Game II (теория - корневая оптимизация и segment tree)](https://youtu.be/hWVTOr6phl8)
   * [пишем код online (segment tree)](https://youtu.be/tmv7W9Xw3lo)
   * [мой код](https://gist.github.com/sashuIya/9afbe716e0475e2a0c5cc5a3c58e248f)
+
 ## Advanced Level (просто интересные задачки)
 
 ### Теория вероятностей
