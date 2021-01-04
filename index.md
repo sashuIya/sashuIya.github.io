@@ -46,7 +46,10 @@
 * [leetcode: нахождение общих элементов двух массивов](https://youtu.be/PIJJswU3B2U)
   * [код и замечания](https://github.com/sashuIya/leetcode_solutions/blob/master/350.intersection-of-two-arrays-ii.py)
 
-### 7. Бинарное дерево
+### 7. Перебор (backtracking)
+* [видео с простейшим примером](https://youtu.be/UtUpDFwyiiQ)
+
+### 8. Бинарное дерево
 * [видео по общей теории](https://youtu.be/2N4j4Jiy5Ac)
 * [leetcode: является ли дерево деревом поиска](https://leetcode.com/problems/validate-binary-search-tree/)
   * [разбор и код онлайн](https://youtu.be/bZ6Dpoe9Ycc)
@@ -62,17 +65,17 @@
   * [leetcode: десериализация по inorder и postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/in_and_post_orders_deserialization.md)
 
-### 8. Графы
+### 9. Графы
 * [определение и примеры](https://youtu.be/HJcryz9xb9w)
 * [методы представления графов, часть 1](https://youtu.be/MGhvKGTXWpc)
 
-### 9. Комбинаторика
+### 10. Комбинаторика
 * [leetcode-разбор: next permuation (с кодом)](https://youtu.be/pgaf6W7XFuU)
 
-### 10. Два указателя
+### 11. Два указателя
 * [leetcode-разбор: Minimum Window Substring (с кодом)](https://youtu.be/-HxxzBTtLqk)
 
-### 11. Динамическое программирование
+### 12. Динамическое программирование
 * [leetcode видео-разбор: Stock Price (с кодом)](https://youtu.be/fbPABPZBO8I)
 * [leetcode видео-разбор: Regex](https://youtu.be/LbeflFeDONU)
   * [мой код](https://gist.github.com/sashuIya/527ed3335561fb2b9b31c659d399e6a0)
