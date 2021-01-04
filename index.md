@@ -48,6 +48,7 @@
 
 ### 7. Перебор (backtracking)
 * [видео с простейшим примером](https://youtu.be/UtUpDFwyiiQ)
+* [видео с простейшим примером перебора на графе](https://youtu.be/KIDSVOjVDrg)
 
 ### 8. Бинарное дерево
 * [видео по общей теории](https://youtu.be/2N4j4Jiy5Ac)
@@ -65,17 +66,20 @@
   * [leetcode: десериализация по inorder и postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/in_and_post_orders_deserialization.md)
 
-### 9. Графы
+### 9. Бор
+* [видео с базовой теорией](https://youtu.be/-eDAuPu7bkM)
+
+### 10. Графы
 * [определение и примеры](https://youtu.be/HJcryz9xb9w)
 * [методы представления графов, часть 1](https://youtu.be/MGhvKGTXWpc)
 
-### 10. Комбинаторика
+### 11. Комбинаторика
 * [leetcode-разбор: next permuation (с кодом)](https://youtu.be/pgaf6W7XFuU)
 
-### 11. Два указателя
+### 12. Два указателя
 * [leetcode-разбор: Minimum Window Substring (с кодом)](https://youtu.be/-HxxzBTtLqk)
 
-### 12. Динамическое программирование
+### 13. Динамическое программирование
 * [leetcode видео-разбор: Stock Price (с кодом)](https://youtu.be/fbPABPZBO8I)
 * [leetcode видео-разбор: Regex](https://youtu.be/LbeflFeDONU)
   * [мой код](https://gist.github.com/sashuIya/527ed3335561fb2b9b31c659d399e6a0)
