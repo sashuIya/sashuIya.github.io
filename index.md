@@ -23,7 +23,10 @@
   * [пишем код онлайн](https://youtu.be/lXPKZSUJb94)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/trapping_rain_water.md)
 
-### 5. Список (структура данных)
+### 5. Тупые задачки (на владение языком)
+* [Проверка, что строка - IP адрес](https://youtu.be/Mch6evN0Zmk)
+
+### 6. Список (структура данных)
 * [видео по общей теории](https://youtu.be/MGkDPkQMSR4)
 * [leetcode: имплементация односвязного списка](https://leetcode.com/problems/design-linked-list)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/design_linked_list.md)
@@ -39,18 +42,18 @@
   * [пишем код онлайн](https://youtu.be/UiMNCXxqNpM)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/merge_two_sorted_lists.md)
 
-### 6. Массив
+### 7. Массив
 * [видео по общей теории](https://youtu.be/KAuwhdYrN-8)
 * [leetcode: поиск двух элементов массива с данной суммой](https://youtu.be/7Cwl5PSS-Nc)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/two_sum_array.md)
 * [leetcode: нахождение общих элементов двух массивов](https://youtu.be/PIJJswU3B2U)
   * [код и замечания](https://github.com/sashuIya/leetcode_solutions/blob/master/350.intersection-of-two-arrays-ii.py)
 
-### 7. Перебор (backtracking)
+### 8. Перебор (backtracking)
 * [видео с простейшим примером](https://youtu.be/UtUpDFwyiiQ)
 * [видео с простейшим примером перебора на графе](https://youtu.be/KIDSVOjVDrg)
 
-### 8. Бинарное дерево
+### 9. Бинарное дерево
 * [видео по общей теории](https://youtu.be/2N4j4Jiy5Ac)
 * [leetcode: является ли дерево деревом поиска](https://leetcode.com/problems/validate-binary-search-tree/)
   * [разбор и код онлайн](https://youtu.be/bZ6Dpoe9Ycc)
@@ -66,20 +69,20 @@
   * [leetcode: десериализация по inorder и postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/in_and_post_orders_deserialization.md)
 
-### 9. Бор
+### 10. Бор
 * [видео с базовой теорией](https://youtu.be/-eDAuPu7bkM)
 
-### 10. Графы
+### 11. Графы
 * [определение и примеры](https://youtu.be/HJcryz9xb9w)
 * [методы представления графов, часть 1](https://youtu.be/MGhvKGTXWpc)
 
-### 11. Комбинаторика
+### 12. Комбинаторика
 * [leetcode-разбор: next permuation (с кодом)](https://youtu.be/pgaf6W7XFuU)
 
-### 12. Два указателя
+### 13. Два указателя
 * [leetcode-разбор: Minimum Window Substring (с кодом)](https://youtu.be/-HxxzBTtLqk)
 
-### 13. Динамическое программирование
+### 14. Динамическое программирование
 * [leetcode видео-разбор: Stock Price (с кодом)](https://youtu.be/fbPABPZBO8I)
 * [leetcode видео-разбор: Regex](https://youtu.be/LbeflFeDONU)
   * [мой код](https://gist.github.com/sashuIya/527ed3335561fb2b9b31c659d399e6a0)
@@ -87,7 +90,7 @@
   * [пишем код online (segment tree)](https://youtu.be/tmv7W9Xw3lo)
   * [мой код](https://gist.github.com/sashuIya/9afbe716e0475e2a0c5cc5a3c58e248f)
 
-### 14. Бор + Перебор + ДП
+### 16. Бор + Перебор + ДП
 * Задача про расстановку пробелов в строке ([leetcode-140](https://leetcode.com/problems/word-break-ii
 ))
   * [видео-разбор](https://youtu.be/R_hZJLmBhA4)
