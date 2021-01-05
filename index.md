@@ -87,6 +87,13 @@
   * [пишем код online (segment tree)](https://youtu.be/tmv7W9Xw3lo)
   * [мой код](https://gist.github.com/sashuIya/9afbe716e0475e2a0c5cc5a3c58e248f)
 
+### 14. Бор + Перебор + ДП
+* Задача про расстановку пробелов в строке ([leetcode-140](https://leetcode.com/problems/word-break-ii
+))
+  * [видео-разбор](https://youtu.be/R_hZJLmBhA4)
+  * [пишу код](https://youtu.be/7uVUXerWa7E)
+  * [мой код на гите](https://gist.github.com/sashuIya/e2c2aa691aa13b0672dee1406d9ed0f3)
+
 ## Advanced Level (просто интересные задачки)
 
 ### Теория вероятностей
