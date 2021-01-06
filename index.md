@@ -90,6 +90,10 @@
   * [пишем код online (segment tree)](https://youtu.be/tmv7W9Xw3lo)
   * [мой код](https://gist.github.com/sashuIya/9afbe716e0475e2a0c5cc5a3c58e248f)
 
+### 15. Разделяй и властвуй
+* [leetcode-разбор: Different Ways to Add Parentheses](https://youtu.be/-oclJ3KCPqM)
+  * [ссылка на литкод](https://leetcode.com/problems/different-ways-to-add-parentheses/)
+
 ### 16. Бор + Перебор + ДП
 * Задача про расстановку пробелов в строке ([leetcode-140](https://leetcode.com/problems/word-break-ii
 ))
