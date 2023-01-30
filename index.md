@@ -42,8 +42,22 @@ int search(const vector<int>& nums, int target) {
 </table>
 
 ### 2. Быстрое возведение в степень
+<table>
+<tr VALIGN=top>
+<td style="width: 40%">
+
 * [видео-разбор](https://youtu.be/swktXq5COtI)
 * [leetcode: быстрое возведение в степень](https://leetcode.com/problems/powx-n)
+
+</td>
+
+<td>
+
+![hint](/sashuIya.github.io/assets/images/pown.png)
+
+</td>
+</tr>
+</table>
 
 ### 3. Задача о кузнечике
 Простейшая одномерная динамика. Два красивых математических решения с использованием быстрого возведения в степень.
