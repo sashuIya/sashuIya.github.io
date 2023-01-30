@@ -47,10 +47,11 @@
 
 ### 7. Массив
 * [видео по общей теории](https://youtu.be/KAuwhdYrN-8)
-* [leetcode: поиск двух элементов массива с данной суммой](https://youtu.be/7Cwl5PSS-Nc)
-  * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/two_sum_array.md)
 * [leetcode: нахождение общих элементов двух массивов](https://youtu.be/PIJJswU3B2U)
   * [код и замечания](https://github.com/sashuIya/leetcode_solutions/blob/master/350.intersection-of-two-arrays-ii.py)
+* k-ая порядковая статистика
+  * [видео-разбор](https://www.youtube.com/watch?v=gK9r5bGG604)
+  * [задача на leetcode](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 ### 8. Перебор (backtracking)
 * [видео с простейшим примером](https://youtu.be/UtUpDFwyiiQ)
@@ -84,6 +85,8 @@
 
 ### 13. Два указателя
 * [leetcode-разбор: Minimum Window Substring (с кодом)](https://youtu.be/-HxxzBTtLqk)
+* [leetcode: поиск двух элементов массива с данной суммой](https://youtu.be/7Cwl5PSS-Nc)
+  * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/two_sum_array.md)
 
 ### 14. Динамическое программирование
 * [leetcode видео-разбор: Stock Price (с кодом)](https://youtu.be/fbPABPZBO8I)
