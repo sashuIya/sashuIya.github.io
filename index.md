@@ -89,6 +89,10 @@ int search(const vector<int>& nums, int target) {
 * [видео с простейшим примером перебора на графе](https://youtu.be/KIDSVOjVDrg)
 
 ### 9. Бинарное дерево
+<table>
+<tr VALIGN=top>
+<td style="width: 40%">
+
 * [видео по общей теории](https://youtu.be/2N4j4Jiy5Ac)
 * [leetcode: является ли дерево деревом поиска](https://leetcode.com/problems/validate-binary-search-tree/)
   * [разбор и код онлайн](https://youtu.be/bZ6Dpoe9Ycc)
@@ -103,6 +107,37 @@ int search(const vector<int>& nums, int target) {
 * [видео по десериализации бин. дерева](https://www.youtube.com/watch?v=G8BuzXMfdKQ)
   * [leetcode: десериализация по inorder и postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
   * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/in_and_post_orders_deserialization.md)
+
+</td>
+<td>
+
+```python
+class Solution(object):
+  def isValidBSTRecursive(self, node, min_value, max_value):
+    if node is None:
+      return True
+    
+    # min_value < node.val < max_value
+    if min_value is not None and node.val <= min_value:
+      return False
+    if max_value is not None and node.val >= max_value:
+      return False
+    
+    return (self.isValidBSTRecursive(node.left, min_value, node.val) and
+           self.isValidBSTRecursive(node.right, node.val, max_value))
+    
+  
+  def isValidBST(self, root):
+    """
+    :type root: TreeNode
+    :rtype: bool
+    """
+    return self.isValidBSTRecursive(root, None, None)
+```
+
+</td>
+</tr>
+</table>
 
 ### 10. Бор
 * [видео с базовой теорией](https://youtu.be/-eDAuPu7bkM)
