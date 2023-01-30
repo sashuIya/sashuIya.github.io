@@ -38,7 +38,6 @@ int search(const vector<int>& nums, int target) {
 ```
 
 </td>
-
 </tr>
 </table>
 
