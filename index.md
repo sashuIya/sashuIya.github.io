@@ -53,7 +53,7 @@ int search(const vector<int>& nums, int target) {
 
 <td>
 
-![hint](/sashuIya.github.io/assets/images/pown.png)
+<img src="https://github.com/sashuIya/sashuIya.github.io/assets/pown.png" width="100">
 
 </td>
 </tr>
