@@ -46,14 +46,16 @@ int search(const vector<int>& nums, int target) {
 <tr VALIGN=top>
 <td style="width: 40%">
 
-* [видео-разбор](https://youtu.be/swktXq5COtI)
-* [leetcode: быстрое возведение в степень](https://leetcode.com/problems/powx-n)
+<br/>
+
+* Теория: https://youtu.be/swktXq5COtI
+* Практика: https://leetcode.com/problems/powx-n
 
 </td>
 
 <td>
 
-<img src="https://github.com/sashuIya/sashuIya.github.io/assets/pown.png" width="100">
+<img src="https://raw.githubusercontent.com/sashuIya/sashuIya.github.io/master/assets/pown.png" width="300">
 
 </td>
 </tr>
