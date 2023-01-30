@@ -63,8 +63,26 @@ int search(const vector<int>& nums, int target) {
 
 ### 3. Задача о кузнечике
 Простейшая одномерная динамика. Два красивых математических решения с использованием быстрого возведения в степень.
-* [видео-разбор](https://youtu.be/qoo_P3nbfic)
-* [leetcode: задачка о кузнечике](https://leetcode.com/problems/climbing-stairs)
+
+<table>
+<tr VALIGN=top>
+<td style="width: 40%">
+
+<br/>
+
+* Теория: https://youtu.be/qoo_P3nbfic
+* Практика: https://leetcode.com/problems/climbing-stairs
+
+</td>
+
+<td>
+
+<img src="https://raw.githubusercontent.com/sashuIya/sashuIya.github.io/master/assets/fn.png" width="300">
+
+</td>
+</tr>
+</table>
+
 
 ### 4. Задача о водопаде
 Простая задачка на смекалку. Довольно сумбурный разбор - придется смотреть в собранном состоянии.
