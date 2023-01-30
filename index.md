@@ -6,9 +6,41 @@
 * У меня есть [документ](https://quip.com/A6azAP9ze7DM), в котором я собираю дельные советы начинающим программистам. Там про настройку рабочей среды и всего такого. Иногда добавляю туда что-то новенькое. Комментарии приветствуются.
 
 ### 1. Бинарный поиск
-* [видео-разбор](https://youtu.be/fZ9VKq8ybq4)
-* [leetcode: бинпоиск](https://leetcode.com/problems/binary-search)
-  * [код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/binsearch.md)
+<table>
+<tr VALIGN=top>
+<td style="width: 40%">
+
+* Теория: https://youtu.be/fZ9VKq8ybq4
+* Практика: https://leetcode.com/problems/binary-search
+* [Код и замечания](https://github.com/sashuIya/sashuIya.github.io/blob/master/solutions/binsearch.md)
+
+</td>
+<td>
+
+```cpp
+int search(const vector<int>& nums, int target) {
+  if (nums.empty()) return -1;
+
+  int l = 0;
+  int r = nums.size(); // element after the last!!
+
+  while (l + 1 < r) {
+    int m = (l + r) / 2;
+    if (a[m] > target) {
+      r = m;
+    } else {
+      l = m;
+    }
+  }
+
+  return nums[l] == target ? l : -1;
+}
+```
+
+</td>
+
+</tr>
+</table>
 
 ### 2. Быстрое возведение в степень
 * [видео-разбор](https://youtu.be/swktXq5COtI)
