@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Мины в современной войне</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 18px;
+            color: #111;
+            padding: 0 0 1em 0;
+	        background-color: #efe7dd;
+        }
+        table {
+             border-spacing: 10px;
+        }
+        th { text-align: left;}
+        .lt {
+          color: inherit;
+          text-decoration: inherit;
+        }
+        .l {
+          color: #050;
+        }
+        .s {
+            display: inline-block;
+        }
+        .c {
+            display: inline-block;
+        }
+        .e {
+            /*background-color: white; Changing background color */
+            border-radius: 20px; /* Making border radius */
+            width: fit-content; /* Making auto-sizable width */
+            height: fit-content; /* Making auto-sizable height */
+            padding: 5px 30px 5px 30px; /* Making space around letters */
+            font-size: 18px; /* Changing font size */
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            white-space: nowrap;
+        }
+
+        .t {
+            display: inline-block;
+        }
+        #player {
+            position: sticky;
+            top: 20px;
+            float: right;
+        }
+    </style>
+	<script>
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          //height: '210',
+          //width: '340',
+          videoId: 'qprmpt2Lh9c',
+        });
+      }
+      function jumptoTime(timepoint, id) {
+        event.preventDefault();
+        history.pushState(null, null, "#"+id);
+        player.seekTo(timepoint);
+        player.playVideo();
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Мины в современной войне</h2>
+  <i>Click on a part of the transcription, to jump to its video, and get an anchor to it in the address bar<br><br></i>
+<div  id="player"></div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:00:6.66" id="00:00:6.66" class="lt" onclick="jumptoTime(6, this.id)">Здравствуйте, подписчики революционной инициативы,</a>
+				<a href="#00:00:10.10" id="00:00:10.10" class="lt" onclick="jumptoTime(10, this.id)">наши зрители, наши читатели.</a>
+				<a href="#00:00:12.34" id="00:00:12.34" class="lt" onclick="jumptoTime(12, this.id)">Сегодня мы продолжаем изучать военное дело надлежащим</a>
+				<a href="#00:00:15.94" id="00:00:15.94" class="lt" onclick="jumptoTime(15, this.id)">образом.</a>
+				<a href="#00:00:16.94" id="00:00:16.94" class="lt" onclick="jumptoTime(16, this.id)">Мы сегодня будем говорить о минной войне, точнее о</a>
+				<a href="#00:00:21.22" id="00:00:21.22" class="lt" onclick="jumptoTime(21, this.id)">минах в современной войне, об их значимости, о том,</a>
+				<a href="#00:00:25.14" id="00:00:25.14" class="lt" onclick="jumptoTime(25, this.id)">что они означают для характера военных действий, о том,</a>
+				<a href="#00:00:29.30" id="00:00:29.30" class="lt" onclick="jumptoTime(29, this.id)">как они влияют на современный театр военных действий.</a>
+				<a href="#00:00:32.42" id="00:00:32.42" class="lt" onclick="jumptoTime(32, this.id)">Надо сказать, кстати, что применение минно-взрывных</a>
+				<a href="#00:00:36.18" id="00:00:36.18" class="lt" onclick="jumptoTime(36, this.id)">устройств достигло своего пика в ходе войн 70-80-х годов,</a>
+				<a href="#00:00:41.82" id="00:00:41.82" class="lt" onclick="jumptoTime(41, this.id)">и надо сказать, что по данным ООН сейчас в мире посеяно,</a>
+				<a href="#00:00:45.98" id="00:00:45.98" class="lt" onclick="jumptoTime(45, this.id)">можно даже сказать так, около 100 миллионов мин,</a>
+				<a href="#00:00:48.66" id="00:00:48.66" class="lt" onclick="jumptoTime(48, this.id)">поэтому тема крайне актуальна, и мы сегодня с Глебом Таргонским</a>
+				<a href="#00:00:52.82" id="00:00:52.82" class="lt" onclick="jumptoTime(52, this.id)">об этом в прямом эфире порассуждаем и поговорим.</a>
+				<a href="#00:00:56.22" id="00:00:56.22" class="lt" onclick="jumptoTime(56, this.id)">Глеб рад приветствовать.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:00:59.29" id="00:00:59.29" class="lt" onclick="jumptoTime(59, this.id)">Приветствую, Владимир, приветствую наших зрителей и слушателей.</a>
+				<a href="#00:01:2.79" id="00:01:2.79" class="lt" onclick="jumptoTime(62, this.id)">Для начала, как всегда, объявление, что у нас сейчас будет лекционная часть нашего стрима,</a>
+				<a href="#00:01:9.59" id="00:01:9.59" class="lt" onclick="jumptoTime(69, this.id)">после которой мы ответим на все вопросы в чате по теме.</a>
+				<a href="#00:01:13.69" id="00:01:13.69" class="lt" onclick="jumptoTime(73, this.id)">Если вы хотите, чтобы ваш вопрос заметили, желательно обозначать его словом «вопрос».</a>
+				<a href="#00:01:18.49" id="00:01:18.49" class="lt" onclick="jumptoTime(78, this.id)">Так в чате будет удобнее его искать.</a>
+				<a href="#00:01:20.69" id="00:01:20.69" class="lt" onclick="jumptoTime(80, this.id)">Ну, а вопросы не по теме вы можете задать через сервис Donation Alerts.</a>
+				<a href="#00:01:25.79" id="00:01:25.79" class="lt" onclick="jumptoTime(85, this.id)">Ну, и кроме того, если есть желание, можете помочь нашему каналу всеми возможными способами.</a>
+				<a href="#00:01:31.89" id="00:01:31.89" class="lt" onclick="jumptoTime(91, this.id)">В описании они есть.</a>
+				<a href="#00:01:33.99" id="00:01:33.99" class="lt" onclick="jumptoTime(93, this.id)">И мы не можем не сказать, что наша лекция сегодня очень вводная.</a>
+				<a href="#00:01:39.79" id="00:01:39.79" class="lt" onclick="jumptoTime(99, this.id)">Потому что вот мы с Владимиром до стрима беседовали.</a>
+				<a href="#00:01:43.19" id="00:01:43.19" class="lt" onclick="jumptoTime(103, this.id)">Если бы мы только говорили бы о минном искусстве, минной войне XXI веке,</a>
+				<a href="#00:01:52.29" id="00:01:52.29" class="lt" onclick="jumptoTime(112, this.id)">перечисляя различные названия МИН, перечисляя основные моменты их применения,</a>
+				<a href="#00:01:58.59" id="00:01:58.59" class="lt" onclick="jumptoTime(118, this.id)">самые известные, самые интересные, то мы бы, наверное, стрим делали бы часов на 5-6.</a>
+				<a href="#00:02:4.59" id="00:02:4.59" class="lt" onclick="jumptoTime(124, this.id)">И это был бы стрим такой очень подробный.</a>
+				<a href="#00:02:7.69" id="00:02:7.69" class="lt" onclick="jumptoTime(127, this.id)">У нас, конечно, сегодня в ведении мы постараемся обрисовать именно концептуально,</a>
+				<a href="#00:02:13.19" id="00:02:13.19" class="lt" onclick="jumptoTime(133, this.id)">какое место у МИН и у саперов, минеров в современных конфликтах.</a>
+				<a href="#00:02:19.19" id="00:02:19.19" class="lt" onclick="jumptoTime(139, this.id)">Особенно мы поговорим как о том, как применяют мины, скажем так, ведущие военные державы мира,</a>
+				<a href="#00:02:27.89" id="00:02:27.89" class="lt" onclick="jumptoTime(147, this.id)">так и поговорим о том, как их применяют партизаны.</a>
+				<a href="#00:02:31.69" id="00:02:31.69" class="lt" onclick="jumptoTime(151, this.id)">Там даже более интересно будет в разных местах планеты, в том числе красные партизаны.</a>
+				<a href="#00:02:37.69" id="00:02:37.69" class="lt" onclick="jumptoTime(157, this.id)">Ну, надо отметить, что история минного дела, она уходит тоже корнями в глубину веков.</a>
+				<a href="#00:02:45.69" id="00:02:45.69" class="lt" onclick="jumptoTime(165, this.id)">Мы все прекрасно помним эпизоды, которые зафиксированы даже в Библии,</a>
+				<a href="#00:02:49.69" id="00:02:49.69" class="lt" onclick="jumptoTime(169, this.id)">когда брали славный город Иерихон и стены пали.</a>
+				<a href="#00:02:55.69" id="00:02:55.69" class="lt" onclick="jumptoTime(175, this.id)">Многие этот эпизод трактуют как свидетельство подкопа под стены Иерихона.</a>
+				<a href="#00:03:1.69" id="00:03:1.69" class="lt" onclick="jumptoTime(181, this.id)">Подкопы были, были различные траншеи.</a>
+				<a href="#00:03:6.19" id="00:03:6.19" class="lt" onclick="jumptoTime(186, this.id)">Например, в одной из битв с персами Велизарий использовал как раз траншеи,</a>
+				<a href="#00:03:12.69" id="00:03:12.69" class="lt" onclick="jumptoTime(192, this.id)">через которые он перекидывал мостки.</a>
+				<a href="#00:03:15.19" id="00:03:15.19" class="lt" onclick="jumptoTime(195, this.id)">Эти траншеи, соответственно, персидскую конницу останавливали,</a>
+				<a href="#00:03:19.69" id="00:03:19.69" class="lt" onclick="jumptoTime(199, this.id)">а мостки позволяли перебросить вовремя подкрепление.</a>
+				<a href="#00:03:23.19" id="00:03:23.19" class="lt" onclick="jumptoTime(203, this.id)">Ну и выражение сапа — это, значит, траншея, которая подводит к укрепленным позициям неприятеля,</a>
+				<a href="#00:03:30.19" id="00:03:30.19" class="lt" onclick="jumptoTime(210, this.id)">к стенам его крепости, допустим.</a>
+				<a href="#00:03:32.19" id="00:03:32.19" class="lt" onclick="jumptoTime(212, this.id)">Тихая сапа — это и есть тот самый подкоп, который подводится под стены,</a>
+				<a href="#00:03:38.69" id="00:03:38.69" class="lt" onclick="jumptoTime(218, this.id)">под какие-то укрепления, с тем, чтобы, соответственно, взорвать его</a>
+				<a href="#00:03:43.19" id="00:03:43.19" class="lt" onclick="jumptoTime(223, this.id)">вместе с находящимися сверху от него постройками, укреплениями и так далее.</a>
+				<a href="#00:03:49.19" id="00:03:49.19" class="lt" onclick="jumptoTime(229, this.id)">Но если мы говорим про конкретные мины, то надо отметить,</a>
+				<a href="#00:03:52.69" id="00:03:52.69" class="lt" onclick="jumptoTime(232, this.id)">что в полной мере их начинают применять сперва как противопехотные мины</a>
+				<a href="#00:03:58.69" id="00:03:58.69" class="lt" onclick="jumptoTime(238, this.id)">в период Первой мировой войны.</a>
+				<a href="#00:04:0.69" id="00:04:0.69" class="lt" onclick="jumptoTime(240, this.id)">Позиционный характер Первой мировой войны показал,</a>
+				<a href="#00:04:4.19" id="00:04:4.19" class="lt" onclick="jumptoTime(244, this.id)">что мины являются прекрасным подспорьем для обороны,</a>
+				<a href="#00:04:9.19" id="00:04:9.19" class="lt" onclick="jumptoTime(249, this.id)">и в период между двумя мировыми войнами</a>
+				<a href="#00:04:13.19" id="00:04:13.19" class="lt" onclick="jumptoTime(253, this.id)">все ведущие военные державы начинают гонку в том числе минных вооружений,</a>
+				<a href="#00:04:18.69" id="00:04:18.69" class="lt" onclick="jumptoTime(258, this.id)">ну и как следствие, естественно, это известная борьба меча и щита.</a>
+				<a href="#00:04:23.19" id="00:04:23.19" class="lt" onclick="jumptoTime(263, this.id)">Начинают они также поиск средств для быстрого и эффективного разминирования</a>
+				<a href="#00:04:28.19" id="00:04:28.19" class="lt" onclick="jumptoTime(268, this.id)">и вообще противодействия различным минным мероприятиям противника.</a>
+				<a href="#00:04:35.19" id="00:04:35.19" class="lt" onclick="jumptoTime(275, this.id)">И Вторая мировая война показала, что мины являются грозным оружием,</a>
+				<a href="#00:04:39.19" id="00:04:39.19" class="lt" onclick="jumptoTime(279, this.id)">минные поля являются прекрасным средством обороны,</a>
+				<a href="#00:04:42.19" id="00:04:42.19" class="lt" onclick="jumptoTime(282, this.id)">но она также показала, что если просто минировать какой-то участок местности,</a>
+				<a href="#00:04:48.19" id="00:04:48.19" class="lt" onclick="jumptoTime(288, this.id)">то его очень быстро можно разминировать,</a>
+				<a href="#00:04:51.19" id="00:04:51.19" class="lt" onclick="jumptoTime(291, this.id)">а потери неприятеля, если он просто передвигается по этим минным полям,</a>
+				<a href="#00:04:57.19" id="00:04:57.19" class="lt" onclick="jumptoTime(297, this.id)">они минимальны, потому что после первого подбития танка,</a>
+				<a href="#00:05:1.19" id="00:05:1.19" class="lt" onclick="jumptoTime(301, this.id)">если мы говорим про противотанковые мины,</a>
+				<a href="#00:05:3.19" id="00:05:3.19" class="lt" onclick="jumptoTime(303, this.id)">или первая травма солдата, если мы говорим про противопехотные,</a>
+				<a href="#00:05:7.19" id="00:05:7.19" class="lt" onclick="jumptoTime(307, this.id)">заставляет его вызвать, соответственно, саперов,</a>
+				<a href="#00:05:10.19" id="00:05:10.19" class="lt" onclick="jumptoTime(310, this.id)">которые производят разминирование местности.</a>
+				<a href="#00:05:13.19" id="00:05:13.19" class="lt" onclick="jumptoTime(313, this.id)">А вот когда минные поля прикрыты огневыми средствами,</a>
+				<a href="#00:05:18.19" id="00:05:18.19" class="lt" onclick="jumptoTime(318, this.id)">когда минные поля вписаны в оборону,</a>
+				<a href="#00:05:21.19" id="00:05:21.19" class="lt" onclick="jumptoTime(321, this.id)">действительно они становятся очень грозным оружием.</a>
+				<a href="#00:05:25.19" id="00:05:25.19" class="lt" onclick="jumptoTime(325, this.id)">И особая, конечно, этап развития минного дела —</a>
+				<a href="#00:05:29.19" id="00:05:29.19" class="lt" onclick="jumptoTime(329, this.id)">это, конечно, конфликты после Второй мировой войны,</a>
+				<a href="#00:05:32.19" id="00:05:32.19" class="lt" onclick="jumptoTime(332, this.id)">особенно такие, которые отличаются как раз-таки низкой интенсивностью</a>
+				<a href="#00:05:37.19" id="00:05:37.19" class="lt" onclick="jumptoTime(337, this.id)">и борьбой очень хорошо вооруженного противника с противником слабым,</a>
+				<a href="#00:05:41.19" id="00:05:41.19" class="lt" onclick="jumptoTime(341, this.id)">который ведет в основном партизанские действия.</a>
+				<a href="#00:05:44.19" id="00:05:44.19" class="lt" onclick="jumptoTime(344, this.id)">Классический пример — это действия против Вьетконга армии США.</a>
+				<a href="#00:05:49.19" id="00:05:49.19" class="lt" onclick="jumptoTime(349, this.id)">И вот тут мины, которые используют непосредственно слабый противник</a>
+				<a href="#00:05:54.19" id="00:05:54.19" class="lt" onclick="jumptoTime(354, this.id)">являются тоже очень и очень грозным оружием,</a>
+				<a href="#00:05:57.19" id="00:05:57.19" class="lt" onclick="jumptoTime(357, this.id)">которое может серьезно парализовать действия</a>
+				<a href="#00:06:0.19" id="00:06:0.19" class="lt" onclick="jumptoTime(360, this.id)">вот этого самого сильного вооруженного противника.</a>
+				<a href="#00:06:3.19" id="00:06:3.19" class="lt" onclick="jumptoTime(363, this.id)">Ну и на момент гибели Советского Союза минное дело,</a>
+				<a href="#00:06:8.19" id="00:06:8.19" class="lt" onclick="jumptoTime(368, this.id)">так же как и контрминное дело,</a>
+				<a href="#00:06:11.19" id="00:06:11.19" class="lt" onclick="jumptoTime(371, this.id)">надо отметить, что мы, конечно же, говорим сегодня про сухопутные мины.</a>
+				<a href="#00:06:15.19" id="00:06:15.19" class="lt" onclick="jumptoTime(375, this.id)">Мы не будем касаться вопроса минной войны на море.</a>
+				<a href="#00:06:19.19" id="00:06:19.19" class="lt" onclick="jumptoTime(379, this.id)">Мы должны это отметить.</a>
+				<a href="#00:06:21.19" id="00:06:21.19" class="lt" onclick="jumptoTime(381, this.id)">Ну я думаю, по картинке, которая была представлена в качестве превью нашего видео,</a>
+				<a href="#00:06:26.19" id="00:06:26.19" class="lt" onclick="jumptoTime(386, this.id)">все поняли, что речь идет, конечно, про сухопутные мины.</a>
+				<a href="#00:06:29.19" id="00:06:29.19" class="lt" onclick="jumptoTime(389, this.id)">Так вот, стороны СССР, военная наука погибшего уже СССР,</a>
+				<a href="#00:06:35.19" id="00:06:35.19" class="lt" onclick="jumptoTime(395, this.id)">военная наука США, других держав, военная наука КНДР в частности,</a>
+				<a href="#00:06:39.19" id="00:06:39.19" class="lt" onclick="jumptoTime(399, this.id)">которой мы уделяем особое внимание с Владимиром,</a>
+				<a href="#00:06:42.19" id="00:06:42.19" class="lt" onclick="jumptoTime(402, this.id)">показалось, что, точнее, пришло к пониманию того,</a>
+				<a href="#00:06:45.19" id="00:06:45.19" class="lt" onclick="jumptoTime(405, this.id)">что мины действительно являются грозным оружием,</a>
+				<a href="#00:06:47.19" id="00:06:47.19" class="lt" onclick="jumptoTime(407, this.id)">они плотно увязаны с общей стратегией,</a>
+				<a href="#00:06:51.19" id="00:06:51.19" class="lt" onclick="jumptoTime(411, this.id)">тактикой обороняющегося или наступающего,</a>
+				<a href="#00:06:54.19" id="00:06:54.19" class="lt" onclick="jumptoTime(414, this.id)">или ведущего диверсионно-партизанскую войну,</a>
+				<a href="#00:06:57.19" id="00:06:57.19" class="lt" onclick="jumptoTime(417, this.id)">бойской силой, грубо говоря.</a>
+				<a href="#00:07:1.19" id="00:07:1.19" class="lt" onclick="jumptoTime(421, this.id)">И вот тут возникает вопрос,</a>
+				<a href="#00:07:3.19" id="00:07:3.19" class="lt" onclick="jumptoTime(423, this.id)">а какое же место у мины в современном конфликте?</a>
+				<a href="#00:07:6.19" id="00:07:6.19" class="lt" onclick="jumptoTime(426, this.id)">В начале 2000-х годов некоторые горячие головы,</a>
+				<a href="#00:07:10.19" id="00:07:10.19" class="lt" onclick="jumptoTime(430, this.id)">которые наблюдали за триумфальным,</a>
+				<a href="#00:07:13.19" id="00:07:13.19" class="lt" onclick="jumptoTime(433, this.id)">мы с Владимиром разберем, кстати,</a>
+				<a href="#00:07:15.19" id="00:07:15.19" class="lt" onclick="jumptoTime(435, this.id)">насколько это триумфальное шествие в Америке,</a>
+				<a href="#00:07:18.19" id="00:07:18.19" class="lt" onclick="jumptoTime(438, this.id)">в том же Ираке или в Афганистане,</a>
+				<a href="#00:07:21.19" id="00:07:21.19" class="lt" onclick="jumptoTime(441, this.id)">высказывали мнение, что мины в классическом понимании</a>
+				<a href="#00:07:24.19" id="00:07:24.19" class="lt" onclick="jumptoTime(444, this.id)">это нечто устаревшее.</a>
+				<a href="#00:07:27.19" id="00:07:27.19" class="lt" onclick="jumptoTime(447, this.id)">К этому добавились голоса, которые стали слышны в 70-е годы</a>
+				<a href="#00:07:31.19" id="00:07:31.19" class="lt" onclick="jumptoTime(451, this.id)">относительно того, что минное оружие следует запретить,</a>
+				<a href="#00:07:34.19" id="00:07:34.19" class="lt" onclick="jumptoTime(454, this.id)">отказаться от него, внести его в разряд запрещенных видов оружия.</a>
+				<a href="#00:07:40.19" id="00:07:40.19" class="lt" onclick="jumptoTime(460, this.id)">И ссылаются на то, что действительно огромное количество мирных жителей</a>
+				<a href="#00:07:44.19" id="00:07:44.19" class="lt" onclick="jumptoTime(464, this.id)">гибнет от мин, которые остаются после конфликтов.</a>
+				<a href="#00:07:48.19" id="00:07:48.19" class="lt" onclick="jumptoTime(468, this.id)">В частности, огромное количество погибло ливийцев</a>
+				<a href="#00:07:51.19" id="00:07:51.19" class="lt" onclick="jumptoTime(471, this.id)">в период 40-х по 70-е годы.</a>
+				<a href="#00:07:54.19" id="00:07:54.19" class="lt" onclick="jumptoTime(474, this.id)">А некоторые, по некоторым данным, подрываются до сих пор</a>
+				<a href="#00:07:57.19" id="00:07:57.19" class="lt" onclick="jumptoTime(477, this.id)">на знаменитых садах Ромбеля,</a>
+				<a href="#00:08:0.19" id="00:08:0.19" class="lt" onclick="jumptoTime(480, this.id)">потому что по Ливии проходил фронт Второй мировой войны,</a>
+				<a href="#00:08:3.19" id="00:08:3.19" class="lt" onclick="jumptoTime(483, this.id)">немцы очень, и не только немцы, а англичане усиливали его минами,</a>
+				<a href="#00:08:8.19" id="00:08:8.19" class="lt" onclick="jumptoTime(488, this.id)">которые до сих пор взрываются, как некоторые говорят.</a>
+				<a href="#00:08:11.19" id="00:08:11.19" class="lt" onclick="jumptoTime(491, this.id)">Но, во всяком случае, 50-60-е годы огромные потери.</a>
+				<a href="#00:08:14.19" id="00:08:14.19" class="lt" onclick="jumptoTime(494, this.id)">Огромные потери у афганского мирного населения,</a>
+				<a href="#00:08:17.19" id="00:08:17.19" class="lt" onclick="jumptoTime(497, this.id)">огромные потери у вьетнамского.</a>
+				<a href="#00:08:20.19" id="00:08:20.19" class="lt" onclick="jumptoTime(500, this.id)">И это как бы получается...</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:08:19.17" id="00:08:19.17" class="lt" onclick="jumptoTime(499, this.id)">Ловко.</a>
+				<a href="#00:08:20.17" id="00:08:20.17" class="lt" onclick="jumptoTime(500, this.id)">Я это скажу.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:08:25.11" id="00:08:25.11" class="lt" onclick="jumptoTime(505, this.id)">позорь против того, чтобы мины использовать.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:08:27.85" id="00:08:27.85" class="lt" onclick="jumptoTime(507, this.id)">Вот, кстати, Глеб, очень интересно, что вот эта оттавская</a>
+				<a href="#00:08:31.21" id="00:08:31.21" class="lt" onclick="jumptoTime(511, this.id)">конвенция, о которой вы говорите, очень интересная.</a>
+				<a href="#00:08:34.81" id="00:08:34.81" class="lt" onclick="jumptoTime(514, this.id)">Там есть статья 1, которая призывает ту сторону, которая</a>
+				<a href="#00:08:39.05" id="00:08:39.05" class="lt" onclick="jumptoTime(519, this.id)">выявила некое намерение на обязательность для себя</a>
+				<a href="#00:08:42.61" id="00:08:42.61" class="lt" onclick="jumptoTime(522, this.id)">конвенции о ограничении мин, воздерживаться от них,</a>
+				<a href="#00:08:46.93" id="00:08:46.93" class="lt" onclick="jumptoTime(526, this.id)">даже при угрозе военного поражения.</a>
+				<a href="#00:08:49.41" id="00:08:49.41" class="lt" onclick="jumptoTime(529, this.id)">На самом деле, позиция очень странная, потому что той</a>
+				<a href="#00:08:52.81" id="00:08:52.81" class="lt" onclick="jumptoTime(532, this.id)">же вероятностью надо налагать ограничения на осколочно-фугасные</a>
+				<a href="#00:08:57.77" id="00:08:57.77" class="lt" onclick="jumptoTime(537, this.id)">боеприпасы, на осколочные снаряды, потому что они</a>
+				<a href="#00:09:0.73" id="00:09:0.73" class="lt" onclick="jumptoTime(540, this.id)">точно так же, как и мины, наносят урон мирному населению,</a>
+				<a href="#00:09:5.41" id="00:09:5.41" class="lt" onclick="jumptoTime(545, this.id)">соответственно.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:09:6.54" id="00:09:6.54" class="lt" onclick="jumptoTime(546, this.id)">Если мы говорим про снаряд или бомбу, она может не разорваться и, находясь в земле, например,</a>
+				<a href="#00:09:13.02" id="00:09:13.02" class="lt" onclick="jumptoTime(553, this.id)">в городской черте, представлять серьезную опасность для мирных жителей на протяжении последующих 20-30, а то и 50 лет.</a>
+				<a href="#00:09:20.14" id="00:09:20.14" class="lt" onclick="jumptoTime(560, this.id)">Это понятно. Кстати говоря, в 70-е годы происходит прорыв в минном деле.</a>
+				<a href="#00:09:25.82" id="00:09:25.82" class="lt" onclick="jumptoTime(565, this.id)">Если до этого мы знали, ну, по сути, три вида мин.</a>
+				<a href="#00:09:29.58" id="00:09:29.58" class="lt" onclick="jumptoTime(569, this.id)">Это сигнальная мина, это противопехотная, мы сейчас не будем вдаваться в классификацию, и противотанковая мина,</a>
+				<a href="#00:09:38.06" id="00:09:38.06" class="lt" onclick="jumptoTime(578, this.id)">то к ним добавилась еще одна противовертолетная, например, очень интересная.</a>
+				<a href="#00:09:42.94" id="00:09:42.94" class="lt" onclick="jumptoTime(582, this.id)">В особенности во...</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:09:42.91" id="00:09:42.91" class="lt" onclick="jumptoTime(582, this.id)">В особенности во время Вьетнамской войны, в особенности в Вьетнамской</a>
+				<a href="#00:09:49.47" id="00:09:49.47" class="lt" onclick="jumptoTime(589, this.id)">войне.</a>
+				<a href="#00:09:50.47" id="00:09:50.47" class="lt" onclick="jumptoTime(590, this.id)">Кстати, как я уже говорил, в мире со времен Холодной</a>
+				<a href="#00:09:53.39" id="00:09:53.39" class="lt" onclick="jumptoTime(593, this.id)">войны ждут своего часа около 100 миллионов мин, причем</a>
+				<a href="#00:09:57.51" id="00:09:57.51" class="lt" onclick="jumptoTime(597, this.id)">по оценкам Организации Объединенных Наций около</a>
+				<a href="#00:09:59.99" id="00:09:59.99" class="lt" onclick="jumptoTime(599, this.id)">60% из них приходится как раз таки на нажимные мины</a>
+				<a href="#00:10:4.99" id="00:10:4.99" class="lt" onclick="jumptoTime(604, this.id)">фугасного действия, те, которые мы ассоциируем</a>
+				<a href="#00:10:8.55" id="00:10:8.55" class="lt" onclick="jumptoTime(608, this.id)">с минами.</a>
+				<a href="#00:10:9.55" id="00:10:9.55" class="lt" onclick="jumptoTime(609, this.id)">Конечно, ими все не ограничивается, в частности в джунглях Лаоса</a>
+				<a href="#00:10:14.63" id="00:10:14.63" class="lt" onclick="jumptoTime(614, this.id)">и Камбоджи можно наткнуться и на американский аналог</a>
+				<a href="#00:10:17.59" id="00:10:17.59" class="lt" onclick="jumptoTime(617, this.id)">знаменитого «Лепестка», потому что ПФМ-1 «Лепесток»,</a>
+				<a href="#00:10:21.03" id="00:10:21.03" class="lt" onclick="jumptoTime(621, this.id)">всем известная теперь мина для дистанционного минирования,</a>
+				<a href="#00:10:25.51" id="00:10:25.51" class="lt" onclick="jumptoTime(625, this.id)">была заимствована у американского аналога, точно так же, как</a>
+				<a href="#00:10:29.15" id="00:10:29.15" class="lt" onclick="jumptoTime(629, this.id)">например известная советская мина МОН-50, это также некоторая</a>
+				<a href="#00:10:34.27" id="00:10:34.27" class="lt" onclick="jumptoTime(634, this.id)">улучшенная версия клеймера американского.</a>
+				<a href="#00:10:37.19" id="00:10:37.19" class="lt" onclick="jumptoTime(637, this.id)">То есть, эти мины в большом количестве использовались</a>
+				<a href="#00:10:40.27" id="00:10:40.27" class="lt" onclick="jumptoTime(640, this.id)">для перерезания тропы Хошемина, в общем, минная опасность</a>
+				<a href="#00:10:44.03" id="00:10:44.03" class="lt" onclick="jumptoTime(644, this.id)">это огромный фактор гуманитарный, здесь с этим можно только</a>
+				<a href="#00:10:49.35" id="00:10:49.35" class="lt" onclick="jumptoTime(649, this.id)">согласиться.</a>
+				<a href="#00:10:50.35" id="00:10:50.35" class="lt" onclick="jumptoTime(650, this.id)">С другой стороны, сейчас минное дело серьезно усложняется,</a>
+				<a href="#00:10:54.71" id="00:10:54.71" class="lt" onclick="jumptoTime(654, this.id)">оно выходит на новые обороты, вот мы начали, кстати, говорить</a>
+				<a href="#00:10:59.55" id="00:10:59.55" class="lt" onclick="jumptoTime(659, this.id)">о современных конфликтах, об Ираке, я думаю, что, кстати,</a>
+				<a href="#00:11:3.67" id="00:11:3.67" class="lt" onclick="jumptoTime(663, this.id)">американский опыт достаточно интересный, как думаете,</a>
+				<a href="#00:11:7.35" id="00:11:7.35" class="lt" onclick="jumptoTime(667, this.id)">Глеб?</a>
+				<a href="#00:11:8.35" id="00:11:8.35" class="lt" onclick="jumptoTime(668, this.id)">Стоит, наверное, его частично рассмотреть.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:09:45.53" id="00:09:45.53" class="lt" onclick="jumptoTime(585, this.id)">Игорь Негода</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:11:10.65" id="00:11:10.65" class="lt" onclick="jumptoTime(670, this.id)">Ну, к тому же, этот опыт актуальный, безусловно.</a>
+				<a href="#00:11:16.13" id="00:11:16.13" class="lt" onclick="jumptoTime(676, this.id)">Мы, конечно, специально очень бегло пробежались</a>
+				<a href="#00:11:20.21" id="00:11:20.21" class="lt" onclick="jumptoTime(680, this.id)">по истории минного дела в 20 веке.</a>
+				<a href="#00:11:23.17" id="00:11:23.17" class="lt" onclick="jumptoTime(683, this.id)">Я всё-таки одну вещь договорю, которую я хотел сказать,</a>
+				<a href="#00:11:26.73" id="00:11:26.73" class="lt" onclick="jumptoTime(686, this.id)">и мы к ней вернёмся в конце передачи,</a>
+				<a href="#00:11:28.49" id="00:11:28.49" class="lt" onclick="jumptoTime(688, this.id)">когда будем говорить про применение мин партизанскими</a>
+				<a href="#00:11:34.13" id="00:11:34.13" class="lt" onclick="jumptoTime(694, this.id)">или партизанско-диверсионными отрядами, группами.</a>
+				<a href="#00:11:37.21" id="00:11:37.21" class="lt" onclick="jumptoTime(697, this.id)">Существует реальный, если хотите, заговор.</a>
+				<a href="#00:11:40.41" id="00:11:40.41" class="lt" onclick="jumptoTime(700, this.id)">Я не люблю этого слова, потому что у него очень плохая коннотация.</a>
+				<a href="#00:11:43.69" id="00:11:43.69" class="lt" onclick="jumptoTime(703, this.id)">Но, тем не менее, заговор, напоминающий известную историю</a>
+				<a href="#00:11:48.13" id="00:11:48.13" class="lt" onclick="jumptoTime(708, this.id)">о, если помните, глобальном потеплении,</a>
+				<a href="#00:11:51.81" id="00:11:51.81" class="lt" onclick="jumptoTime(711, this.id)">которое должно было привести к тому,</a>
+				<a href="#00:11:55.17" id="00:11:55.17" class="lt" onclick="jumptoTime(715, this.id)">что развивающиеся страны должны не развивать свою промышленность.</a>
+				<a href="#00:11:59.53" id="00:11:59.53" class="lt" onclick="jumptoTime(719, this.id)">Мы это помним, да?</a>
+				<a href="#00:12:1.17" id="00:12:1.17" class="lt" onclick="jumptoTime(721, this.id)">Мы сейчас не разбираем вопрос</a>
+				<a href="#00:12:4.21" id="00:12:4.21" class="lt" onclick="jumptoTime(724, this.id)">насколько действительно гипотеза о глобальном потеплении верна.</a>
+				<a href="#00:12:9.69" id="00:12:9.69" class="lt" onclick="jumptoTime(729, this.id)">Мы говорим о том, как эти данные, научные или не очень научные,</a>
+				<a href="#00:12:13.49" id="00:12:13.49" class="lt" onclick="jumptoTime(733, this.id)">использовали в конкретных политических экономических целях.</a>
+				<a href="#00:12:16.77" id="00:12:16.77" class="lt" onclick="jumptoTime(736, this.id)">Весь вопрос МИН, который поднимается начиная с 70-х годов,</a>
+				<a href="#00:12:21.45" id="00:12:21.45" class="lt" onclick="jumptoTime(741, this.id)">это вопрос именно против партизанских,</a>
+				<a href="#00:12:25.57" id="00:12:25.57" class="lt" onclick="jumptoTime(745, this.id)">полупартизанских отрядов в первую очередь.</a>
+				<a href="#00:12:28.09" id="00:12:28.09" class="lt" onclick="jumptoTime(748, this.id)">Почему? Потому что это, кстати, отметил, я считаю,</a>
+				<a href="#00:12:31.01" id="00:12:31.01" class="lt" onclick="jumptoTime(751, this.id)">самый выдающийся исследователь истории минного дела</a>
+				<a href="#00:12:34.93" id="00:12:34.93" class="lt" onclick="jumptoTime(754, this.id)">на постсоветском пространстве Веремеев,</a>
+				<a href="#00:12:37.13" id="00:12:37.13" class="lt" onclick="jumptoTime(757, this.id)">к сожалению, покойный ныне, который издал книгу «Мины вчера, сегодня, завтра».</a>
+				<a href="#00:12:41.57" id="00:12:41.57" class="lt" onclick="jumptoTime(761, this.id)">Я с его концепцией в целом согласен,</a>
+				<a href="#00:12:43.93" id="00:12:43.93" class="lt" onclick="jumptoTime(763, this.id)">что мины являются отличным способом слабых партизанских сил</a>
+				<a href="#00:12:49.85" id="00:12:49.85" class="lt" onclick="jumptoTime(769, this.id)">противостоять сильным каким-то державам.</a>
+				<a href="#00:12:52.45" id="00:12:52.45" class="lt" onclick="jumptoTime(772, this.id)">И мы к этому вернёмся.</a>
+				<a href="#00:12:53.61" id="00:12:53.61" class="lt" onclick="jumptoTime(773, this.id)">Как раз мы, когда говорим про Ирак, сейчас Владимир продолжит,</a>
+				<a href="#00:12:57.33" id="00:12:57.33" class="lt" onclick="jumptoTime(777, this.id)">мы видим два этапа войны.</a>
+				<a href="#00:12:59.89" id="00:12:59.89" class="lt" onclick="jumptoTime(779, this.id)">Первый этап – это этап войны, который очень быстро закончился,</a>
+				<a href="#00:13:3.17" id="00:13:3.17" class="lt" onclick="jumptoTime(783, this.id)">этап регулярной армии Саддама Хусейна,</a>
+				<a href="#00:13:7.05" id="00:13:7.05" class="lt" onclick="jumptoTime(787, this.id)">которая оказала очень слабое, давайте честно,</a>
+				<a href="#00:13:10.17" id="00:13:10.17" class="lt" onclick="jumptoTime(790, this.id)">несмотря на отдельные эпизоды сопротивления войскам коалиции,</a>
+				<a href="#00:13:14.53" id="00:13:14.53" class="lt" onclick="jumptoTime(794, this.id)">которые превосходили её численно и технически.</a>
+				<a href="#00:13:17.61" id="00:13:17.61" class="lt" onclick="jumptoTime(797, this.id)">А второй этап, самый интересный, он длительный,</a>
+				<a href="#00:13:20.01" id="00:13:20.01" class="lt" onclick="jumptoTime(800, this.id)">по сути, длится до сегодняшнего дня, там очень много перипетий.</a>
+				<a href="#00:13:23.57" id="00:13:23.57" class="lt" onclick="jumptoTime(803, this.id)">Это как раз полупартизанская борьба с помощью в том числе</a>
+				<a href="#00:13:27.41" id="00:13:27.41" class="lt" onclick="jumptoTime(807, this.id)">минных установок, мин и так далее.</a>
+				<a href="#00:13:30.33" id="00:13:30.33" class="lt" onclick="jumptoTime(810, this.id)">Владимир, наверное, сейчас расскажет про это подробно.</a>
+				<a href="#00:13:32.61" id="00:13:32.61" class="lt" onclick="jumptoTime(812, this.id)">Да.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:13:32.63" id="00:13:32.63" class="lt" onclick="jumptoTime(812, this.id)">Да, надо об этом сказать поподробнее, тем более конфликт</a>
+				<a href="#00:13:35.95" id="00:13:35.95" class="lt" onclick="jumptoTime(815, this.id)">относительно недавний.</a>
+				<a href="#00:13:37.27" id="00:13:37.27" class="lt" onclick="jumptoTime(817, this.id)">Я, кстати, еще дополнительно к Глебу порекомендую книги</a>
+				<a href="#00:13:42.89" id="00:13:42.89" class="lt" onclick="jumptoTime(822, this.id)">по минам, в том числе о методах борьбы против мины СВУ,</a>
+				<a href="#00:13:48.59" id="00:13:48.59" class="lt" onclick="jumptoTime(828, this.id)">самодельных взрывных устройств, Валецкого, то есть при поддержке</a>
+				<a href="#00:13:52.19" id="00:13:52.19" class="lt" onclick="jumptoTime(832, this.id)">противоминного центра при Министерстве обороны</a>
+				<a href="#00:13:54.95" id="00:13:54.95" class="lt" onclick="jumptoTime(834, this.id)">есть такая достаточно интересная организация.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:13:58.76" id="00:13:58.76" class="lt" onclick="jumptoTime(838, this.id)">Я позволю себе отметить, что Валецкий действительно является экспертом,</a>
+				<a href="#00:14:3.76" id="00:14:3.76" class="lt" onclick="jumptoTime(843, this.id)">потому что у него очень богатый опыт, в том числе, который он получил как сапер</a>
+				<a href="#00:14:8.76" id="00:14:8.76" class="lt" onclick="jumptoTime(848, this.id)">и, насколько я помню, еще и минер в период Балканских войн.</a>
+				<a href="#00:14:14.76" id="00:14:14.76" class="lt" onclick="jumptoTime(854, this.id)">И он давно вообще следит за системами новых и новых мин, новых и новых тактиках применения.</a>
+				<a href="#00:14:21.76" id="00:14:21.76" class="lt" onclick="jumptoTime(861, this.id)">Так что это действительно авторитет.</a>
+				<a href="#00:14:23.76" id="00:14:23.76" class="lt" onclick="jumptoTime(863, this.id)">Но я другого авторитета, такого русскоязычного, не знаю. Надо отметить.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:14:26.49" id="00:14:26.49" class="lt" onclick="jumptoTime(866, this.id)">Вот необходимо сказать, что около 50% всех потерь</a>
+				<a href="#00:14:32.21" id="00:14:32.21" class="lt" onclick="jumptoTime(872, this.id)">коалиции Соединенных Штатов, Великобритании и других</a>
+				<a href="#00:14:35.21" id="00:14:35.21" class="lt" onclick="jumptoTime(875, this.id)">стран, которые участвовали в Иракской войне, уже после</a>
+				<a href="#00:14:38.13" id="00:14:38.13" class="lt" onclick="jumptoTime(878, this.id)">разгрома Саддамовской армии, этой триумфальной</a>
+				<a href="#00:14:40.69" id="00:14:40.69" class="lt" onclick="jumptoTime(880, this.id)">прогулки по Ираку, вызвано как раз таки применением</a>
+				<a href="#00:14:44.53" id="00:14:44.53" class="lt" onclick="jumptoTime(884, this.id)">мин и самодельных взрывных устройств.</a>
+				<a href="#00:14:46.77" id="00:14:46.77" class="lt" onclick="jumptoTime(886, this.id)">А почему так произошло?</a>
+				<a href="#00:14:49.33" id="00:14:49.33" class="lt" onclick="jumptoTime(889, this.id)">Давайте посмотрим на арсеналы армии Саддама Хусейна, в</a>
+				<a href="#00:14:52.45" id="00:14:52.45" class="lt" onclick="jumptoTime(892, this.id)">том числе противопехотные мины, снаряды и многое другое.</a>
+				<a href="#00:14:56.45" id="00:14:56.45" class="lt" onclick="jumptoTime(896, this.id)">До Иракской войны было 650 тысяч тонн боеприпасов,</a>
+				<a href="#00:15:0.89" id="00:15:0.89" class="lt" onclick="jumptoTime(900, this.id)">из них пропало, куда-то ушло в неизвестном направлении</a>
+				<a href="#00:15:4.69" id="00:15:4.69" class="lt" onclick="jumptoTime(904, this.id)">250 тысяч тонн, и достаточное количество противопехотных</a>
+				<a href="#00:15:9.37" id="00:15:9.37" class="lt" onclick="jumptoTime(909, this.id)">и противотанковых мин также растворилось на территории</a>
+				<a href="#00:15:13.69" id="00:15:13.69" class="lt" onclick="jumptoTime(913, this.id)">Ирака и близлежащих стран.</a>
+				<a href="#00:15:15.29" id="00:15:15.29" class="lt" onclick="jumptoTime(915, this.id)">Опять же, это не только мины советского производства,</a>
+				<a href="#00:15:19.33" id="00:15:19.33" class="lt" onclick="jumptoTime(919, this.id)">но и итальянские, американские, весь арсенал Саддама Хусейна</a>
+				<a href="#00:15:24.01" id="00:15:24.01" class="lt" onclick="jumptoTime(924, this.id)">начал хождение среди повстанцев.</a>
+				<a href="#00:15:27.97" id="00:15:27.97" class="lt" onclick="jumptoTime(927, this.id)">В период, кстати, с 2003 года с мая по май 2004 года 15 тысяч</a>
+				<a href="#00:15:34.81" id="00:15:34.81" class="lt" onclick="jumptoTime(934, this.id)">подрывов союзной техники и вообще 15 тысяч подрывов</a>
+				<a href="#00:15:38.85" id="00:15:38.85" class="lt" onclick="jumptoTime(938, this.id)">самодельных взрывных устройств и противопехотных и противотанковых</a>
+				<a href="#00:15:43.61" id="00:15:43.61" class="lt" onclick="jumptoTime(943, this.id)">мин.</a>
+				<a href="#00:15:44.61" id="00:15:44.61" class="lt" onclick="jumptoTime(944, this.id)">К концу 2007 года вышло наконец-то для американской армии</a>
+				<a href="#00:15:49.49" id="00:15:49.49" class="lt" onclick="jumptoTime(949, this.id)">наставление по противодействию минам и самодельным взрывным</a>
+				<a href="#00:15:54.77" id="00:15:54.77" class="lt" onclick="jumptoTime(954, this.id)">устройствам.</a>
+				<a href="#00:15:55.77" id="00:15:55.77" class="lt" onclick="jumptoTime(955, this.id)">Там как раз говорится о том, что 40 процентов потерь</a>
+				<a href="#00:15:57.89" id="00:15:57.89" class="lt" onclick="jumptoTime(957, this.id)">армии в технике и в живой силе вызвано минной войной</a>
+				<a href="#00:16:1.73" id="00:16:1.73" class="lt" onclick="jumptoTime(961, this.id)">со стороны иракского сопротивления противника, со стороны</a>
+				<a href="#00:16:6.01" id="00:16:6.01" class="lt" onclick="jumptoTime(966, this.id)">террористов и со стороны деятелей национально-освободительного</a>
+				<a href="#00:16:10.13" id="00:16:10.13" class="lt" onclick="jumptoTime(970, this.id)">движения Ирака, которых на практике достаточно</a>
+				<a href="#00:16:12.97" id="00:16:12.97" class="lt" onclick="jumptoTime(972, this.id)">сложно отличать.</a>
+				<a href="#00:16:14.41" id="00:16:14.41" class="lt" onclick="jumptoTime(974, this.id)">Причем, достигнуты были достаточно значимые результаты</a>
+				<a href="#00:16:18.41" id="00:16:18.41" class="lt" onclick="jumptoTime(978, this.id)">противниками Соединенных Штатов, они научились действовать</a>
+				<a href="#00:16:21.37" id="00:16:21.37" class="lt" onclick="jumptoTime(981, this.id)">против бронетехники, достигать поражения основных боевых</a>
+				<a href="#00:16:26.25" id="00:16:26.25" class="lt" onclick="jumptoTime(986, this.id)">танков, но на самом деле в этом никаких чудес нет,</a>
+				<a href="#00:16:29.21" id="00:16:29.21" class="lt" onclick="jumptoTime(989, this.id)">потому что нижняя деталь, как раз днище тех же сам</a>
+				<a href="#00:16:33.65" id="00:16:33.65" class="lt" onclick="jumptoTime(993, this.id)">танков М1А1 Абрамс и позднейших модификаций недостаточно</a>
+				<a href="#00:16:38.29" id="00:16:38.29" class="lt" onclick="jumptoTime(998, this.id)">бронирована, особенно против хорошо подготовленных</a>
+				<a href="#00:16:42.57" id="00:16:42.57" class="lt" onclick="jumptoTime(1002, this.id)">минных засад.</a>
+				<a href="#00:16:43.57" id="00:16:43.57" class="lt" onclick="jumptoTime(1003, this.id)">Не только мин советского производства, так называемых</a>
+				<a href="#00:16:48.05" id="00:16:48.05" class="lt" onclick="jumptoTime(1008, this.id)">ТМ, а также и фугасных боеприпасов самодельных взрывных</a>
+				<a href="#00:16:52.89" id="00:16:52.89" class="lt" onclick="jumptoTime(1012, this.id)">устройств.</a>
+				<a href="#00:16:53.89" id="00:16:53.89" class="lt" onclick="jumptoTime(1013, this.id)">Вот, кстати, надо сказать, что использовали иракские</a>
+				<a href="#00:16:57.97" id="00:16:57.97" class="lt" onclick="jumptoTime(1017, this.id)">повстанцы и террористы, которых мы безусловно осуждаем,</a>
+				<a href="#00:17:2.05" id="00:17:2.05" class="lt" onclick="jumptoTime(1022, this.id)">сочетанную тактику применения мин.</a>
+				<a href="#00:17:4.49" id="00:17:4.49" class="lt" onclick="jumptoTime(1024, this.id)">Они применяли мины только как первую часть для нападения</a>
+				<a href="#00:17:9.65" id="00:17:9.65" class="lt" onclick="jumptoTime(1029, this.id)">на союзные войска, на американскую армию и другие.</a>
+				<a href="#00:17:13.85" id="00:17:13.85" class="lt" onclick="jumptoTime(1033, this.id)">Возьмем конкретный бой, который состоялся в Махмуде</a>
+				<a href="#00:17:18.05" id="00:17:18.05" class="lt" onclick="jumptoTime(1038, this.id)">под Багдадом 12 мая 2007 года.</a>
+				<a href="#00:17:22.69" id="00:17:22.69" class="lt" onclick="jumptoTime(1042, this.id)">После нападения на патруль 5 американцев погибло, предваряло</a>
+				<a href="#00:17:27.17" id="00:17:27.17" class="lt" onclick="jumptoTime(1047, this.id)">это все так называемый минный шлагбаум, подрыв самодельных</a>
+				<a href="#00:17:32.77" id="00:17:32.77" class="lt" onclick="jumptoTime(1052, this.id)">взрывных устройств, минная атака и атака не только</a>
+				<a href="#00:17:38.29" id="00:17:38.29" class="lt" onclick="jumptoTime(1058, this.id)">мин, но и самодельных взрывных устройств, радиоуправляемых</a>
+				<a href="#00:17:42.01" id="00:17:42.01" class="lt" onclick="jumptoTime(1062, this.id)">на группу эвакуации и нападения с использованием стрелкового</a>
+				<a href="#00:17:46.53" id="00:17:46.53" class="lt" onclick="jumptoTime(1066, this.id)">оружия и реактивных противотанковых гранатометов.</a>
+				<a href="#00:17:50.37" id="00:17:50.37" class="lt" onclick="jumptoTime(1070, this.id)">То есть, фактически, в 2007 году была отработана на</a>
+				<a href="#00:17:54.89" id="00:17:54.89" class="lt" onclick="jumptoTime(1074, this.id)">поле боя целая тактика применения мины, самодельных</a>
+				<a href="#00:17:59.53" id="00:17:59.53" class="lt" onclick="jumptoTime(1079, this.id)">взрывных устройств против американской армии.</a>
+				<a href="#00:18:2.77" id="00:18:2.77" class="lt" onclick="jumptoTime(1082, this.id)">Кстати, именно в период иракской войны в армии</a>
+				<a href="#00:18:5.61" id="00:18:5.61" class="lt" onclick="jumptoTime(1085, this.id)">Соединенных Штатов появилась какая-никакая классификация</a>
+				<a href="#00:18:8.93" id="00:18:8.93" class="lt" onclick="jumptoTime(1088, this.id)">взрывоопасных предметов, это как раз самодельные</a>
+				<a href="#00:18:12.53" id="00:18:12.53" class="lt" onclick="jumptoTime(1092, this.id)">взрывные устройства, это неразорвавшиеся боеприпасы</a>
+				<a href="#00:18:16.53" id="00:18:16.53" class="lt" onclick="jumptoTime(1096, this.id)">и другие взрывоопасные предметы, а мины здесь выделяются</a>
+				<a href="#00:18:20.97" id="00:18:20.97" class="lt" onclick="jumptoTime(1100, this.id)">отдельно, потому что это специфический боеприпас,</a>
+				<a href="#00:18:24.53" id="00:18:24.53" class="lt" onclick="jumptoTime(1104, this.id)">который предназначен для поражения живой силы и техники</a>
+				<a href="#00:18:28.77" id="00:18:28.77" class="lt" onclick="jumptoTime(1108, this.id)">противника.</a>
+				<a href="#00:18:29.77" id="00:18:29.77" class="lt" onclick="jumptoTime(1109, this.id)">И кроме того, американцы выделили в отдельное производство,</a>
+				<a href="#00:18:33.53" id="00:18:33.53" class="lt" onclick="jumptoTime(1113, this.id)">в отдельную классификацию, это как раз не только самодельные</a>
+				<a href="#00:18:39.77" id="00:18:39.77" class="lt" onclick="jumptoTime(1119, this.id)">взрывные устройства осколочно-фугасного действия, но и те, которые</a>
+				<a href="#00:18:43.09" id="00:18:43.09" class="lt" onclick="jumptoTime(1123, this.id)">имеют противотанковое действие.</a>
+				<a href="#00:18:46.13" id="00:18:46.13" class="lt" onclick="jumptoTime(1126, this.id)">Кстати, иракская война была полем определенных инноваций,</a>
+				<a href="#00:18:50.57" id="00:18:50.57" class="lt" onclick="jumptoTime(1130, this.id)">как раз противотанковые мины, в том числе самодельные</a>
+				<a href="#00:18:53.69" id="00:18:53.69" class="lt" onclick="jumptoTime(1133, this.id)">и не только, потом мы чуть-чуть об этом поговорим, они могли</a>
+				<a href="#00:18:58.41" id="00:18:58.41" class="lt" onclick="jumptoTime(1138, this.id)">действовать с помощью кумулятивного поражения, кумулятивная</a>
+				<a href="#00:19:2.25" id="00:19:2.25" class="lt" onclick="jumptoTime(1142, this.id)">струя, либо они могли использовать эффект ударного ядра.</a>
+				<a href="#00:19:7.49" id="00:19:7.49" class="lt" onclick="jumptoTime(1147, this.id)">Ударное ядро, кстати, это поражающее действие английских</a>
+				<a href="#00:19:14.33" id="00:19:14.33" class="lt" onclick="jumptoTime(1154, this.id)">гранатометов НЛО, но принцип ударного ядра был известен</a>
+				<a href="#00:19:17.93" id="00:19:17.93" class="lt" onclick="jumptoTime(1157, this.id)">и в минном деле, просто там образуется не кумулятивная</a>
+				<a href="#00:19:22.61" id="00:19:22.61" class="lt" onclick="jumptoTime(1162, this.id)">струя, а определенный снаряд, которому противодействует</a>
+				<a href="#00:19:27.09" id="00:19:27.09" class="lt" onclick="jumptoTime(1167, this.id)">куда хуже, например, реактивная броня дополнительная, которая</a>
+				<a href="#00:19:32.33" id="00:19:32.33" class="lt" onclick="jumptoTime(1172, this.id)">использовалась американцами достаточно часто, как раз</a>
+				<a href="#00:19:36.85" id="00:19:36.85" class="lt" onclick="jumptoTime(1176, this.id)">у советской школы танкостроения вы можете увидеть защиту</a>
+				<a href="#00:19:42.85" id="00:19:42.85" class="lt" onclick="jumptoTime(1182, this.id)">контакта 1, контакт 5, но и у американцев также, она</a>
+				<a href="#00:19:46.37" id="00:19:46.37" class="lt" onclick="jumptoTime(1186, this.id)">устанавливалась и на бронемашины пехоты, и на основные боевые</a>
+				<a href="#00:19:52.13" id="00:19:52.13" class="lt" onclick="jumptoTime(1192, this.id)">танки, в том числе на основные боевые танки специальных</a>
+				<a href="#00:19:54.73" id="00:19:54.73" class="lt" onclick="jumptoTime(1194, this.id)">городских модификаций, например, М1А2 в модификации</a>
+				<a href="#00:19:59.13" id="00:19:59.13" class="lt" onclick="jumptoTime(1199, this.id)">Туск, Абрамс, очень хороший танк, но специально защищенный</a>
+				<a href="#00:20:3.21" id="00:20:3.21" class="lt" onclick="jumptoTime(1203, this.id)">по меркам города для ведения борьбы с террористами в</a>
+				<a href="#00:20:7.41" id="00:20:7.41" class="lt" onclick="jumptoTime(1207, this.id)">Ираке.</a>
+				<a href="#00:20:8.41" id="00:20:8.41" class="lt" onclick="jumptoTime(1208, this.id)">И вот, например, как раз эффект ударного ядра стал</a>
+				<a href="#00:20:13.65" id="00:20:13.65" class="lt" onclick="jumptoTime(1213, this.id)">доставлять очень большие проблемы иракским военным,</a>
+				<a href="#00:20:18.41" id="00:20:18.41" class="lt" onclick="jumptoTime(1218, this.id)">и оказывается, что Иран начал поставлять на территорию</a>
+				<a href="#00:20:23.17" id="00:20:23.17" class="lt" onclick="jumptoTime(1223, this.id)">Ирака новые технологии, то есть способы устройства</a>
+				<a href="#00:20:28.21" id="00:20:28.21" class="lt" onclick="jumptoTime(1228, this.id)">засад, новые типы противотанковых мин, которые использовали</a>
+				<a href="#00:20:32.21" id="00:20:32.21" class="lt" onclick="jumptoTime(1232, this.id)">эффект ударного ядра, и это причиняло достаточно</a>
+				<a href="#00:20:35.61" id="00:20:35.61" class="lt" onclick="jumptoTime(1235, this.id)">большие потери всей коалиции.</a>
+				<a href="#00:20:38.41" id="00:20:38.41" class="lt" onclick="jumptoTime(1238, this.id)">Ну, и надо сказать, кстати, что там же были и так называемые</a>
+				<a href="#00:20:43.45" id="00:20:43.45" class="lt" onclick="jumptoTime(1243, this.id)">переэлектрические инфракрасные датчики цели для того, чтобы</a>
+				<a href="#00:20:49.61" id="00:20:49.61" class="lt" onclick="jumptoTime(1249, this.id)">своевременно заряд среагировал на проход над ними или около</a>
+				<a href="#00:20:54.05" id="00:20:54.05" class="lt" onclick="jumptoTime(1254, this.id)">них цели.</a>
+				<a href="#00:20:55.05" id="00:20:55.05" class="lt" onclick="jumptoTime(1255, this.id)">Цель это в основном либо автомобиль, либо МРАП, либо</a>
+				<a href="#00:20:59.01" id="00:20:59.01" class="lt" onclick="jumptoTime(1259, this.id)">основной боевой танк или другая важная цель, собственно.</a>
+				<a href="#00:21:4.05" id="00:21:4.05" class="lt" onclick="jumptoTime(1264, this.id)">Вот для этого, кстати, Америка стала разрабатывать, чтобы</a>
+				<a href="#00:21:9.13" id="00:21:9.13" class="lt" onclick="jumptoTime(1269, this.id)">противодействовать, например, дистанционному подрыву,</a>
+				<a href="#00:21:11.49" id="00:21:11.49" class="lt" onclick="jumptoTime(1271, this.id)">и вот этим датчиком цели даже специальные радиолокационные</a>
+				<a href="#00:21:16.37" id="00:21:16.37" class="lt" onclick="jumptoTime(1276, this.id)">меры борьбы с такими минами Конгресс США выделил в</a>
+				<a href="#00:21:20.17" id="00:21:20.17" class="lt" onclick="jumptoTime(1280, this.id)">2005 году 129 миллионов долларов на разработку так называемых</a>
+				<a href="#00:21:27.01" id="00:21:27.01" class="lt" onclick="jumptoTime(1287, this.id)">джаммеров, это комплекты радиоэлектронной борьбы</a>
+				<a href="#00:21:30.37" id="00:21:30.37" class="lt" onclick="jumptoTime(1290, this.id)">для того, чтобы, условно говоря, глушить эти самодельные</a>
+				<a href="#00:21:33.77" id="00:21:33.77" class="lt" onclick="jumptoTime(1293, this.id)">взрывные устройства и противотанковые мины нового поколения.</a>
+				<a href="#00:21:37.65" id="00:21:37.65" class="lt" onclick="jumptoTime(1297, this.id)">И фактически техника Соединенных Штатов начала оснащаться</a>
+				<a href="#00:21:42.65" id="00:21:42.65" class="lt" onclick="jumptoTime(1302, this.id)">этими изделиями, и одновременно противник начал активно</a>
+				<a href="#00:21:48.17" id="00:21:48.17" class="lt" onclick="jumptoTime(1308, this.id)">действовать для того, чтобы это обойти.</a>
+				<a href="#00:21:51.49" id="00:21:51.49" class="lt" onclick="jumptoTime(1311, this.id)">В дальнейшем, кстати, талибы на территории Ирака стали</a>
+				<a href="#00:21:54.53" id="00:21:54.53" class="lt" onclick="jumptoTime(1314, this.id)">использовать иракские наработки в том, чтобы противодействовать</a>
+				<a href="#00:21:58.81" id="00:21:58.81" class="lt" onclick="jumptoTime(1318, this.id)">так называемым джаммерам, выводить другие частоты,</a>
+				<a href="#00:22:3.85" id="00:22:3.85" class="lt" onclick="jumptoTime(1323, this.id)">действовать с подстраховкой, очень много способов, но</a>
+				<a href="#00:22:6.77" id="00:22:6.77" class="lt" onclick="jumptoTime(1326, this.id)">мы их объяснять здесь не будем, потому что это может</a>
+				<a href="#00:22:10.33" id="00:22:10.33" class="lt" onclick="jumptoTime(1330, this.id)">быть неоднозначно расценено Ютюбом.</a>
+				<a href="#00:22:14.69" id="00:22:14.69" class="lt" onclick="jumptoTime(1334, this.id)">Фактически американцы стали оснащать свою технику</a>
+				<a href="#00:22:18.21" id="00:22:18.21" class="lt" onclick="jumptoTime(1338, this.id)">джаммеры, это как раз устройство радиоэлектронной борьбы,</a>
+				<a href="#00:22:21.89" id="00:22:21.89" class="lt" onclick="jumptoTime(1341, this.id)">которое работает в постоянном режиме по всем частотам</a>
+				<a href="#00:22:25.65" id="00:22:25.65" class="lt" onclick="jumptoTime(1345, this.id)">и реактив, который включается при поступлении команды</a>
+				<a href="#00:22:30.25" id="00:22:30.25" class="lt" onclick="jumptoTime(1350, this.id)">на них о наличии самодельного взрывного устройства.</a>
+				<a href="#00:22:33.89" id="00:22:33.89" class="lt" onclick="jumptoTime(1353, this.id)">То есть эта война способствовала развитию американской</a>
+				<a href="#00:22:37.29" id="00:22:37.29" class="lt" onclick="jumptoTime(1357, this.id)">техники, но одновременно и сопровождалась совершенствованию</a>
+				<a href="#00:22:42.37" id="00:22:42.37" class="lt" onclick="jumptoTime(1362, this.id)">противника, потому что в дальнейшем, согласно достаточно</a>
+				<a href="#00:22:46.81" id="00:22:46.81" class="lt" onclick="jumptoTime(1366, this.id)">интересной статье, которую вы можете найти «Insurgency</a>
+				<a href="#00:22:50.51" id="00:22:50.51" class="lt" onclick="jumptoTime(1370, this.id)">tactics, techniques and procedures», которая была издана в США,</a>
+				<a href="#00:22:55.99" id="00:22:55.99" class="lt" onclick="jumptoTime(1375, this.id)">были собраны информации, как иракцы стали эти мины</a>
+				<a href="#00:22:59.91" id="00:22:59.91" class="lt" onclick="jumptoTime(1379, this.id)">устанавливать.</a>
+				<a href="#00:23:0.91" id="00:23:0.91" class="lt" onclick="jumptoTime(1380, this.id)">Там действовали они группами от двух до восьми человек,</a>
+				<a href="#00:23:5.35" id="00:23:5.35" class="lt" onclick="jumptoTime(1385, this.id)">использовали разные датчики цели, подстраховки, они</a>
+				<a href="#00:23:8.67" id="00:23:8.67" class="lt" onclick="jumptoTime(1388, this.id)">весьма поднаторели в том, чтобы противодействовать</a>
+				<a href="#00:23:11.31" id="00:23:11.31" class="lt" onclick="jumptoTime(1391, this.id)">как раз американским джаммерам и создавали значительные</a>
+				<a href="#00:23:15.39" id="00:23:15.39" class="lt" onclick="jumptoTime(1395, this.id)">сложности.</a>
+				<a href="#00:23:17.03" id="00:23:17.03" class="lt" onclick="jumptoTime(1397, this.id)">И вот именно в этот момент в Соединенных Штатах начали</a>
+				<a href="#00:23:18.71" id="00:23:18.71" class="lt" onclick="jumptoTime(1398, this.id)">считать, что самодельные взрывные устройства и</a>
+				<a href="#00:23:21.83" id="00:23:21.83" class="lt" onclick="jumptoTime(1401, this.id)">мины противотанковые являются по сути, не только противотанковые,</a>
+				<a href="#00:23:26.95" id="00:23:26.95" class="lt" onclick="jumptoTime(1406, this.id)">но разумеется и противопехотные, являются по своей сути</a>
+				<a href="#00:23:30.03" id="00:23:30.03" class="lt" onclick="jumptoTime(1410, this.id)">тактическим оружием, но могут иметь даже стратегическое</a>
+				<a href="#00:23:33.27" id="00:23:33.27" class="lt" onclick="jumptoTime(1413, this.id)">применение, потому что они наносят большую потерю</a>
+				<a href="#00:23:36.39" id="00:23:36.39" class="lt" onclick="jumptoTime(1416, this.id)">личному составу, техники могут изменить полностью</a>
+				<a href="#00:23:39.95" id="00:23:39.95" class="lt" onclick="jumptoTime(1419, this.id)">логику боевых действий.</a>
+				<a href="#00:23:41.63" id="00:23:41.63" class="lt" onclick="jumptoTime(1421, this.id)">Вот такой в основном, я бы сказал, итог иракской</a>
+				<a href="#00:23:44.75" id="00:23:44.75" class="lt" onclick="jumptoTime(1424, this.id)">войны.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:23:47.17" id="00:23:47.17" class="lt" onclick="jumptoTime(1427, this.id)">Я бы еще отметил, что Иракская война показала, что даже при таком техническом превосходстве американской стороны очень часто, Владимир один эпизод указал, очень часто мины блокировали колонны, очень часто мины не позволяли вовремя перебросить подкрепления, большие потери были у американской армии.</a>
+				<a href="#00:24:8.17" id="00:24:8.17" class="lt" onclick="jumptoTime(1448, this.id)">Большие настолько, настолько они вызывали такую определенную минную боязнь, это тоже такой определенный вид террора и он действительно сковывает действия войск, его тоже нельзя списывать.</a>
+				<a href="#00:24:22.17" id="00:24:22.17" class="lt" onclick="jumptoTime(1462, this.id)">Кстати, в период, если вспоминать территорию Ирана и Ирака, в период Ирано-Иракской войны мины показали себя как выдающийся вид вооружения в период активного противостояния двух примерно равных по боевому потенциалу держав.</a>
+				<a href="#00:24:44.17" id="00:24:44.17" class="lt" onclick="jumptoTime(1484, this.id)">Что сейчас происходит на территории Украины, ведется сейчас контрнаступ, так называемый, и мы видим, что мины по сути его и остановили. Не только они, а повторюсь, то, что было выработано еще во Вторую мировую, мины вместе с прикрытиями огневых рубежей, с использованием артиллерии, минометов и так далее.</a>
+				<a href="#00:25:12.17" id="00:25:12.17" class="lt" onclick="jumptoTime(1512, this.id)">Потому что просто сама по себе мина это оружие не столь мощное, как оружие, которое действует вместе с другими войсками и другими видами оружия. Это очень важно понимать.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:25:25.28" id="00:25:25.28" class="lt" onclick="jumptoTime(1525, this.id)">Ну, вот, кстати, Глеб, совершенно правильно, причем так действует</a>
+				<a href="#00:25:29.32" id="00:25:29.32" class="lt" onclick="jumptoTime(1529, this.id)">не только армия, например, если посмотреть на Афганистан.</a>
+				<a href="#00:25:32.56" id="00:25:32.56" class="lt" onclick="jumptoTime(1532, this.id)">Например, в 2008 году в Афганистане такой резкий скачок на</a>
+				<a href="#00:25:37.20" id="00:25:37.20" class="lt" onclick="jumptoTime(1537, this.id)">48% был применение мин противопехотных, противотанковых и самодельных</a>
+				<a href="#00:25:44.28" id="00:25:44.28" class="lt" onclick="jumptoTime(1544, this.id)">взрывных устройств против коалиции.</a>
+				<a href="#00:25:46.72" id="00:25:46.72" class="lt" onclick="jumptoTime(1546, this.id)">Надо сказать, что вообще с 2002 года по 2009 год погибло</a>
+				<a href="#00:25:53.32" id="00:25:53.32" class="lt" onclick="jumptoTime(1553, this.id)">и было ранено весьма немало от этих средств поражения,</a>
+				<a href="#00:25:57.96" id="00:25:57.96" class="lt" onclick="jumptoTime(1557, this.id)">именно от подрывов, около 5000 человек со стороны всех</a>
+				<a href="#00:26:1.76" id="00:26:1.76" class="lt" onclick="jumptoTime(1561, this.id)">стран, которые участвовали в этой коалиции, и талибы</a>
+				<a href="#00:26:6.48" id="00:26:6.48" class="lt" onclick="jumptoTime(1566, this.id)">всегда подключали, точнее не всегда, а в некоторых</a>
+				<a href="#00:26:9.04" id="00:26:9.04" class="lt" onclick="jumptoTime(1569, this.id)">случаях действовали именно так, то есть они использовали</a>
+				<a href="#00:26:11.76" id="00:26:11.76" class="lt" onclick="jumptoTime(1571, this.id)">мины для того, чтобы затормозить движение союзных сил, а</a>
+				<a href="#00:26:16.16" id="00:26:16.16" class="lt" onclick="jumptoTime(1576, this.id)">после подрыва они начинали накрывать местность из</a>
+				<a href="#00:26:19.40" id="00:26:19.40" class="lt" onclick="jumptoTime(1579, this.id)">минометов, из АГСов, из крупнокалиберных пулеметов</a>
+				<a href="#00:26:22.80" id="00:26:22.80" class="lt" onclick="jumptoTime(1582, this.id)">для того, чтобы затруднить выполнение боевой задачи,</a>
+				<a href="#00:26:26.96" id="00:26:26.96" class="lt" onclick="jumptoTime(1586, this.id)">для того, чтобы боевая задача, которая стояла перед афганской</a>
+				<a href="#00:26:30.92" id="00:26:30.92" class="lt" onclick="jumptoTime(1590, this.id)">армией, или перед американской армией, или перед британской</a>
+				<a href="#00:26:33.96" id="00:26:33.96" class="lt" onclick="jumptoTime(1593, this.id)">стала уже спасательной, для того, чтобы эвакуировать</a>
+				<a href="#00:26:38.04" id="00:26:38.04" class="lt" onclick="jumptoTime(1598, this.id)">раненых, пострадавших бойцов и мирных жителей</a>
+				<a href="#00:26:40.60" id="00:26:40.60" class="lt" onclick="jumptoTime(1600, this.id)">в тыл, в так называемую зеленую зону, там, где обстрел уже</a>
+				<a href="#00:26:44.96" id="00:26:44.96" class="lt" onclick="jumptoTime(1604, this.id)">не грозит.</a>
+				<a href="#00:26:45.96" id="00:26:45.96" class="lt" onclick="jumptoTime(1605, this.id)">Кстати, в той войне, которая сейчас идет в Европе, зеленой</a>
+				<a href="#00:26:50.40" id="00:26:50.40" class="lt" onclick="jumptoTime(1610, this.id)">зоны это практически и нет, там очень активная</a>
+				<a href="#00:26:53.48" id="00:26:53.48" class="lt" onclick="jumptoTime(1613, this.id)">артиллерийская борьба, но в Афганистане все было</a>
+				<a href="#00:26:56.68" id="00:26:56.68" class="lt" onclick="jumptoTime(1616, this.id)">несколько иначе для американцев, которые смогли обеспечить</a>
+				<a href="#00:27:2.20" id="00:27:2.20" class="lt" onclick="jumptoTime(1622, this.id)">такие зоны, но при этом тактика та же самая, талибы устанавливали</a>
+				<a href="#00:27:6.80" id="00:27:6.80" class="lt" onclick="jumptoTime(1626, this.id)">в своих районах минные заграждения, те же самые</a>
+				<a href="#00:27:9.36" id="00:27:9.36" class="lt" onclick="jumptoTime(1629, this.id)">знаменитые минные шлагбаумы, даже то же самое применяли</a>
+				<a href="#00:27:14.40" id="00:27:14.40" class="lt" onclick="jumptoTime(1634, this.id)">открытую установку мин, но и скрытую установку самодельных</a>
+				<a href="#00:27:18.88" id="00:27:18.88" class="lt" onclick="jumptoTime(1638, this.id)">взрывных устройств, как правило, выводили из строя</a>
+				<a href="#00:27:23.12" id="00:27:23.12" class="lt" onclick="jumptoTime(1643, this.id)">первую машину в колонии, после этого начинали свое</a>
+				<a href="#00:27:26.56" id="00:27:26.56" class="lt" onclick="jumptoTime(1646, this.id)">нападение, но, правда, надо отдать должное американской</a>
+				<a href="#00:27:29.40" id="00:27:29.40" class="lt" onclick="jumptoTime(1649, this.id)">армии, она действовала правильно, при движении колонны соблюдала</a>
+				<a href="#00:27:35.32" id="00:27:35.32" class="lt" onclick="jumptoTime(1655, this.id)">просто рациональные требования времени, а вот афганская</a>
+				<a href="#00:27:39.04" id="00:27:39.04" class="lt" onclick="jumptoTime(1659, this.id)">армия, к примеру, далеко не всегда так действовала,</a>
+				<a href="#00:27:41.72" id="00:27:41.72" class="lt" onclick="jumptoTime(1661, this.id)">и так называемые минные облавы на афганскую армию</a>
+				<a href="#00:27:45.84" id="00:27:45.84" class="lt" onclick="jumptoTime(1665, this.id)">зачастую могли даже и удачно закончиться для талибов.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:27:52.99" id="00:27:52.99" class="lt" onclick="jumptoTime(1672, this.id)">Ну и мы не можем, конечно, не отметить тот факт, что развитие мин продолжается очень интенсивно.</a>
+				<a href="#00:28:2.99" id="00:28:2.99" class="lt" onclick="jumptoTime(1682, this.id)">Появляются мины, которые могут быть установлены, например, беспилотниками.</a>
+				<a href="#00:28:8.99" id="00:28:8.99" class="lt" onclick="jumptoTime(1688, this.id)">Это особый вид военного искусства открывается.</a>
+				<a href="#00:28:13.99" id="00:28:13.99" class="lt" onclick="jumptoTime(1693, this.id)">Ну и вообще надо отметить, что давно предсказывали, еще в 90-е годы,</a>
+				<a href="#00:28:18.99" id="00:28:18.99" class="lt" onclick="jumptoTime(1698, this.id)">различные эксперты, например, Майкл Кролл, британский военный историк</a>
+				<a href="#00:28:24.99" id="00:28:24.99" class="lt" onclick="jumptoTime(1704, this.id)">и человек, который пытался предсказать развитие минного дела,</a>
+				<a href="#00:28:28.99" id="00:28:28.99" class="lt" onclick="jumptoTime(1708, this.id)">он прямо говорит о том, что мины будут развиваться таким образом,</a>
+				<a href="#00:28:33.99" id="00:28:33.99" class="lt" onclick="jumptoTime(1713, this.id)">что мина будет менять форму.</a>
+				<a href="#00:28:36.99" id="00:28:36.99" class="lt" onclick="jumptoTime(1716, this.id)">Как он писал, роль мин будет расширена до такой степени,</a>
+				<a href="#00:28:40.99" id="00:28:40.99" class="lt" onclick="jumptoTime(1720, this.id)">что их изначальная форма едва ли будет возможно распознать.</a>
+				<a href="#00:28:44.99" id="00:28:44.99" class="lt" onclick="jumptoTime(1724, this.id)">То есть, грубо говоря, мины будут в виде каких-то предметов.</a>
+				<a href="#00:28:48.99" id="00:28:48.99" class="lt" onclick="jumptoTime(1728, this.id)">Вот тут сразу вспоминаем достижение отечественного советского военпрома.</a>
+				<a href="#00:28:54.99" id="00:28:54.99" class="lt" onclick="jumptoTime(1734, this.id)">Мину-лепесток, которая как раз-таки очень трудно,</a>
+				<a href="#00:29:0.99" id="00:29:0.99" class="lt" onclick="jumptoTime(1740, this.id)">если приглядеться, то понятно, что она определенной формы,</a>
+				<a href="#00:29:3.99" id="00:29:3.99" class="lt" onclick="jumptoTime(1743, this.id)">но ее очень трудно найти в зарослях, в траве высокой, даже невысокой.</a>
+				<a href="#00:29:8.99" id="00:29:8.99" class="lt" onclick="jumptoTime(1748, this.id)">И она представляет серьезную опасность.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:29:12.02" id="00:29:12.02" class="lt" onclick="jumptoTime(1752, this.id)">А, вот, кстати, надо сказать, что есть ее модификация</a>
+				<a href="#00:29:14.90" id="00:29:14.90" class="lt" onclick="jumptoTime(1754, this.id)">с литерой М, ПФМ-1 — это лепесток, ПФМ-1М — это лепесток</a>
+				<a href="#00:29:20.38" id="00:29:20.38" class="lt" onclick="jumptoTime(1760, this.id)">модифицированный, который через определенное время</a>
+				<a href="#00:29:22.92" id="00:29:22.92" class="lt" onclick="jumptoTime(1762, this.id)">самоликвидируется.</a>
+				<a href="#00:29:24.34" id="00:29:24.34" class="lt" onclick="jumptoTime(1764, this.id)">Такой шаг был в сторону гуманности, а ПФМ-1 может</a>
+				<a href="#00:29:27.38" id="00:29:27.38" class="lt" onclick="jumptoTime(1767, this.id)">дожидаться своей цели очень долго, как его американский</a>
+				<a href="#00:29:31.10" id="00:29:31.10" class="lt" onclick="jumptoTime(1771, this.id)">предшественник.</a>
+				<a href="#00:29:32.10" id="00:29:32.10" class="lt" onclick="jumptoTime(1772, this.id)">Американцы тропухаши минами, которые предназначались</a>
+				<a href="#00:29:37.62" id="00:29:37.62" class="lt" onclick="jumptoTime(1777, this.id)">для дистанционного минирования, засыпали периодически</a>
+				<a href="#00:29:41.22" id="00:29:41.22" class="lt" onclick="jumptoTime(1781, this.id)">и до сих пор фауна, ну и, разумеется, население Камбоджи</a>
+				<a href="#00:29:46.38" id="00:29:46.38" class="lt" onclick="jumptoTime(1786, this.id)">и Лаоса страдает от подрывов этих мин, ну и на самом деле</a>
+				<a href="#00:29:50.54" id="00:29:50.54" class="lt" onclick="jumptoTime(1790, this.id)">в Камбодже, в Лаосе и во Вьетнаме не только мины</a>
+				<a href="#00:29:53.30" id="00:29:53.30" class="lt" onclick="jumptoTime(1793, this.id)">являются главной проблемой, причем они, кстати, устанавливались</a>
+				<a href="#00:29:56.26" id="00:29:56.26" class="lt" onclick="jumptoTime(1796, this.id)">не только американцами, но и всеми воюющими сторонами.</a>
+				<a href="#00:29:59.74" id="00:29:59.74" class="lt" onclick="jumptoTime(1799, this.id)">Но еще и, например, неразорвавшиеся кассетные суббоеприпасы</a>
+				<a href="#00:30:4.78" id="00:30:4.78" class="lt" onclick="jumptoTime(1804, this.id)">— это особенный бич Камбоджи, кстати, потому что местный</a>
+				<a href="#00:30:8.22" id="00:30:8.22" class="lt" onclick="jumptoTime(1808, this.id)">фермер может какому-то бугарку, какому-нибудь</a>
+				<a href="#00:30:11.34" id="00:30:11.34" class="lt" onclick="jumptoTime(1811, this.id)">листику прикоснуться, и кассетный суббоеприпас</a>
+				<a href="#00:30:14.86" id="00:30:14.86" class="lt" onclick="jumptoTime(1814, this.id)">прекрасно после этого взрывается.</a>
+				<a href="#00:30:17.38" id="00:30:17.38" class="lt" onclick="jumptoTime(1817, this.id)">Изготовленные эти боеприпасы были качественны, как и</a>
+				<a href="#00:30:21.06" id="00:30:21.06" class="lt" onclick="jumptoTime(1821, this.id)">американские устройства для дистанционного минирования,</a>
+				<a href="#00:30:24.54" id="00:30:24.54" class="lt" onclick="jumptoTime(1824, this.id)">и поэтому проблема сохраняется до настоящего времени.</a>
+				<a href="#00:30:27.90" id="00:30:27.90" class="lt" onclick="jumptoTime(1827, this.id)">Лепестки, кстати, использовались в период Афганской войны,</a>
+				<a href="#00:30:31.58" id="00:30:31.58" class="lt" onclick="jumptoTime(1831, this.id)">в том числе для того, чтобы ввести боевые действия,</a>
+				<a href="#00:30:34.22" id="00:30:34.22" class="lt" onclick="jumptoTime(1834, this.id)">затруднять проходы караванов неподалеку от границы</a>
+				<a href="#00:30:37.10" id="00:30:37.10" class="lt" onclick="jumptoTime(1837, this.id)">с Пакистаном, в особенности для того, чтобы закрывать</a>
+				<a href="#00:30:41.54" id="00:30:41.54" class="lt" onclick="jumptoTime(1841, this.id)">на какое-то время проход противнику.</a>
+				<a href="#00:30:44.10" id="00:30:44.10" class="lt" onclick="jumptoTime(1844, this.id)">Вообще дистанционное минирование — это достаточно хорошо</a>
+				<a href="#00:30:46.58" id="00:30:46.58" class="lt" onclick="jumptoTime(1846, this.id)">известная технология, которая сейчас применяется повсеместно,</a>
+				<a href="#00:30:52.26" id="00:30:52.26" class="lt" onclick="jumptoTime(1852, this.id)">несмотря на какие-либо запреты.</a>
+				<a href="#00:30:55.34" id="00:30:55.34" class="lt" onclick="jumptoTime(1855, this.id)">Надо сказать, кстати, что Соединенные Штаты использовали</a>
+				<a href="#00:30:58.14" id="00:30:58.14" class="lt" onclick="jumptoTime(1858, this.id)">в качестве полигона в 2000-е годы для того, чтобы бороться</a>
+				<a href="#00:31:2.86" id="00:31:2.86" class="lt" onclick="jumptoTime(1862, this.id)">с минной опасностью и для того, чтобы ее совершенствовать</a>
+				<a href="#00:31:7.38" id="00:31:7.38" class="lt" onclick="jumptoTime(1867, this.id)">Африку, потому что Соединенные Штаты создали в 2008 году</a>
+				<a href="#00:31:12.22" id="00:31:12.22" class="lt" onclick="jumptoTime(1872, this.id)">командование, которое называется «Африком», которое охватывает</a>
+				<a href="#00:31:17.10" id="00:31:17.10" class="lt" onclick="jumptoTime(1877, this.id)">операции в Африке, предполагала программу обучения африканских</a>
+				<a href="#00:31:21.90" id="00:31:21.90" class="lt" onclick="jumptoTime(1881, this.id)">сил, в том числе для того, чтобы обучать противодействию</a>
+				<a href="#00:31:25.62" id="00:31:25.62" class="lt" onclick="jumptoTime(1885, this.id)">минной опасности и применять минирование там, где это</a>
+				<a href="#00:31:29.82" id="00:31:29.82" class="lt" onclick="jumptoTime(1889, this.id)">возможно.</a>
+				<a href="#00:31:30.82" id="00:31:30.82" class="lt" onclick="jumptoTime(1890, this.id)">В основном, кстати, Сомали стала таким полигоном,</a>
+				<a href="#00:31:35.14" id="00:31:35.14" class="lt" onclick="jumptoTime(1895, this.id)">тем более, что работы там было достаточно, в особенности</a>
+				<a href="#00:31:37.78" id="00:31:37.78" class="lt" onclick="jumptoTime(1897, this.id)">в Магадишо, потому что боевики Аш-Шабаб — это запрещенная</a>
+				<a href="#00:31:42.82" id="00:31:42.82" class="lt" onclick="jumptoTime(1902, this.id)">организация, которую мы осуждаем, которая присягала</a>
+				<a href="#00:31:46.50" id="00:31:46.50" class="lt" onclick="jumptoTime(1906, this.id)">в том числе другой организации, еще более запрещенной, достигла</a>
+				<a href="#00:31:51.70" id="00:31:51.70" class="lt" onclick="jumptoTime(1911, this.id)">значительных успехов в саперном деле.</a>
+				<a href="#00:31:53.98" id="00:31:53.98" class="lt" onclick="jumptoTime(1913, this.id)">И для того, чтобы выявлять эти боеприпасы и ловушки,</a>
+				<a href="#00:31:58.30" id="00:31:58.30" class="lt" onclick="jumptoTime(1918, this.id)">требовалось немалое умение, и вот здесь американцы</a>
+				<a href="#00:32:1.74" id="00:32:1.74" class="lt" onclick="jumptoTime(1921, this.id)">наняли частные военные компании, которые имели</a>
+				<a href="#00:32:6.30" id="00:32:6.30" class="lt" onclick="jumptoTime(1926, this.id)">афганский, например, опыт, компания, например, есть</a>
+				<a href="#00:32:10.38" id="00:32:10.38" class="lt" onclick="jumptoTime(1930, this.id)">RONCO, которая входит в концерн G4S, и другие компании — AT</a>
+				<a href="#00:32:17.98" id="00:32:17.98" class="lt" onclick="jumptoTime(1937, this.id)">Solutions, Raytheon, MPRI, которые стали местными органами</a>
+				<a href="#00:32:23.34" id="00:32:23.34" class="lt" onclick="jumptoTime(1943, this.id)">безопасности и военнослужащих и различные другие группировки</a>
+				<a href="#00:32:28.06" id="00:32:28.06" class="lt" onclick="jumptoTime(1948, this.id)">обучать, каким образом распознавать минную опасность</a>
+				<a href="#00:32:31.26" id="00:32:31.26" class="lt" onclick="jumptoTime(1951, this.id)">и каким образом вести минную охоту также за боевиками</a>
+				<a href="#00:32:34.98" id="00:32:34.98" class="lt" onclick="jumptoTime(1954, this.id)">Аш-Шабаб.</a>
+				<a href="#00:32:35.98" id="00:32:35.98" class="lt" onclick="jumptoTime(1955, this.id)">Просто эти боевики делали очень много обманных, можно</a>
+				<a href="#00:32:42.02" id="00:32:42.02" class="lt" onclick="jumptoTime(1962, this.id)">сказать, движений, если, например, стандартная</a>
+				<a href="#00:32:44.34" id="00:32:44.34" class="lt" onclick="jumptoTime(1964, this.id)">боевая подготовка вновь сформированных вооруженных</a>
+				<a href="#00:32:48.02" id="00:32:48.02" class="lt" onclick="jumptoTime(1968, this.id)">сил Сомали предполагала, например, перерезать такую</a>
+				<a href="#00:32:53.54" id="00:32:53.54" class="lt" onclick="jumptoTime(1973, this.id)">вот растяжку, которая просела, считается по устаревшим</a>
+				<a href="#00:32:56.58" id="00:32:56.58" class="lt" onclick="jumptoTime(1976, this.id)">мануалам, что этого достаточно, раз она просела, значит</a>
+				<a href="#00:33:0.30" id="00:33:0.30" class="lt" onclick="jumptoTime(1980, this.id)">уже ничего не взорвется, а боевики Аш-Шабаб и их</a>
+				<a href="#00:33:3.62" id="00:33:3.62" class="lt" onclick="jumptoTime(1983, this.id)">саперы делали это специальным таким вот заманивающим</a>
+				<a href="#00:33:10.06" id="00:33:10.06" class="lt" onclick="jumptoTime(1990, this.id)">действием, потому что срабатывал уже другой взрыватель,</a>
+				<a href="#00:33:14.14" id="00:33:14.14" class="lt" onclick="jumptoTime(1994, this.id)">который был под напряжением, а там они, боевики Аш-Шабаб</a>
+				<a href="#00:33:18.18" id="00:33:18.18" class="lt" onclick="jumptoTime(1998, this.id)">использовали гражданские технологии для того, чтобы</a>
+				<a href="#00:33:23.18" id="00:33:23.18" class="lt" onclick="jumptoTime(2003, this.id)">срабатывать минные нападения, допустим, различные датчики,</a>
+				<a href="#00:33:27.70" id="00:33:27.70" class="lt" onclick="jumptoTime(2007, this.id)">которые используются в коммерции, например, в гипермаркетах</a>
+				<a href="#00:33:30.70" id="00:33:30.70" class="lt" onclick="jumptoTime(2010, this.id)">для системы безопасности, для распознавания цели</a>
+				<a href="#00:33:34.14" id="00:33:34.14" class="lt" onclick="jumptoTime(2014, this.id)">по ее тепловому следу, по объему, для того, чтобы,</a>
+				<a href="#00:33:38.34" id="00:33:38.34" class="lt" onclick="jumptoTime(2018, this.id)">например, мина не реагировала на собак, на кошек, которые</a>
+				<a href="#00:33:42.02" id="00:33:42.02" class="lt" onclick="jumptoTime(2022, this.id)">в Магадише вполне себе присутствуют, а срабатывала</a>
+				<a href="#00:33:45.06" id="00:33:45.06" class="lt" onclick="jumptoTime(2025, this.id)">только на людей, они использовали разные инновации, как в</a>
+				<a href="#00:33:50.46" id="00:33:50.46" class="lt" onclick="jumptoTime(2030, this.id)">случае с боевиками в Сирии, в Сирии также минная война</a>
+				<a href="#00:33:54.46" id="00:33:54.46" class="lt" onclick="jumptoTime(2034, this.id)">вполне себе велась и ведется, на территории Йемена так</a>
+				<a href="#00:33:58.34" id="00:33:58.34" class="lt" onclick="jumptoTime(2038, this.id)">же велась и ведется, и я бы сказал так, что различные</a>
+				<a href="#00:34:4.34" id="00:34:4.34" class="lt" onclick="jumptoTime(2044, this.id)">методы устройства минных засад только совершенствуются</a>
+				<a href="#00:34:8.58" id="00:34:8.58" class="lt" onclick="jumptoTime(2048, this.id)">и саперы демонстрируют просто верхи своих способностей.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:34:16.16" id="00:34:16.16" class="lt" onclick="jumptoTime(2056, this.id)">Ну и напоследок мы должны отметить, что существует</a>
+				<a href="#00:34:20.97" id="00:34:20.97" class="lt" onclick="jumptoTime(2060, this.id)">также народное, можно сказать, военное творчество на предмет</a>
+				<a href="#00:34:25.57" id="00:34:25.57" class="lt" onclick="jumptoTime(2065, this.id)">создания взрывчатых веществ, в том числе мин, из подумочных</a>
+				<a href="#00:34:29.93" id="00:34:29.93" class="lt" onclick="jumptoTime(2069, this.id)">материалов.</a>
+				<a href="#00:34:30.93" id="00:34:30.93" class="lt" onclick="jumptoTime(2070, this.id)">Этим занимаются и действующая армия, кстати говоря, этим</a>
+				<a href="#00:34:35.76" id="00:34:35.76" class="lt" onclick="jumptoTime(2075, this.id)">занимаются и различные партизанские движения.</a>
+				<a href="#00:34:37.76" id="00:34:37.76" class="lt" onclick="jumptoTime(2077, this.id)">И вот я отмечу, что в Индии, где сейчас идет серьезное</a>
+				<a href="#00:34:43.32" id="00:34:43.32" class="lt" onclick="jumptoTime(2083, this.id)">анаксолитское движение, это коммунистическо-партизанское</a>
+				<a href="#00:34:46.72" id="00:34:46.72" class="lt" onclick="jumptoTime(2086, this.id)">движение, которое находится, оно крестьянское по своей</a>
+				<a href="#00:34:49.93" id="00:34:49.93" class="lt" onclick="jumptoTime(2089, this.id)">сути, но находится в тесном контакте, например, с шахтерами</a>
+				<a href="#00:34:55.36" id="00:34:55.36" class="lt" onclick="jumptoTime(2095, this.id)">ряда провинций Индии, например, Чхакра-Парадреш, и в частности</a>
+				<a href="#00:35:0.09" id="00:35:0.09" class="lt" onclick="jumptoTime(2100, this.id)">они получают от шахтера взрывчатку и из этого делают</a>
+				<a href="#00:35:4.24" id="00:35:4.24" class="lt" onclick="jumptoTime(2104, this.id)">мины.</a>
+				<a href="#00:35:5.24" id="00:35:5.24" class="lt" onclick="jumptoTime(2105, this.id)">Вот я отмечу, что в период 20-21-22 годов индийские власти</a>
+				<a href="#00:35:9.84" id="00:35:9.84" class="lt" onclick="jumptoTime(2109, this.id)">указывали на большие потери в полицейских силах и армейских</a>
+				<a href="#00:35:15.16" id="00:35:15.16" class="lt" onclick="jumptoTime(2115, this.id)">частях, которые участвуют в так называемой зеленой</a>
+				<a href="#00:35:18.16" id="00:35:18.16" class="lt" onclick="jumptoTime(2118, this.id)">охоте.</a>
+				<a href="#00:35:19.16" id="00:35:19.16" class="lt" onclick="jumptoTime(2119, this.id)">Это операция против красных партизанов в Индии, отмечают</a>
+				<a href="#00:35:22.45" id="00:35:22.45" class="lt" onclick="jumptoTime(2122, this.id)">большие потери, связанные как раз таки с применением</a>
+				<a href="#00:35:24.80" id="00:35:24.80" class="lt" onclick="jumptoTime(2124, this.id)">вот этих вот самых мин, мин-ловушек и так далее.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:35:28.25" id="00:35:28.25" class="lt" onclick="jumptoTime(2128, this.id)">Ну да, кстати, надо сказать про ноксолитов.</a>
+				<a href="#00:35:31.61" id="00:35:31.61" class="lt" onclick="jumptoTime(2131, this.id)">Недавно индийские вооруженные силы начали применять американские,</a>
+				<a href="#00:35:35.89" id="00:35:35.89" class="lt" onclick="jumptoTime(2135, this.id)">в том числе протоколы борьбы с минами, но опять же, что</a>
+				<a href="#00:35:40.05" id="00:35:40.05" class="lt" onclick="jumptoTime(2140, this.id)">известно о том, какие боеприпасы, самодельные взрывные устройства</a>
+				<a href="#00:35:44.05" id="00:35:44.05" class="lt" onclick="jumptoTime(2144, this.id)">применяют индийские партизаны, это СВУ замедленного действия,</a>
+				<a href="#00:35:48.81" id="00:35:48.81" class="lt" onclick="jumptoTime(2148, this.id)">неуправляемые СВУ и управляемые СВУ.</a>
+				<a href="#00:35:52.49" id="00:35:52.49" class="lt" onclick="jumptoTime(2152, this.id)">То есть, они используют, например, радиоуправляемые,</a>
+				<a href="#00:35:56.41" id="00:35:56.41" class="lt" onclick="jumptoTime(2156, this.id)">они используют управляемые по проводам, все, что было</a>
+				<a href="#00:36:0.81" id="00:36:0.81" class="lt" onclick="jumptoTime(2160, this.id)">в том числе в Ираке и в Афганистане с той поправкой, что в руках</a>
+				<a href="#00:36:6.49" id="00:36:6.49" class="lt" onclick="jumptoTime(2166, this.id)">у индийских партизан гораздо меньше технологий.</a>
+				<a href="#00:36:10.45" id="00:36:10.45" class="lt" onclick="jumptoTime(2170, this.id)">Ну вот, например, те же самые боеприпасы, которые образуют</a>
+				<a href="#00:36:14.85" id="00:36:14.85" class="lt" onclick="jumptoTime(2174, this.id)">ударное ядро для борьбы с бронетехникой, не применяются,</a>
+				<a href="#00:36:18.09" id="00:36:18.09" class="lt" onclick="jumptoTime(2178, this.id)">но понятно, что против партизана не действует бронетехника,</a>
+				<a href="#00:36:21.17" id="00:36:21.17" class="lt" onclick="jumptoTime(2181, this.id)">за исключением легкой бронетехники индийской армии, которая</a>
+				<a href="#00:36:24.85" id="00:36:24.85" class="lt" onclick="jumptoTime(2184, this.id)">осуществляет патрульные функции, но и индийским</a>
+				<a href="#00:36:28.53" id="00:36:28.53" class="lt" onclick="jumptoTime(2188, this.id)">партизанам доступно гораздо меньше оружия, как я в самом</a>
+				<a href="#00:36:32.57" id="00:36:32.57" class="lt" onclick="jumptoTime(2192, this.id)">начале, когда мы разбирали иракский кейс, отмечали,</a>
+				<a href="#00:36:37.09" id="00:36:37.09" class="lt" onclick="jumptoTime(2197, this.id)">что 250 тысяч тонн боеприпасов саддамовской армии растворилось</a>
+				<a href="#00:36:42.05" id="00:36:42.05" class="lt" onclick="jumptoTime(2202, this.id)">на иракском пространстве, то в Индии такой ситуации</a>
+				<a href="#00:36:45.25" id="00:36:45.25" class="lt" onclick="jumptoTime(2205, this.id)">нет.</a>
+				<a href="#00:36:46.25" id="00:36:46.25" class="lt" onclick="jumptoTime(2206, this.id)">В тех районах, в которых действуют партизаны критически</a>
+				<a href="#00:36:49.65" id="00:36:49.65" class="lt" onclick="jumptoTime(2209, this.id)">мало военных баз, военных складов, что сильно затрудняет</a>
+				<a href="#00:36:55.05" id="00:36:55.05" class="lt" onclick="jumptoTime(2215, this.id)">партизанские действия.</a>
+				<a href="#00:36:56.05" id="00:36:56.05" class="lt" onclick="jumptoTime(2216, this.id)">Кстати, на Филиппинах точно такая же история в партизанских</a>
+				<a href="#00:36:59.53" id="00:36:59.53" class="lt" onclick="jumptoTime(2219, this.id)">районах, то есть они обладают всеми навыками тактическими,</a>
+				<a href="#00:37:4.41" id="00:37:4.41" class="lt" onclick="jumptoTime(2224, this.id)">в том числе в области инженерного дела, на том уровне, на котором</a>
+				<a href="#00:37:9.89" id="00:37:9.89" class="lt" onclick="jumptoTime(2229, this.id)">этим должны владеть члены партизанских отрядов, но</a>
+				<a href="#00:37:15.45" id="00:37:15.45" class="lt" onclick="jumptoTime(2235, this.id)">при этом оружия критически недостаточно, поэтому и</a>
+				<a href="#00:37:18.57" id="00:37:18.57" class="lt" onclick="jumptoTime(2238, this.id)">минная война там идет довольно слабо, в Индии чуть-чуть</a>
+				<a href="#00:37:22.77" id="00:37:22.77" class="lt" onclick="jumptoTime(2242, this.id)">более интенсивно, но факт остается фактом.</a>
+				<a href="#00:37:26.41" id="00:37:26.41" class="lt" onclick="jumptoTime(2246, this.id)">Кстати, надо сказать, что ФАРК, революционная сила</a>
+				<a href="#00:37:29.33" id="00:37:29.33" class="lt" onclick="jumptoTime(2249, this.id)">Колумбии, применяли минирование территории противопехотными</a>
+				<a href="#00:37:33.93" id="00:37:33.93" class="lt" onclick="jumptoTime(2253, this.id)">минами нажимного действия с другими датчиками целей,</a>
+				<a href="#00:37:37.41" id="00:37:37.41" class="lt" onclick="jumptoTime(2257, this.id)">они тоже были очень изощрены в области минных засад,</a>
+				<a href="#00:37:41.61" id="00:37:41.61" class="lt" onclick="jumptoTime(2261, this.id)">минных нападений на колумбийскую армию.</a>
+				<a href="#00:37:44.89" id="00:37:44.89" class="lt" onclick="jumptoTime(2264, this.id)">Кстати, противовертолетные они мины пытались применять,</a>
+				<a href="#00:37:48.01" id="00:37:48.01" class="lt" onclick="jumptoTime(2268, this.id)">но условно противовертолетные, кстати, в качестве противовертолетных</a>
+				<a href="#00:37:54.33" id="00:37:54.33" class="lt" onclick="jumptoTime(2274, this.id)">мин фарковцы пытались использовать различные вариации на тему</a>
+				<a href="#00:37:59.37" id="00:37:59.37" class="lt" onclick="jumptoTime(2279, this.id)">советской мины МОН-50, потому что она в сторону противника</a>
+				<a href="#00:38:3.53" id="00:38:3.53" class="lt" onclick="jumptoTime(2283, this.id)">направленно выпускает пучок поражающих элементов,</a>
+				<a href="#00:38:8.49" id="00:38:8.49" class="lt" onclick="jumptoTime(2288, this.id)">страшная на самом деле вещь, еще более страшная вещь</a>
+				<a href="#00:38:10.97" id="00:38:10.97" class="lt" onclick="jumptoTime(2290, this.id)">это МОН-200, которая имеет 200 метров по фронту гарантированного</a>
+				<a href="#00:38:15.89" id="00:38:15.89" class="lt" onclick="jumptoTime(2295, this.id)">тотального поражения осколками, там более 9 тысяч поражающих</a>
+				<a href="#00:38:20.41" id="00:38:20.41" class="lt" onclick="jumptoTime(2300, this.id)">элементов в ней есть, и вот на колумбийские вертолеты</a>
+				<a href="#00:38:24.73" id="00:38:24.73" class="lt" onclick="jumptoTime(2304, this.id)">колумбийских правительственных войск фарковцы ЕЛН, другая</a>
+				<a href="#00:38:28.97" id="00:38:28.97" class="lt" onclick="jumptoTime(2308, this.id)">организация на территории Колумбии, пытались охотиться</a>
+				<a href="#00:38:32.89" id="00:38:32.89" class="lt" onclick="jumptoTime(2312, this.id)">таким образом, но, кстати, они не первые, кому это</a>
+				<a href="#00:38:36.17" id="00:38:36.17" class="lt" onclick="jumptoTime(2316, this.id)">пришло в голову, например, в Афганистане пытались</a>
+				<a href="#00:38:38.85" id="00:38:38.85" class="lt" onclick="jumptoTime(2318, this.id)">так действовать против советских войск еще в 80-е</a>
+				<a href="#00:38:43.17" id="00:38:43.17" class="lt" onclick="jumptoTime(2323, this.id)">годы.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:38:45.43" id="00:38:45.43" class="lt" onclick="jumptoTime(2325, this.id)">Ну и, подводя итог, естественно, это очень краткая вводная передача.</a>
+				<a href="#00:38:50.43" id="00:38:50.43" class="lt" onclick="jumptoTime(2330, this.id)">Честно говоря, я бы к этой теме истории современного минного оружия возвращался бы время от времени,</a>
+				<a href="#00:38:57.43" id="00:38:57.43" class="lt" onclick="jumptoTime(2337, this.id)">потому что мы только затронули даже не верхушку айсберга, а кончик верхушки айсберга.</a>
+				<a href="#00:39:2.43" id="00:39:2.43" class="lt" onclick="jumptoTime(2342, this.id)">Следует отметить, что мины являются прекрасным подспорью в партизанско-диверсионной борьбе.</a>
+				<a href="#00:39:8.43" id="00:39:8.43" class="lt" onclick="jumptoTime(2348, this.id)">И мины при грамотном их использовании, при прикрытии минных полей огневыми секторами превращаются в грозное оружие против наступающего противника,</a>
+				<a href="#00:39:20.43" id="00:39:20.43" class="lt" onclick="jumptoTime(2360, this.id)">который даже может создать превосходство на том участке фронта, где он атакует.</a>
+				<a href="#00:39:26.43" id="00:39:26.43" class="lt" onclick="jumptoTime(2366, this.id)">И тут, конечно, мы не затронули важную составляющую, может быть в вопросах будет поднята эта тема.</a>
+				<a href="#00:39:34.43" id="00:39:34.43" class="lt" onclick="jumptoTime(2374, this.id)">Важная составляющая — это контрминная борьба, в том плане, что как надо бороться с минами, как их разминировать.</a>
+				<a href="#00:39:41.43" id="00:39:41.43" class="lt" onclick="jumptoTime(2381, this.id)">Тут можно много про что разговаривать, но мы, к сожалению, ограничены во времени.</a>
+				<a href="#00:39:45.43" id="00:39:45.43" class="lt" onclick="jumptoTime(2385, this.id)">И сейчас мы переходим к ответам на ваши вопросы.</a>
+				<a href="#00:39:49.43" id="00:39:49.43" class="lt" onclick="jumptoTime(2389, this.id)">И напоминаем, что вопросы по теме вы можете задать в чате, а вопросы не по теме через сервис Donation Alerts.</a>
+				<a href="#00:39:57.43" id="00:39:57.43" class="lt" onclick="jumptoTime(2397, this.id)">Кроме того, через этот сервис вы можете оказать нам поддержку, так же как через спонсор, куда мы рекомендуем вам подписаться.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:40:5.59" id="00:40:5.59" class="lt" onclick="jumptoTime(2405, this.id)">Забудьте это всё.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:40:7.67" id="00:40:7.67" class="lt" onclick="jumptoTime(2407, this.id)">Извиняюсь, простите, да, от Бусти, да, и, ну, там есть</a>
+				<a href="#00:40:12.11" id="00:40:12.11" class="lt" onclick="jumptoTime(2412, this.id)">реквизиты у нас в описании, то есть, если есть желание,</a>
+				<a href="#00:40:15.51" id="00:40:15.51" class="lt" onclick="jumptoTime(2415, this.id)">пожалуйста, оказывайте помощь.</a>
+				<a href="#00:40:17.51" id="00:40:17.51" class="lt" onclick="jumptoTime(2417, this.id)">А сейчас мы переходим к ответам на вопросы, у нас</a>
+				<a href="#00:40:19.87" id="00:40:19.87" class="lt" onclick="jumptoTime(2419, this.id)">всегда преимущество у тех подписчиков и зрителей,</a>
+				<a href="#00:40:24.67" id="00:40:24.67" class="lt" onclick="jumptoTime(2424, this.id)">которые задают вопрос через Donation Alerts.</a>
+				<a href="#00:40:27.19" id="00:40:27.19" class="lt" onclick="jumptoTime(2427, this.id)">Владимир будет зачитывать.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:40:28.11" id="00:40:28.11" class="lt" onclick="jumptoTime(2428, this.id)">Здесь, к сожалению, пока что зачитывать нечего, поэтому перейдём сразу к чату.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:40:34.53" id="00:40:34.53" class="lt" onclick="jumptoTime(2434, this.id)">Хорошо. В чате вопросы.</a>
+				<a href="#00:40:42.41" id="00:40:42.41" class="lt" onclick="jumptoTime(2442, this.id)">Вопросы. Пожалуйста, если вопросы есть, выделяйте их словом «вопрос».</a>
+				<a href="#00:40:48.01" id="00:40:48.01" class="lt" onclick="jumptoTime(2448, this.id)">Словом «вопрос».</a>
+				<a href="#00:40:51.81" id="00:40:51.81" class="lt" onclick="jumptoTime(2451, this.id)">Пока что тут беседа.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:40:52.99" id="00:40:52.99" class="lt" onclick="jumptoTime(2452, this.id)">Да, тут только один есть вопрос, я вижу вопрос, точнее</a>
+				<a href="#00:40:57.79" id="00:40:57.79" class="lt" onclick="jumptoTime(2457, this.id)">не один вопрос, а один из первых, пользователь Левая</a>
+				<a href="#00:41:1.51" id="00:41:1.51" class="lt" onclick="jumptoTime(2461, this.id)">челюсть Сергея Королева спрашивает у нас, чем руководствуется</a>
+				<a href="#00:41:5.41" id="00:41:5.41" class="lt" onclick="jumptoTime(2465, this.id)">военнослужащий, отдающий приказ на обстрел противопоехотными</a>
+				<a href="#00:41:9.19" id="00:41:9.19" class="lt" onclick="jumptoTime(2469, this.id)">минами гражданских объектов, он имеет ввиду обстрелы</a>
+				<a href="#00:41:13.23" id="00:41:13.23" class="lt" onclick="jumptoTime(2473, this.id)">Донецка в 22-м году минами типа Лепесток, ну, здесь</a>
+				<a href="#00:41:19.19" id="00:41:19.19" class="lt" onclick="jumptoTime(2479, this.id)">конечно вопрос весьма интересный, он, скажем,</a>
+				<a href="#00:41:24.75" id="00:41:24.75" class="lt" onclick="jumptoTime(2484, this.id)">к вопросу относится компетентных органов, которые должны</a>
+				<a href="#00:41:28.75" id="00:41:28.75" class="lt" onclick="jumptoTime(2488, this.id)">расследовать это в качестве нарушения правил ведения</a>
+				<a href="#00:41:32.31" id="00:41:32.31" class="lt" onclick="jumptoTime(2492, this.id)">войны, потому что это применение неизбирательной силы в</a>
+				<a href="#00:41:36.11" id="00:41:36.11" class="lt" onclick="jumptoTime(2496, this.id)">отношении гражданского населения, создание угрозы,</a>
+				<a href="#00:41:39.71" id="00:41:39.71" class="lt" onclick="jumptoTime(2499, this.id)">поражение гражданского населения такими угрозами,</a>
+				<a href="#00:41:43.55" id="00:41:43.55" class="lt" onclick="jumptoTime(2503, this.id)">но цель, конечно, может быть и военной, например,</a>
+				<a href="#00:41:48.15" id="00:41:48.15" class="lt" onclick="jumptoTime(2508, this.id)">посеять панику в городе, нанести репутационный</a>
+				<a href="#00:41:51.63" id="00:41:51.63" class="lt" onclick="jumptoTime(2511, this.id)">вред противнику, но на самом деле такие обстрелы надо</a>
+				<a href="#00:41:55.39" id="00:41:55.39" class="lt" onclick="jumptoTime(2515, this.id)">рассматривать и с осуждением, как террористический акт</a>
+				<a href="#00:41:59.43" id="00:41:59.43" class="lt" onclick="jumptoTime(2519, this.id)">и как нарушение принципов ведения войны, тут и может</a>
+				<a href="#00:42:4.51" id="00:42:4.51" class="lt" onclick="jumptoTime(2524, this.id)">быть своеобразная черная военная рациональность,</a>
+				<a href="#00:42:8.11" id="00:42:8.11" class="lt" onclick="jumptoTime(2528, this.id)">затруднить коммуникации и многое другое, но ее рассматривать</a>
+				<a href="#00:42:12.59" id="00:42:12.59" class="lt" onclick="jumptoTime(2532, this.id)">иначе, как военное преступление, с моей точки зрения, и нельзя.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:41:17.72" id="00:41:17.72" class="lt" onclick="jumptoTime(2477, this.id)">Ну?</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:42:18.18" id="00:42:18.18" class="lt" onclick="jumptoTime(2538, this.id)">Ну, к тому же, если мы говорим про эпизод, я боюсь ошибиться,</a>
+				<a href="#00:42:22.50" id="00:42:22.50" class="lt" onclick="jumptoTime(2542, this.id)">по-моему, это июль-август прошлого года, да, это</a>
+				<a href="#00:42:27.06" id="00:42:27.06" class="lt" onclick="jumptoTime(2547, this.id)">было массово применено, я боюсь сейчас ошибиться.</a>
+				<a href="#00:42:30.06" id="00:42:30.06" class="lt" onclick="jumptoTime(2550, this.id)">Но я помню, что лето было, или ранняя осень, а эпизод</a>
+				<a href="#00:42:34.78" id="00:42:34.78" class="lt" onclick="jumptoTime(2554, this.id)">этот был именно применение по городу, да.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:42:38.40" id="00:42:38.40" class="lt" onclick="jumptoTime(2558, this.id)">Там применяли кассетные боеприпасы, это для установок</a>
+				<a href="#00:42:42.54" id="00:42:42.54" class="lt" onclick="jumptoTime(2562, this.id)">ураган.</a>
+				<a href="#00:42:43.54" id="00:42:43.54" class="lt" onclick="jumptoTime(2563, this.id)">В советское время были разработаны специальные</a>
+				<a href="#00:42:46.08" id="00:42:46.08" class="lt" onclick="jumptoTime(2566, this.id)">боеприпасы, которые содержат в себе минный лепесток.</a>
+				<a href="#00:42:51.78" id="00:42:51.78" class="lt" onclick="jumptoTime(2571, this.id)">Они как раз взрываются на высоте, эти мины усеивают</a>
+				<a href="#00:42:54.90" id="00:42:54.90" class="lt" onclick="jumptoTime(2574, this.id)">собой достаточно большую территорию.</a>
+				<a href="#00:42:57.62" id="00:42:57.62" class="lt" onclick="jumptoTime(2577, this.id)">Причем, там применялись в перемешку как ПФМ-1, то</a>
+				<a href="#00:43:0.96" id="00:43:0.96" class="lt" onclick="jumptoTime(2580, this.id)">есть, это те, которые не имеют самоликвидаторов,</a>
+				<a href="#00:43:5.22" id="00:43:5.22" class="lt" onclick="jumptoTime(2585, this.id)">и ПФМ-1М тоже использовались, которые при определенных</a>
+				<a href="#00:43:9.66" id="00:43:9.66" class="lt" onclick="jumptoTime(2589, this.id)">температурных условиях, при определенных химических</a>
+				<a href="#00:43:13.18" id="00:43:13.18" class="lt" onclick="jumptoTime(2593, this.id)">реакциях самоподрывались.</a>
+				<a href="#00:43:15.66" id="00:43:15.66" class="lt" onclick="jumptoTime(2595, this.id)">Это, кстати, очень сильно затрудняло борьбу с этими</a>
+				<a href="#00:43:18.78" id="00:43:18.78" class="lt" onclick="jumptoTime(2598, this.id)">минами, потому что если мы видим ПФМ-1, то его можно</a>
+				<a href="#00:43:23.22" id="00:43:23.22" class="lt" onclick="jumptoTime(2603, this.id)">просто сбросить с какой-то дороги, его можно троллить.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:43:27.22" id="00:43:27.22" class="lt" onclick="jumptoTime(2607, this.id)">Ну, нет, речь идет не о специфике применения, а то, что, несмотря на то, что, конечно, эти мины рассеиваются на значительное расстояние, это было...</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:43:36.18" id="00:43:36.18" class="lt" onclick="jumptoTime(2616, this.id)">Я говорю, что страшно еще было в том, что экстренные</a>
+				<a href="#00:43:40.22" id="00:43:40.22" class="lt" onclick="jumptoTime(2620, this.id)">службы находились в состоянии постоянной опасности, потому</a>
+				<a href="#00:43:43.94" id="00:43:43.94" class="lt" onclick="jumptoTime(2623, this.id)">что эти мины были в перемешку, то есть, одни из них не</a>
+				<a href="#00:43:47.10" id="00:43:47.10" class="lt" onclick="jumptoTime(2627, this.id)">само ликвидируются, а среди них могут быть те, которые</a>
+				<a href="#00:43:50.46" id="00:43:50.46" class="lt" onclick="jumptoTime(2630, this.id)">само ликвидируются, причем это может произойти в абсолютно</a>
+				<a href="#00:43:54.40" id="00:43:54.40" class="lt" onclick="jumptoTime(2634, this.id)">любой момент, в зависимости от температурных условий,</a>
+				<a href="#00:43:59.46" id="00:43:59.46" class="lt" onclick="jumptoTime(2639, this.id)">времени.</a>
+				<a href="#00:44:0.46" id="00:44:0.46" class="lt" onclick="jumptoTime(2640, this.id)">Прогнозировать это достаточно сложно, и тогда экстренные</a>
+				<a href="#00:44:3.98" id="00:44:3.98" class="lt" onclick="jumptoTime(2643, this.id)">службы разным образом пытались с этим бороться, их давили</a>
+				<a href="#00:44:8.54" id="00:44:8.54" class="lt" onclick="jumptoTime(2648, this.id)">танками, их собирали лопатами, их пытались отстреливать</a>
+				<a href="#00:44:12.06" id="00:44:12.06" class="lt" onclick="jumptoTime(2652, this.id)">из автоматов Калашникова, даже, по-моему, на крупном</a>
+				<a href="#00:44:15.66" id="00:44:15.66" class="lt" onclick="jumptoTime(2655, this.id)">YouTube-канале «Крупнокалиберный переполох» было видео.</a>
+				<a href="#00:44:21.10" id="00:44:21.10" class="lt" onclick="jumptoTime(2661, this.id)">Мы с Глебом не часто смотрим YouTube, но очень интересный</a>
+				<a href="#00:44:24.82" id="00:44:24.82" class="lt" onclick="jumptoTime(2664, this.id)">был ролик, мы его посмотрели, именно про борьбу с этими</a>
+				<a href="#00:44:28.62" id="00:44:28.62" class="lt" onclick="jumptoTime(2668, this.id)">минами.</a>
+				<a href="#00:44:29.62" id="00:44:29.62" class="lt" onclick="jumptoTime(2669, this.id)">Что это такое?</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:44:29.77" id="00:44:29.77" class="lt" onclick="jumptoTime(2669, this.id)">Самодельная лопата присутствовала из-за обрезка пластиковой</a>
+				<a href="#00:44:36.67" id="00:44:36.67" class="lt" onclick="jumptoTime(2676, this.id)">бутылки.</a>
+				<a href="#00:44:37.67" id="00:44:37.67" class="lt" onclick="jumptoTime(2677, this.id)">Кстати, я читал американские военные статьи, которые</a>
+				<a href="#00:44:40.79" id="00:44:40.79" class="lt" onclick="jumptoTime(2680, this.id)">говорили о том, что применение вот такого, такое именно</a>
+				<a href="#00:44:44.31" id="00:44:44.31" class="lt" onclick="jumptoTime(2684, this.id)">применение мин типа «Лепесток», оно нерационально с военной</a>
+				<a href="#00:44:49.43" id="00:44:49.43" class="lt" onclick="jumptoTime(2689, this.id)">точки зрения, потому что как раз такое большое рассеивание</a>
+				<a href="#00:44:53.39" id="00:44:53.39" class="lt" onclick="jumptoTime(2693, this.id)">в обстановке фронта не приводит к серьезному какому-то</a>
+				<a href="#00:44:57.19" id="00:44:57.19" class="lt" onclick="jumptoTime(2697, this.id)">эффекту.</a>
+				<a href="#00:44:58.19" id="00:44:58.19" class="lt" onclick="jumptoTime(2698, this.id)">Хотя вот, например…</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:44:32.10" id="00:44:32.10" class="lt" onclick="jumptoTime(2672, this.id)">Эстрел-2</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:44:58.06" id="00:44:58.06" class="lt" onclick="jumptoTime(2698, this.id)">Хотя, вот, например, по опыту Афганистана это признано</a>
+				<a href="#00:45:3.00" id="00:45:3.00" class="lt" onclick="jumptoTime(2702, this.id)">было довольно успешным для того, чтобы временно</a>
+				<a href="#00:45:6.34" id="00:45:6.34" class="lt" onclick="jumptoTime(2706, this.id)">перекрыть целое ущелье и нанести потери противнику.</a>
+				<a href="#00:45:10.50" id="00:45:10.50" class="lt" onclick="jumptoTime(2710, this.id)">И, кстати, американцы, когда боролись с вьетнамскими</a>
+				<a href="#00:45:15.10" id="00:45:15.10" class="lt" onclick="jumptoTime(2715, this.id)">партизанами из регулярной армии Северного Вьетнама</a>
+				<a href="#00:45:18.22" id="00:45:18.22" class="lt" onclick="jumptoTime(2718, this.id)">и с тропой Хо Ши Мина, также отмечали успешность этого.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:45:22.68" id="00:45:22.68" class="lt" onclick="jumptoTime(2722, this.id)">Вот я как раз и хотел сказать, что речь идет о том, что</a>
+				<a href="#00:45:26.36" id="00:45:26.36" class="lt" onclick="jumptoTime(2726, this.id)">эти мины «Лепесток», они эффективны для того, чтобы</a>
+				<a href="#00:45:29.60" id="00:45:29.60" class="lt" onclick="jumptoTime(2729, this.id)">остановить подвоз боеприпасов, некий караван, если мы говорим</a>
+				<a href="#00:45:34.16" id="00:45:34.16" class="lt" onclick="jumptoTime(2734, this.id)">про Вьетнам или Афганистан, да.</a>
+				<a href="#00:45:36.52" id="00:45:36.52" class="lt" onclick="jumptoTime(2736, this.id)">Ну а тут вот именно по городам было применено, причем</a>
+				<a href="#00:45:41.48" id="00:45:41.48" class="lt" onclick="jumptoTime(2741, this.id)">нельзя сказать, что это серьезно отразилось на</a>
+				<a href="#00:45:44.80" id="00:45:44.80" class="lt" onclick="jumptoTime(2744, this.id)">общем положении тогда фронта.</a>
+				<a href="#00:45:46.68" id="00:45:46.68" class="lt" onclick="jumptoTime(2746, this.id)">Ну, понятно, что были затруднены перевозки войск, которые</a>
+				<a href="#00:45:51.28" id="00:45:51.28" class="lt" onclick="jumptoTime(2751, this.id)">проходили через Донецк.</a>
+				<a href="#00:45:52.84" id="00:45:52.84" class="lt" onclick="jumptoTime(2752, this.id)">Ну, не сильно, кстати.</a>
+				<a href="#00:45:53.84" id="00:45:53.84" class="lt" onclick="jumptoTime(2753, this.id)">Ну, не сильно, да.</a>
+				<a href="#00:45:54.84" id="00:45:54.84" class="lt" onclick="jumptoTime(2754, this.id)">Ну, это чисто…</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:45:52.72" id="00:45:52.72" class="lt" onclick="jumptoTime(2752, this.id)">Ну не сильно, кстати, но это чисто военное преступление,</a>
+				<a href="#00:45:57.32" id="00:45:57.32" class="lt" onclick="jumptoTime(2757, this.id)">я считаю, что к этому иначе относиться просто невозможно.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:46:1.45" id="00:46:1.45" class="lt" onclick="jumptoTime(2761, this.id)">Я не в курсе, но по-моему, Соединенный комитет Российской Федерации вроде даже возбудил какие-то дела, по факту, но я боюсь сейчас ошибиться, я сразу говорю, что я не изучал именно эту сторону вопроса.</a>
+				<a href="#00:46:14.18" id="00:46:14.18" class="lt" onclick="jumptoTime(2774, this.id)">Так, есть ли еще вопросы?</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:46:19.00" id="00:46:19.00" class="lt" onclick="jumptoTime(2778, this.id)">Вот у нас спрашивают, можно ли нас назвать военными</a>
+				<a href="#00:46:22.70" id="00:46:22.70" class="lt" onclick="jumptoTime(2782, this.id)">экспертами, но на самом деле нет, мы являемся теми</a>
+				<a href="#00:46:26.52" id="00:46:26.52" class="lt" onclick="jumptoTime(2786, this.id)">людьми, которые пытаются разобраться в военном деле</a>
+				<a href="#00:46:30.68" id="00:46:30.68" class="lt" onclick="jumptoTime(2790, this.id)">на левом фланге, потому что надо честно сказать,</a>
+				<a href="#00:46:34.36" id="00:46:34.36" class="lt" onclick="jumptoTime(2794, this.id)">учиться военному делу настоящим образом, как завещал Ленин</a>
+				<a href="#00:46:38.36" id="00:46:38.36" class="lt" onclick="jumptoTime(2798, this.id)">и как следует со времен Энгельса, мало кто призывает.</a>
+				<a href="#00:46:43.28" id="00:46:43.28" class="lt" onclick="jumptoTime(2803, this.id)">Мы пытаемся восполнить этот момент.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:46:44.72" id="00:46:44.72" class="lt" onclick="jumptoTime(2804, this.id)">Мне вспоминается эпизод из советской комедии, советско-польской,</a>
+				<a href="#00:46:50.72" id="00:46:50.72" class="lt" onclick="jumptoTime(2810, this.id)">как мне кажется, достаточно неплохой дежавю,</a>
+				<a href="#00:46:53.72" id="00:46:53.72" class="lt" onclick="jumptoTime(2813, this.id)">там, где был эпизод, когда потерявший память гангстер,</a>
+				<a href="#00:46:57.72" id="00:46:57.72" class="lt" onclick="jumptoTime(2817, this.id)">подумав, решив, что он профессор, случайно попадает в тир,</a>
+				<a href="#00:47:2.72" id="00:47:2.72" class="lt" onclick="jumptoTime(2822, this.id)">куда пригнали советского профессора сдавать нормы ГТО,</a>
+				<a href="#00:47:6.72" id="00:47:6.72" class="lt" onclick="jumptoTime(2826, this.id)">ну, точнее, не ГТО, там чуть пораньше, речь идет о более ранних временах,</a>
+				<a href="#00:47:11.72" id="00:47:11.72" class="lt" onclick="jumptoTime(2831, this.id)">он сразу стал просто без прицела лупить в десятку,</a>
+				<a href="#00:47:15.72" id="00:47:15.72" class="lt" onclick="jumptoTime(2835, this.id)">и тогда инструктор по огневому делу сказал,</a>
+				<a href="#00:47:18.72" id="00:47:18.72" class="lt" onclick="jumptoTime(2838, this.id)">вот, их профессора к бою готова.</a>
+				<a href="#00:47:21.72" id="00:47:21.72" class="lt" onclick="jumptoTime(2841, this.id)">Это к вопросу о том, что, конечно,</a>
+				<a href="#00:47:23.72" id="00:47:23.72" class="lt" onclick="jumptoTime(2843, this.id)">тут, кстати, Владимир не до конца прочитал вопрос,</a>
+				<a href="#00:47:25.72" id="00:47:25.72" class="lt" onclick="jumptoTime(2845, this.id)">это еще был вопрос про оружейные экспертов,</a>
+				<a href="#00:47:28.72" id="00:47:28.72" class="lt" onclick="jumptoTime(2848, this.id)">ну, я вот честно скажу, я бы себя таковым не назвал,</a>
+				<a href="#00:47:31.72" id="00:47:31.72" class="lt" onclick="jumptoTime(2851, this.id)">я номенклатуру современного оружия знаю,</a>
+				<a href="#00:47:34.72" id="00:47:34.72" class="lt" onclick="jumptoTime(2854, this.id)">но не на высоком уровне,</a>
+				<a href="#00:47:37.72" id="00:47:37.72" class="lt" onclick="jumptoTime(2857, this.id)">но стараюсь эти пробелы ликвидировать.</a>
+				<a href="#00:47:40.72" id="00:47:40.72" class="lt" onclick="jumptoTime(2860, this.id)">Ну, вот, так это и сделано.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:47:40.60" id="00:47:40.60" class="lt" onclick="jumptoTime(2860, this.id)">Вот в том-то и дело, что мы пытаемся изучать.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:47:43.21" id="00:47:43.21" class="lt" onclick="jumptoTime(2863, this.id)">Вечная учёба — это хорошо.</a>
+				<a href="#00:47:46.21" id="00:47:46.21" class="lt" onclick="jumptoTime(2866, this.id)">Просто мы говорить хоть пытались сегодня именно о концепте применения МИН.</a>
+				<a href="#00:47:51.21" id="00:47:51.21" class="lt" onclick="jumptoTime(2871, this.id)">Надеюсь, это было интересно.</a>
+				<a href="#00:47:53.21" id="00:47:53.21" class="lt" onclick="jumptoTime(2873, this.id)">Но мы и продолжаем говорить.</a>
+				<a href="#00:47:55.21" id="00:47:55.21" class="lt" onclick="jumptoTime(2875, this.id)">Вот пришёл вопрос.</a>
+				<a href="#00:47:57.21" id="00:47:57.21" class="lt" onclick="jumptoTime(2877, this.id)">Роль МИН в партизанских отрядах в период ВОВ и их эволюция в тот же период?</a>
+				<a href="#00:48:3.21" id="00:48:3.21" class="lt" onclick="jumptoTime(2883, this.id)">Ну, я очень кратко отвечу, Владимир мне, наверное, дополнит.</a>
+				<a href="#00:48:7.21" id="00:48:7.21" class="lt" onclick="jumptoTime(2887, this.id)">В принципе, это вопрос по теме, потому что у нас Вторая мировая заложила основу применения МИН,</a>
+				<a href="#00:48:13.21" id="00:48:13.21" class="lt" onclick="jumptoTime(2893, this.id)">которую мы наблюдаем до сегодняшнего дня.</a>
+				<a href="#00:48:16.21" id="00:48:16.21" class="lt" onclick="jumptoTime(2896, this.id)">Советские партизаны, безусловно, получали большую часть боеприпасов не на полях сражений.</a>
+				<a href="#00:48:22.21" id="00:48:22.21" class="lt" onclick="jumptoTime(2902, this.id)">Это миф, потому что боеприпасами они снабжались большой землей в основном, в том числе и МИНами.</a>
+				<a href="#00:48:29.21" id="00:48:29.21" class="lt" onclick="jumptoTime(2909, this.id)">Отдельно, конечно, стоит сказать, упомянуть о МИНах, которые они размещали на рельсах железных дорог,</a>
+				<a href="#00:48:38.21" id="00:48:38.21" class="lt" onclick="jumptoTime(2918, this.id)">на различных железнодорожных объектах в период рельсовой войны, а также до и после.</a>
+				<a href="#00:48:43.21" id="00:48:43.21" class="lt" onclick="jumptoTime(2923, this.id)">Это отдельная история диверсионных МИН.</a>
+				<a href="#00:48:46.21" id="00:48:46.21" class="lt" onclick="jumptoTime(2926, this.id)">Занимались они, безусловно, и творчеством.</a>
+				<a href="#00:48:49.21" id="00:48:49.21" class="lt" onclick="jumptoTime(2929, this.id)">Есть даже такая книга, она называется, сейчас боюсь ошибиться, «Партизанское оружие».</a>
+				<a href="#00:48:56.21" id="00:48:56.21" class="lt" onclick="jumptoTime(2936, this.id)">Грубо говоря, там различные модели оружия, которые партизаны сами создали.</a>
+				<a href="#00:49:1.21" id="00:49:1.21" class="lt" onclick="jumptoTime(2941, this.id)">Там, по-моему, есть немножко про МИН.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:48:59.36" id="00:48:59.36" class="lt" onclick="jumptoTime(2939, this.id)">модели оружия.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:49:3.95" id="00:49:3.95" class="lt" onclick="jumptoTime(2943, this.id)">Но в целом надо отметить, что конечная специфика действий партизан в годы Великой Отечественной войны заключалась в том, что они должны были в первую очередь</a>
+				<a href="#00:49:11.95" id="00:49:11.95" class="lt" onclick="jumptoTime(2951, this.id)">дезорганизовать немецкий тыл, и это им, кстати, в значительной степени удалось, дезорганизовать его путем установления минных засад</a>
+				<a href="#00:49:19.95" id="00:49:19.95" class="lt" onclick="jumptoTime(2959, this.id)">на отдельные автомобили, на поезда, на отдельных военнослужащих. Применяли они активные, так называемые, растяжки, применяли одиночные мины.</a>
+				<a href="#00:49:30.95" id="00:49:30.95" class="lt" onclick="jumptoTime(2970, this.id)">Если говоря, это, конечно, не опыт Великой Отечественной войны, но это интересный пример народного творчества вьетнамских коммунистических партизан, вьетконга и других,</a>
+				<a href="#00:49:40.95" id="00:49:40.95" class="lt" onclick="jumptoTime(2980, this.id)">это применение так называемых грязных мин, это когда, на самом деле это не мина, это просто граната, F1, которая обмазывалась грязью, глинистой настолько,</a>
+				<a href="#00:49:51.95" id="00:49:51.95" class="lt" onclick="jumptoTime(2991, this.id)">что фиксировалась вот как раз таки эта скоба, вынималась чека и устанавливалась такая граната на дороге, и при проходе отряда американских солдат</a>
+				<a href="#00:50:1.95" id="00:50:1.95" class="lt" onclick="jumptoTime(3001, this.id)">один из солдат обязательно наступал на нее, вот эта вот глина начала смещаться и происходил, соответственно, в ходе этого всего взрыв.</a>
+				<a href="#00:50:10.95" id="00:50:10.95" class="lt" onclick="jumptoTime(3010, this.id)">Так что, безусловно, эволюция была незначительной в партизанских отрядах, в основном это была эволюция всего минного оружия, которое наблюдалось в армии.</a>
+				<a href="#00:50:22.95" id="00:50:22.95" class="lt" onclick="jumptoTime(3022, this.id)">Потому что партизаны, я повторюсь, это в основном военные отряды, которые действуют в злу противника, потому что был единый штаб, единое руководство, единая система снабжения боеприпасами и оружием.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:50:35.52" id="00:50:35.52" class="lt" onclick="jumptoTime(3035, this.id)">Да, я могу сказать, что партизаны советские применяли мины</a>
+				<a href="#00:50:39.64" id="00:50:39.64" class="lt" onclick="jumptoTime(3039, this.id)">и с нажимным датчиком цели, и с другими датчиками цели,</a>
+				<a href="#00:50:44.88" id="00:50:44.88" class="lt" onclick="jumptoTime(3044, this.id)">с натяжным датчиком цели, например, для того, чтобы</a>
+				<a href="#00:50:48.52" id="00:50:48.52" class="lt" onclick="jumptoTime(3048, this.id)">затруднить преследование свое немецкими войсками,</a>
+				<a href="#00:50:53.08" id="00:50:53.08" class="lt" onclick="jumptoTime(3053, this.id)">для того, чтобы с помощью сигнальных мин, или не только</a>
+				<a href="#00:50:59.04" id="00:50:59.04" class="lt" onclick="jumptoTime(3059, this.id)">сигнальных мин, быть заведомо предупрежденными о перемещении</a>
+				<a href="#00:51:3.08" id="00:51:3.08" class="lt" onclick="jumptoTime(3063, this.id)">противника, они использовали самодельные взрывные устройства,</a>
+				<a href="#00:51:7.56" id="00:51:7.56" class="lt" onclick="jumptoTime(3067, this.id)">здесь все практически по классике, естественно,</a>
+				<a href="#00:51:12.72" id="00:51:12.72" class="lt" onclick="jumptoTime(3072, this.id)">как раз что это, знаменитые партизанские подрывы немецких</a>
+				<a href="#00:51:18.00" id="00:51:18.00" class="lt" onclick="jumptoTime(3077, this.id)">эшелонов, это применение самодельных взрывных устройств,</a>
+				<a href="#00:51:21.56" id="00:51:21.56" class="lt" onclick="jumptoTime(3081, this.id)">но и опять же с большой земли передавались и противопехотные</a>
+				<a href="#00:51:26.44" id="00:51:26.44" class="lt" onclick="jumptoTime(3086, this.id)">мины, например, мины по ОМЗ с натяжным датчиком</a>
+				<a href="#00:51:30.88" id="00:51:30.88" class="lt" onclick="jumptoTime(3090, this.id)">цели устанавливались партизанами для того, чтобы бороться</a>
+				<a href="#00:51:34.48" id="00:51:34.48" class="lt" onclick="jumptoTime(3094, this.id)">со своим противником, в особенности это было актуально</a>
+				<a href="#00:51:37.20" id="00:51:37.20" class="lt" onclick="jumptoTime(3097, this.id)">при создании партизанских краев, например, в период</a>
+				<a href="#00:51:40.72" id="00:51:40.72" class="lt" onclick="jumptoTime(3100, this.id)">так называемой, точнее не так называемой, настоящей</a>
+				<a href="#00:51:43.24" id="00:51:43.24" class="lt" onclick="jumptoTime(3103, this.id)">Освейской трагедии, это контрпартизанская карательная</a>
+				<a href="#00:51:47.16" id="00:51:47.16" class="lt" onclick="jumptoTime(3107, this.id)">акция нацистских войск на территории Белоруссии,</a>
+				<a href="#00:51:51.16" id="00:51:51.16" class="lt" onclick="jumptoTime(3111, this.id)">мины с натяжным датчиком цели, растяжки, зачастую</a>
+				<a href="#00:51:54.36" id="00:51:54.36" class="lt" onclick="jumptoTime(3114, this.id)">помогали спасти мирных граждан, которые находились</a>
+				<a href="#00:51:58.52" id="00:51:58.52" class="lt" onclick="jumptoTime(3118, this.id)">вместе с партизанами, либо которые просто укрылись</a>
+				<a href="#00:52:3.80" id="00:52:3.80" class="lt" onclick="jumptoTime(3123, this.id)">от нацистского террора в лесах, в частности, например,</a>
+				<a href="#00:52:7.88" id="00:52:7.88" class="lt" onclick="jumptoTime(3127, this.id)">еврейский партизанский отряд использовал мины</a>
+				<a href="#00:52:10.52" id="00:52:10.52" class="lt" onclick="jumptoTime(3130, this.id)">с натяжным датчиком цели для того, чтобы затруднить</a>
+				<a href="#00:52:14.36" id="00:52:14.36" class="lt" onclick="jumptoTime(3134, this.id)">продвижение немцев, для того, чтобы дать людям</a>
+				<a href="#00:52:16.68" id="00:52:16.68" class="lt" onclick="jumptoTime(3136, this.id)">время для того, чтобы уйти и не быть убитыми в ходе</a>
+				<a href="#00:52:20.40" id="00:52:20.40" class="lt" onclick="jumptoTime(3140, this.id)">Холокоста, то есть мины эпизодически применялись,</a>
+				<a href="#00:52:24.40" id="00:52:24.40" class="lt" onclick="jumptoTime(3144, this.id)">можно сказать, что партизаны совершили ряд открытий,</a>
+				<a href="#00:52:29.08" id="00:52:29.08" class="lt" onclick="jumptoTime(3149, this.id)">но, например, они были довольно искусственными саперами</a>
+				<a href="#00:52:32.64" id="00:52:32.64" class="lt" onclick="jumptoTime(3152, this.id)">для того, чтобы оставлять, например, сюрпризы немцам,</a>
+				<a href="#00:52:36.32" id="00:52:36.32" class="lt" onclick="jumptoTime(3156, this.id)">когда открывается дверь в какую-то избушку и ждет</a>
+				<a href="#00:52:40.40" id="00:52:40.40" class="lt" onclick="jumptoTime(3160, this.id)">что-то такое, оставлять подарки, например, пистолет</a>
+				<a href="#00:52:43.44" id="00:52:43.44" class="lt" onclick="jumptoTime(3163, this.id)">пулемет Шпагина лежит, подаренный карателю или</a>
+				<a href="#00:52:46.44" id="00:52:46.44" class="lt" onclick="jumptoTime(3166, this.id)">немцам, а подарок оказывается смертельным, сундук, в котором</a>
+				<a href="#00:52:50.36" id="00:52:50.36" class="lt" onclick="jumptoTime(3170, this.id)">находится предание сбежавшей невесты, открывается подрыв.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:52:52.74" id="00:52:52.74" class="lt" onclick="jumptoTime(3172, this.id)">А, ну, вы говорите про минные ловушки, но минные ловушки это немножко другая история.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:52:59.54" id="00:52:59.54" class="lt" onclick="jumptoTime(3179, this.id)">Опять же лежит труп карателя, его начинают эвакуировать, подрыв, еще один каратель, минус.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:53:7.89" id="00:53:7.89" class="lt" onclick="jumptoTime(3187, this.id)">Кстати, кусок угля, который забрасывает машинист в топку,</a>
+				<a href="#00:53:13.17" id="00:53:13.17" class="lt" onclick="jumptoTime(3193, this.id)">который на самом деле является миной, между прочим.</a>
+				<a href="#00:53:16.49" id="00:53:16.49" class="lt" onclick="jumptoTime(3196, this.id)">Кстати, еще один эпизод связан с тем,</a>
+				<a href="#00:53:18.81" id="00:53:18.81" class="lt" onclick="jumptoTime(3198, this.id)">как мины устанавливались, точнее, минировали здания,</a>
+				<a href="#00:53:23.01" id="00:53:23.01" class="lt" onclick="jumptoTime(3203, this.id)">которые подрывались спустя какое-то время.</a>
+				<a href="#00:53:25.81" id="00:53:25.81" class="lt" onclick="jumptoTime(3205, this.id)">Были эпизоды, когда взрывались эти здания,</a>
+				<a href="#00:53:28.53" id="00:53:28.53" class="lt" onclick="jumptoTime(3208, this.id)">даже когда война закончилась.</a>
+				<a href="#00:53:30.05" id="00:53:30.05" class="lt" onclick="jumptoTime(3210, this.id)">Этому посвящен, кстати, фильм, сейчас боюсь ошибиться,</a>
+				<a href="#00:53:33.25" id="00:53:33.25" class="lt" onclick="jumptoTime(3213, this.id)">достаточно неплохой, «Взрыв на рассвете»,</a>
+				<a href="#00:53:35.81" id="00:53:35.81" class="lt" onclick="jumptoTime(3215, this.id)">посвященный немецкому офицеру,</a>
+				<a href="#00:53:38.65" id="00:53:38.65" class="lt" onclick="jumptoTime(3218, this.id)">который изъявляет желание разминировать объекты,</a>
+				<a href="#00:53:42.61" id="00:53:42.61" class="lt" onclick="jumptoTime(3222, this.id)">которые он минировал в период отступления немецкой армии.</a>
+				<a href="#00:53:46.53" id="00:53:46.53" class="lt" onclick="jumptoTime(3226, this.id)">Переходим к следующему вопросу,</a>
+				<a href="#00:53:48.61" id="00:53:48.61" class="lt" onclick="jumptoTime(3228, this.id)">потому что, конечно, про эту тему можно говорить.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:53:50.72" id="00:53:50.72" class="lt" onclick="jumptoTime(3230, this.id)">Ну, вот последнее, что скажу, опять же, у них было искусство</a>
+				<a href="#00:53:54.04" id="00:53:54.04" class="lt" onclick="jumptoTime(3234, this.id)">неожиданности для саперов немецких и для карателей</a>
+				<a href="#00:53:58.36" id="00:53:58.36" class="lt" onclick="jumptoTime(3238, this.id)">также, то есть, сапер снимает одну растяжку, а граната</a>
+				<a href="#00:54:2.52" id="00:54:2.52" class="lt" onclick="jumptoTime(3242, this.id)">или мина взрывается сзади, а это стандартная партизанская</a>
+				<a href="#00:54:6.36" id="00:54:6.36" class="lt" onclick="jumptoTime(3246, this.id)">тактика, ну и, конечно, различные подарки, кстати, против</a>
+				<a href="#00:54:10.20" id="00:54:10.20" class="lt" onclick="jumptoTime(3250, this.id)">партизан же часто выступали молодчики, которые никаких</a>
+				<a href="#00:54:15.00" id="00:54:15.00" class="lt" onclick="jumptoTime(3255, this.id)">понятий в области того, как бороться с минной угрозой</a>
+				<a href="#00:54:18.68" id="00:54:18.68" class="lt" onclick="jumptoTime(3258, this.id)">не имели, умели только убивать, умели расстреливать</a>
+				<a href="#00:54:23.04" id="00:54:23.04" class="lt" onclick="jumptoTime(3263, this.id)">еврейское население, белорусское, русское население, украинское,</a>
+				<a href="#00:54:27.24" id="00:54:27.24" class="lt" onclick="jumptoTime(3267, this.id)">и вот как раз они часто зарились на подарки со</a>
+				<a href="#00:54:31.28" id="00:54:31.28" class="lt" onclick="jumptoTime(3271, this.id)">стороны ушедших партизан, о, партизаны бросили винтовку</a>
+				<a href="#00:54:35.32" id="00:54:35.32" class="lt" onclick="jumptoTime(3275, this.id)">Мосина, ну а потом эта винтовка Мосина обращалась в такой</a>
+				<a href="#00:54:40.52" id="00:54:40.52" class="lt" onclick="jumptoTime(3280, this.id)">достаточно красивый взрыв с поражающими элементами,</a>
+				<a href="#00:54:44.40" id="00:54:44.40" class="lt" onclick="jumptoTime(3284, this.id)">со всем, что мы любим, что должно лететь в нацистов.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#00:54:50.28" id="00:54:50.28" class="lt" onclick="jumptoTime(3290, this.id)">Следующий вопрос. Корейская война дала толчок в развитие тактики минной войны?</a>
+				<a href="#00:54:56.00" id="00:54:56.00" class="lt" onclick="jumptoTime(3295, this.id)">Ну, я начну, Владимир продолжит. На начальном этапе мины почти не применялись ни южнокорейской стороной, ни американской, ни, соответственно, северокорейской.</a>
+				<a href="#00:55:6.60" id="00:55:6.60" class="lt" onclick="jumptoTime(3306, this.id)">Ну, были эпизоды только отдельные.</a>
+				<a href="#00:55:8.60" id="00:55:8.60" class="lt" onclick="jumptoTime(3308, this.id)">Но когда фронт начал стабилизироваться в начале 1951 года и 1952 году, обе стороны, это и северокорейская, и китайская сторона, и американская сторона, и их союзники, они, безусловно, использовали мины.</a>
+				<a href="#00:55:24.00" id="00:55:24.00" class="lt" onclick="jumptoTime(3323, this.id)">Причем, что интересно, северокорейская сторона и китайская сторона не уступали американски, в частности, американцы отказались от плана высадки десантов и диверсионных групп в партак Северной Кореи.</a>
+				<a href="#00:55:37.96" id="00:55:37.96" class="lt" onclick="jumptoTime(3337, this.id)">Не только по причине минирования морскими минами, но и по причине того, что было практически невозможно высадить десант без потери от мин на самом берегу.</a>
+				<a href="#00:55:47.44" id="00:55:47.44" class="lt" onclick="jumptoTime(3347, this.id)">Если говорить про степень минирования в период позиционной войны на Корейском полуострове, то, конечно, надо отметить, что были переплюнуты все показатели даже Второй мировой войны.</a>
+				<a href="#00:56:1.48" id="00:56:1.48" class="lt" onclick="jumptoTime(3361, this.id)">Потому что на основных направлениях, где были самые опасные для прорыва направления, с северной стороны или с южной, на один, представьте себе, квадратный километр уходило примерно 2-3 тысячи мин, и на второстепенных направлениях примерно полторы тысячи.</a>
+				<a href="#00:56:23.00" id="00:56:23.00" class="lt" onclick="jumptoTime(3382, this.id)">Американцы, например, вынуждены были довезти из Европы 2,5 миллиона мин противопехотных и противотанковых к имеющимся 3 миллионам.</a>
+				<a href="#00:56:35.12" id="00:56:35.12" class="lt" onclick="jumptoTime(3395, this.id)">Ну и, конечно, северная сторона тоже применяла мины, но вот, например, что нового появилось?</a>
+				<a href="#00:56:40.48" id="00:56:40.48" class="lt" onclick="jumptoTime(3400, this.id)">Ну, появились, например, мины с Напалмом, появилась новая тактика установки мин и их, соответственно, обезвреживание.</a>
+				<a href="#00:56:48.68" id="00:56:48.68" class="lt" onclick="jumptoTime(3408, this.id)">Особенно этим классно занимались китайские хаперы, которые позволяли быстро разминировать тот или иной участок и начать атаку в китайском стиле.</a>
+				<a href="#00:56:58.76" id="00:56:58.76" class="lt" onclick="jumptoTime(3418, this.id)">Не в том идиотском, от которого даже американские кинематографисты отказались, как от клише, людскими волнами, а бросок с короткого расстояния, примерно с 50-40 метров до позиций американцев.</a>
+				<a href="#00:57:12.88" id="00:57:12.88" class="lt" onclick="jumptoTime(3432, this.id)">Как раз-таки это происходило после того, как происходило разминирование.</a>
+				<a href="#00:57:17.40" id="00:57:17.40" class="lt" onclick="jumptoTime(3437, this.id)">Но в целом, надо отметить, что Корейская война — это было продолжение Второй мировой именно в применении минного оружия.</a>
+				<a href="#00:57:24.00" id="00:57:24.00" class="lt" onclick="jumptoTime(3443, this.id)">Каких-то вот особых изменений революционных не было.</a>
+				<a href="#00:57:27.64" id="00:57:27.64" class="lt" onclick="jumptoTime(3447, this.id)">И, честно, вот я скажу, по сравнению с Второй мировой, применение мин в таком аспекте общего искалового боя, где стороны сильные, обе стороны, ну, есть, конечно, определенные элементы, есть эволюция, но принципиально ничего не поменялось.</a>
+				<a href="#00:57:46.52" id="00:57:46.52" class="lt" onclick="jumptoTime(3466, this.id)">Кстати, на примере Ирано-Иракской войны, на примере того, что сейчас происходит на Украине, мы видим, что грамотная тактика применения минного оружия заключается в прикрытии минных полей огневыми средствами.</a>
+				<a href="#00:58:2.52" id="00:58:2.52" class="lt" onclick="jumptoTime(3482, this.id)">Тогда эти позиции становятся, ну, если не неприступными, то, во всяком случае, такими, которые враг наступающий будет брать с огромными потерями.</a>
+				<a href="#00:58:10.92" id="00:58:10.92" class="lt" onclick="jumptoTime(3490, this.id)">Владимир может дополнить.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#00:58:11.51" id="00:58:11.51" class="lt" onclick="jumptoTime(3491, this.id)">Я могу сказать, что действительно корейская война характеризовалась</a>
+				<a href="#00:58:17.35" id="00:58:17.35" class="lt" onclick="jumptoTime(3497, this.id)">массовым минированием территории.</a>
+				<a href="#00:58:19.35" id="00:58:19.35" class="lt" onclick="jumptoTime(3499, this.id)">Кстати, надо сказать, что 38-я параллель сейчас является</a>
+				<a href="#00:58:23.19" id="00:58:23.19" class="lt" onclick="jumptoTime(3503, this.id)">зоной, в которой Соединенные Штаты Америки сохраняют</a>
+				<a href="#00:58:26.83" id="00:58:26.83" class="lt" onclick="jumptoTime(3506, this.id)">минные поля.</a>
+				<a href="#00:58:27.83" id="00:58:27.83" class="lt" onclick="jumptoTime(3507, this.id)">Кстати, около кубинской знаменитой базы Гуантанамо</a>
+				<a href="#00:58:30.83" id="00:58:30.83" class="lt" onclick="jumptoTime(3510, this.id)">вплоть до начала 2000-х годов были американские минные</a>
+				<a href="#00:58:34.43" id="00:58:34.43" class="lt" onclick="jumptoTime(3514, this.id)">поля, но сейчас они сняты, как кубинские минные поля.</a>
+				<a href="#00:58:38.11" id="00:58:38.11" class="lt" onclick="jumptoTime(3518, this.id)">А на 38-й параллеле они до сих пор существуют и понятно</a>
+				<a href="#00:58:41.67" id="00:58:41.67" class="lt" onclick="jumptoTime(3521, this.id)">почему, потому что это достаточно большой фронт</a>
+				<a href="#00:58:44.03" id="00:58:44.03" class="lt" onclick="jumptoTime(3524, this.id)">и некоторые его участки надо перекрывать с помощью</a>
+				<a href="#00:58:47.63" id="00:58:47.63" class="lt" onclick="jumptoTime(3527, this.id)">минного оружия.</a>
+				<a href="#00:58:48.63" id="00:58:48.63" class="lt" onclick="jumptoTime(3528, this.id)">Точно так же делали и в Корейскую войну.</a>
+				<a href="#00:58:51.43" id="00:58:51.43" class="lt" onclick="jumptoTime(3531, this.id)">Китайские народные добровольцы и Корейская народная армия</a>
+				<a href="#00:58:56.11" id="00:58:56.11" class="lt" onclick="jumptoTime(3536, this.id)">использовали мины для того, чтобы залатать бреши в своей</a>
+				<a href="#00:59:0.47" id="00:59:0.47" class="lt" onclick="jumptoTime(3540, this.id)">обороне, потому что их противник часто превосходил, численно</a>
+				<a href="#00:59:5.71" id="00:59:5.71" class="lt" onclick="jumptoTime(3545, this.id)">для того, чтобы обеспечить свои фланги, для того, чтобы</a>
+				<a href="#00:59:9.79" id="00:59:9.79" class="lt" onclick="jumptoTime(3549, this.id)">сохранять некоторое даже присутствие духа.</a>
+				<a href="#00:59:13.67" id="00:59:13.67" class="lt" onclick="jumptoTime(3553, this.id)">Другой вопрос, что и та, и другая сторона и сила</a>
+				<a href="#00:59:16.67" id="00:59:16.67" class="lt" onclick="jumptoTime(3556, this.id)">организации объединенных наций, где главную скрипку</a>
+				<a href="#00:59:19.23" id="00:59:19.23" class="lt" onclick="jumptoTime(3559, this.id)">играли Соединенные Штаты и их оппоненты, это Корейская</a>
+				<a href="#00:59:25.79" id="00:59:25.79" class="lt" onclick="jumptoTime(3565, this.id)">народная армия и корпус китайских народных добровольцев</a>
+				<a href="#00:59:29.11" id="00:59:29.11" class="lt" onclick="jumptoTime(3569, this.id)">мало оставляли карт минных полей, что необходимо делать.</a>
+				<a href="#00:59:33.31" id="00:59:33.31" class="lt" onclick="jumptoTime(3573, this.id)">Хотя вот, кстати, китайские народные добровольцы были</a>
+				<a href="#00:59:35.67" id="00:59:35.67" class="lt" onclick="jumptoTime(3575, this.id)">весьма рачительны при ротации, у китайских народных добровольцев</a>
+				<a href="#00:59:39.87" id="00:59:39.87" class="lt" onclick="jumptoTime(3579, this.id)">было обязательным требованием при пересменке подразделений</a>
+				<a href="#00:59:44.11" id="00:59:44.11" class="lt" onclick="jumptoTime(3584, this.id)">при ротации сообщить командиру пребывающего подразделения,</a>
+				<a href="#00:59:50.79" id="00:59:50.79" class="lt" onclick="jumptoTime(3590, this.id)">где находятся минные поля, это с моей точки зрения</a>
+				<a href="#00:59:53.79" id="00:59:53.79" class="lt" onclick="jumptoTime(3593, this.id)">достаточно была высокая культура ведения боевых</a>
+				<a href="#00:59:56.51" id="00:59:56.51" class="lt" onclick="jumptoTime(3596, this.id)">действий, зачастую она превышала таковую у так</a>
+				<a href="#01:00:0.31" id="01:00:0.31" class="lt" onclick="jumptoTime(3600, this.id)">называемых союзных войск, например, турецкие военнослужащие</a>
+				<a href="#01:00:4.35" id="01:00:4.35" class="lt" onclick="jumptoTime(3604, this.id)">Корейской войны достаточно часто об этом забывали и</a>
+				<a href="#01:00:8.07" id="01:00:8.07" class="lt" onclick="jumptoTime(3608, this.id)">турки подрывались на собственных минах, например, эфиопский</a>
+				<a href="#01:00:11.59" id="01:00:11.59" class="lt" onclick="jumptoTime(3611, this.id)">стрелковый батальон за этим тоже был замечен, мины</a>
+				<a href="#01:00:14.79" id="01:00:14.79" class="lt" onclick="jumptoTime(3614, this.id)">они поставили, сообщить не сообщили, кстати, один</a>
+				<a href="#01:00:19.59" id="01:00:19.59" class="lt" onclick="jumptoTime(3619, this.id)">из эфиопских солдат Корейской войны вспоминал очень интересно,</a>
+				<a href="#01:00:23.75" id="01:00:23.75" class="lt" onclick="jumptoTime(3623, this.id)">что они разместили мины, они показывали где они</a>
+				<a href="#01:00:28.03" id="01:00:28.03" class="lt" onclick="jumptoTime(3628, this.id)">примерно находятся, но ни одну из этих мин саперы</a>
+				<a href="#01:00:31.19" id="01:00:31.19" class="lt" onclick="jumptoTime(3631, this.id)">обнаружить так и не смогли в собственной постановке,</a>
+				<a href="#01:00:34.23" id="01:00:34.23" class="lt" onclick="jumptoTime(3634, this.id)">но вот зато один из самых боевитых солдат, который</a>
+				<a href="#01:00:38.35" id="01:00:38.35" class="lt" onclick="jumptoTime(3638, this.id)">якобы уничтожил в рукопашной 50 китайцев, пошел, как говорится,</a>
+				<a href="#01:00:43.15" id="01:00:43.15" class="lt" onclick="jumptoTime(3643, this.id)">до ветра и подорвал все это минное поле самим собой.</a>
+				<a href="#01:00:47.07" id="01:00:47.07" class="lt" onclick="jumptoTime(3647, this.id)">Ну, кстати, китайские народные добровольцы делали так</a>
+				<a href="#01:00:50.67" id="01:00:50.67" class="lt" onclick="jumptoTime(3650, this.id)">называемую минную тропу, когда подрыв одной мины</a>
+				<a href="#01:00:54.31" id="01:00:54.31" class="lt" onclick="jumptoTime(3654, this.id)">на узкой тропе, например, в гористой местности инициировал</a>
+				<a href="#01:00:59.11" id="01:00:59.11" class="lt" onclick="jumptoTime(3659, this.id)">подрыв зарядов по всей тропе, это наносило, например,</a>
+				<a href="#01:01:4.23" id="01:01:4.23" class="lt" onclick="jumptoTime(3664, this.id)">южно-корейской армии огромные потери, это было то, что</a>
+				<a href="#01:01:9.31" id="01:01:9.31" class="lt" onclick="jumptoTime(3669, this.id)">применяется сейчас в целом, например, на территории</a>
+				<a href="#01:01:12.03" id="01:01:12.03" class="lt" onclick="jumptoTime(3672, this.id)">конфликта, который разворачивается в Европе, применяется все</a>
+				<a href="#01:01:16.19" id="01:01:16.19" class="lt" onclick="jumptoTime(3676, this.id)">то же самое, опять же, все сюрпризы в окопах.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:01:17.70" id="01:01:17.70" class="lt" onclick="jumptoTime(3677, this.id)">Владимир, я...</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:01:20.38" id="01:01:20.38" class="lt" onclick="jumptoTime(3680, this.id)">Мы ограничены во времени.</a>
+				<a href="#01:01:22.08" id="01:01:22.08" class="lt" onclick="jumptoTime(3682, this.id)">Так точно.</a>
+				<a href="#01:01:23.08" id="01:01:23.08" class="lt" onclick="jumptoTime(3683, this.id)">Посмотрите, пожалуйста, пока на The National Arts.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:01:22.07" id="01:01:22.07" class="lt" onclick="jumptoTime(3682, this.id)">Да, это страшно.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:01:29.20" id="01:01:29.20" class="lt" onclick="jumptoTime(3689, this.id)">Так, ну здесь у нас затишье.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:01:34.78" id="01:01:34.78" class="lt" onclick="jumptoTime(3694, this.id)">Хорошо, тогда переходим к следующему вопросу.</a>
+				<a href="#01:01:38.14" id="01:01:38.14" class="lt" onclick="jumptoTime(3698, this.id)">Вопрос.</a>
+				<a href="#01:01:39.14" id="01:01:39.14" class="lt" onclick="jumptoTime(3699, this.id)">В чем заключается разница подходов в создании техники</a>
+				<a href="#01:01:41.76" id="01:01:41.76" class="lt" onclick="jumptoTime(3701, this.id)">разминирования советской и западных конструкторских</a>
+				<a href="#01:01:44.90" id="01:01:44.90" class="lt" onclick="jumptoTime(3704, this.id)">школ?</a>
+				<a href="#01:01:45.90" id="01:01:45.90" class="lt" onclick="jumptoTime(3705, this.id)">Спасибо.</a>
+				<a href="#01:01:46.90" id="01:01:46.90" class="lt" onclick="jumptoTime(3706, this.id)">Ну, я отмечу, что принципиальной разницы в этих школах послевоенных,</a>
+				<a href="#01:01:51.06" id="01:01:51.06" class="lt" onclick="jumptoTime(3711, this.id)">то есть периода 50-90-х годов, особой разницы не было.</a>
+				<a href="#01:01:55.58" id="01:01:55.58" class="lt" onclick="jumptoTime(3715, this.id)">Разве что в 90-е годы произошел определенный упадок, понятно,</a>
+				<a href="#01:01:59.58" id="01:01:59.58" class="lt" onclick="jumptoTime(3719, this.id)">с чем связан.</a>
+				<a href="#01:02:0.58" id="01:02:0.58" class="lt" onclick="jumptoTime(3720, this.id)">Гораздо более интересны 20-е годы, когда такие люди,</a>
+				<a href="#01:02:5.18" id="01:02:5.18" class="lt" onclick="jumptoTime(3725, this.id)">кстати, как Карбышев, разрабатывали как раз интересную систему</a>
+				<a href="#01:02:9.30" id="01:02:9.30" class="lt" onclick="jumptoTime(3729, this.id)">применения мин и разминирования в деле создания укрепрайонов.</a>
+				<a href="#01:02:15.02" id="01:02:15.02" class="lt" onclick="jumptoTime(3735, this.id)">Вот, кстати говоря, вы своим вопросом косвенно вновь</a>
+				<a href="#01:02:21.02" id="01:02:21.02" class="lt" onclick="jumptoTime(3741, this.id)">мое внимание обратили к Карбышеву.</a>
+				<a href="#01:02:22.78" id="01:02:22.78" class="lt" onclick="jumptoTime(3742, this.id)">Вы знаете, что мы с Владимиром ведем проект «История гражданской</a>
+				<a href="#01:02:26.42" id="01:02:26.42" class="lt" onclick="jumptoTime(3746, this.id)">войны» на Красном ТВ.</a>
+				<a href="#01:02:27.98" id="01:02:27.98" class="lt" onclick="jumptoTime(3747, this.id)">Я думаю, что о нем следует поговорить как об одном</a>
+				<a href="#01:02:31.38" id="01:02:31.38" class="lt" onclick="jumptoTime(3751, this.id)">из важнейших деятелей гражданской войны, как о ведущем практике</a>
+				<a href="#01:02:35.46" id="01:02:35.46" class="lt" onclick="jumptoTime(3755, this.id)">и теоретике минной борьбы, о человеке, который всерьез</a>
+				<a href="#01:02:39.90" id="01:02:39.90" class="lt" onclick="jumptoTime(3759, this.id)">разрабатывал проблему укрепрайонов и так называемых</a>
+				<a href="#01:02:43.42" id="01:02:43.42" class="lt" onclick="jumptoTime(3763, this.id)">крепостей.</a>
+				<a href="#01:02:44.86" id="01:02:44.86" class="lt" onclick="jumptoTime(3764, this.id)">Но об этом мы потом поговорим, а так особой разницы я</a>
+				<a href="#01:02:48.02" id="01:02:48.02" class="lt" onclick="jumptoTime(3768, this.id)">не вижу.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:02:48.79" id="01:02:48.79" class="lt" onclick="jumptoTime(3768, this.id)">Но здесь скорее всего наш зритель спрашивал про достижения</a>
+				<a href="#01:02:54.07" id="01:02:54.07" class="lt" onclick="jumptoTime(3774, this.id)">конструкторской мысли, но здесь было бы с нашей</a>
+				<a href="#01:02:57.99" id="01:02:57.99" class="lt" onclick="jumptoTime(3777, this.id)">точки зрения большой ошибкой об этом говорить как о неком</a>
+				<a href="#01:03:2.43" id="01:03:2.43" class="lt" onclick="jumptoTime(3782, this.id)">знании.</a>
+				<a href="#01:03:3.43" id="01:03:3.43" class="lt" onclick="jumptoTime(3783, this.id)">Но кое-какие аспекты мы все-таки наверное рассмотрим.</a>
+				<a href="#01:03:7.39" id="01:03:7.39" class="lt" onclick="jumptoTime(3787, this.id)">Вот, например, в самом конце, точнее не в конце, а уже</a>
+				<a href="#01:03:10.71" id="01:03:10.71" class="lt" onclick="jumptoTime(3790, this.id)">ближе к концу Второй мировой войны в Советском Союзе</a>
+				<a href="#01:03:14.63" id="01:03:14.63" class="lt" onclick="jumptoTime(3794, this.id)">была, но опять же подчеркну, это скорее организационная</a>
+				<a href="#01:03:18.43" id="01:03:18.43" class="lt" onclick="jumptoTime(3798, this.id)">мера, не конструкторская, была программа так называемого</a>
+				<a href="#01:03:22.75" id="01:03:22.75" class="lt" onclick="jumptoTime(3802, this.id)">сплошного разминирования.</a>
+				<a href="#01:03:24.47" id="01:03:24.47" class="lt" onclick="jumptoTime(3804, this.id)">Вот, кстати, эта концепция содержится в сборнике по</a>
+				<a href="#01:03:28.95" id="01:03:28.95" class="lt" onclick="jumptoTime(3808, this.id)">итогам соответствующих мероприятий по устранению</a>
+				<a href="#01:03:32.15" id="01:03:32.15" class="lt" onclick="jumptoTime(3812, this.id)">минной опасности Рабиновича.</a>
+				<a href="#01:03:34.55" id="01:03:34.55" class="lt" onclick="jumptoTime(3814, this.id)">Полковник Рабинович был одним из теоретиков сплошного</a>
+				<a href="#01:03:38.63" id="01:03:38.63" class="lt" onclick="jumptoTime(3818, this.id)">разминирования и, собственно говоря, были привлечены</a>
+				<a href="#01:03:43.99" id="01:03:43.99" class="lt" onclick="jumptoTime(3823, this.id)">к этим силам возможности такой организации как</a>
+				<a href="#01:03:47.35" id="01:03:47.35" class="lt" onclick="jumptoTime(3827, this.id)">ОСОВИАХИМ.</a>
+				<a href="#01:03:48.35" id="01:03:48.35" class="lt" onclick="jumptoTime(3828, this.id)">ОСОВИАХИМ очень активно участвовал в разминировании,</a>
+				<a href="#01:03:54.11" id="01:03:54.11" class="lt" onclick="jumptoTime(3834, this.id)">были разработаны способы работы, например, ОСОВИАХИМ</a>
+				<a href="#01:03:58.27" id="01:03:58.27" class="lt" onclick="jumptoTime(3838, this.id)">создавал в каждом районе, где когда-то проходили боевые</a>
+				<a href="#01:04:2.35" id="01:04:2.35" class="lt" onclick="jumptoTime(3842, this.id)">действия, команды минеров, которые делились на взводы</a>
+				<a href="#01:04:6.79" id="01:04:6.79" class="lt" onclick="jumptoTime(3846, this.id)">и отделения, в принципе, и к этому привлекались</a>
+				<a href="#01:04:10.83" id="01:04:10.83" class="lt" onclick="jumptoTime(3850, this.id)">пиротехники, и вот это позволяло достигать достаточно</a>
+				<a href="#01:04:14.27" id="01:04:14.27" class="lt" onclick="jumptoTime(3854, this.id)">больших результатов, например, в 1944 году после окончания</a>
+				<a href="#01:04:18.55" id="01:04:18.55" class="lt" onclick="jumptoTime(3858, this.id)">боевых действий на Украине было снято более 2000 минных</a>
+				<a href="#01:04:23.07" id="01:04:23.07" class="lt" onclick="jumptoTime(3863, this.id)">полей и снято около 15 миллионов мин и опасных собрано боеприпасов,</a>
+				<a href="#01:04:32.19" id="01:04:32.19" class="lt" onclick="jumptoTime(3872, this.id)">хотя нельзя сказать, что это сплошное разминирование</a>
+				<a href="#01:04:36.15" id="01:04:36.15" class="lt" onclick="jumptoTime(3876, this.id)">проходило успешно везде, были территории, на которых</a>
+				<a href="#01:04:39.79" id="01:04:39.79" class="lt" onclick="jumptoTime(3879, this.id)">этот процесс затягивался, например, в известных местах</a>
+				<a href="#01:04:43.83" id="01:04:43.83" class="lt" onclick="jumptoTime(3883, this.id)">в Новгородской области, в Мясном Бару, там где погибла</a>
+				<a href="#01:04:48.87" id="01:04:48.87" class="lt" onclick="jumptoTime(3888, this.id)">значительная часть Второй Ударной Армии, мины после</a>
+				<a href="#01:04:52.59" id="01:04:52.59" class="lt" onclick="jumptoTime(3892, this.id)">войны собирали сначала волонтеры и только потом</a>
+				<a href="#01:04:55.55" id="01:04:55.55" class="lt" onclick="jumptoTime(3895, this.id)">была проведена вот как раз компания по сплошному</a>
+				<a href="#01:04:58.67" id="01:04:58.67" class="lt" onclick="jumptoTime(3898, this.id)">разминированию.</a>
+				<a href="#01:04:59.67" id="01:04:59.67" class="lt" onclick="jumptoTime(3899, this.id)">Вот можно сказать, что работа ОСОВИАХИМа по тотальному</a>
+				<a href="#01:05:4.15" id="01:05:4.15" class="lt" onclick="jumptoTime(3904, this.id)">сплошному разминированию это организационное достижение</a>
+				<a href="#01:05:7.99" id="01:05:7.99" class="lt" onclick="jumptoTime(3907, this.id)">Советского Союза, кстати, Советский Союз в отличие</a>
+				<a href="#01:05:12.75" id="01:05:12.75" class="lt" onclick="jumptoTime(3912, this.id)">от союзников не был замечен, во всяком случае, в массовом</a>
+				<a href="#01:05:19.71" id="01:05:19.71" class="lt" onclick="jumptoTime(3919, this.id)">использовании для разминирования военнопленных других государств.</a>
+				<a href="#01:05:24.71" id="01:05:24.71" class="lt" onclick="jumptoTime(3924, this.id)">Вот, например, Франция привлекла к разминированию 49 тысяч</a>
+				<a href="#01:05:29.07" id="01:05:29.07" class="lt" onclick="jumptoTime(3929, this.id)">немецких военнопленных, а при разминировании погибло</a>
+				<a href="#01:05:32.55" id="01:05:32.55" class="lt" onclick="jumptoTime(3932, this.id)">до 7 тысяч человек, в Советском Союзе, кстати, тоже много</a>
+				<a href="#01:05:35.79" id="01:05:35.79" class="lt" onclick="jumptoTime(3935, this.id)">погибло при сплошном разминировании и советских граждан и не</a>
+				<a href="#01:05:40.27" id="01:05:40.27" class="lt" onclick="jumptoTime(3940, this.id)">советских граждан, скажем так.</a>
+				<a href="#01:05:42.63" id="01:05:42.63" class="lt" onclick="jumptoTime(3942, this.id)">А если говорить про технические средства разминирования,</a>
+				<a href="#01:05:45.63" id="01:05:45.63" class="lt" onclick="jumptoTime(3945, this.id)">то, наверное, здесь надо изучать установки так</a>
+				<a href="#01:05:51.75" id="01:05:51.75" class="lt" onclick="jumptoTime(3951, this.id)">называемых «змей-горыныч», которые должны прокладывать</a>
+				<a href="#01:05:55.11" id="01:05:55.11" class="lt" onclick="jumptoTime(3955, this.id)">с помощью подрыва взрывчатки путь через минное поле</a>
+				<a href="#01:05:59.43" id="01:05:59.43" class="lt" onclick="jumptoTime(3959, this.id)">и другие технические новшества, но этот аспект именно конструкторской</a>
+				<a href="#01:06:4.47" id="01:06:4.47" class="lt" onclick="jumptoTime(3964, this.id)">мысли мы, наверное, и Глеб со мной согласится, мы будем</a>
+				<a href="#01:06:8.47" id="01:06:8.47" class="lt" onclick="jumptoTime(3968, this.id)">изучать полнее в будущем, потому что сейчас наше</a>
+				<a href="#01:06:12.19" id="01:06:12.19" class="lt" onclick="jumptoTime(3972, this.id)">мнение может быть недостаточно компетентным.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:06:16.37" id="01:06:16.37" class="lt" onclick="jumptoTime(3976, this.id)">Так, следующий вопрос, есть ли сведения о принятии</a>
+				<a href="#01:06:22.67" id="01:06:22.67" class="lt" onclick="jumptoTime(3982, this.id)">российской армии американских минных и контрминных протоколов,</a>
+				<a href="#01:06:26.33" id="01:06:26.33" class="lt" onclick="jumptoTime(3986, this.id)">либо на ваш взгляд российская военная мысль и практика</a>
+				<a href="#01:06:29.11" id="01:06:29.11" class="lt" onclick="jumptoTime(3989, this.id)">за чеченские войны более передовая?</a>
+				<a href="#01:06:31.37" id="01:06:31.37" class="lt" onclick="jumptoTime(3991, this.id)">Ну я бы не сказал более или менее.</a>
+				<a href="#01:06:36.57" id="01:06:36.57" class="lt" onclick="jumptoTime(3996, this.id)">Американцы больше тратили на развитие минной и контрминной</a>
+				<a href="#01:06:39.93" id="01:06:39.93" class="lt" onclick="jumptoTime(3999, this.id)">борьбы со всеми вытекающими последствиями.</a>
+				<a href="#01:06:43.37" id="01:06:43.37" class="lt" onclick="jumptoTime(4003, this.id)">Этих, говоря, изучали в том числе и опыт чеченской</a>
+				<a href="#01:06:46.49" id="01:06:46.49" class="lt" onclick="jumptoTime(4006, this.id)">кампании вдоль и поперек, между прочим, очень активно.</a>
+				<a href="#01:06:49.93" id="01:06:49.93" class="lt" onclick="jumptoTime(4009, this.id)">Но по поводу американских минных и контрминных протоколов</a>
+				<a href="#01:06:54.89" id="01:06:54.89" class="lt" onclick="jumptoTime(4014, this.id)">я ничего не слышал, чтобы их применяли в российской</a>
+				<a href="#01:06:57.29" id="01:06:57.29" class="lt" onclick="jumptoTime(4017, this.id)">армии.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:06:57.50" id="01:06:57.50" class="lt" onclick="jumptoTime(4017, this.id)">Но надо сказать, что российский противоминный центр частично</a>
+				<a href="#01:07:2.90" id="01:07:2.90" class="lt" onclick="jumptoTime(4022, this.id)">рецептировал американские практики.</a>
+				<a href="#01:07:5.34" id="01:07:5.34" class="lt" onclick="jumptoTime(4025, this.id)">Опять же, в начале стрима мы говорили об американских</a>
+				<a href="#01:07:9.78" id="01:07:9.78" class="lt" onclick="jumptoTime(4029, this.id)">протоколах по борьбе с самодельными взрывными</a>
+				<a href="#01:07:12.22" id="01:07:12.22" class="lt" onclick="jumptoTime(4032, this.id)">устройствами.</a>
+				<a href="#01:07:13.22" id="01:07:13.22" class="lt" onclick="jumptoTime(4033, this.id)">Это весьма полезный военный стандарт, который на русский</a>
+				<a href="#01:07:17.54" id="01:07:17.54" class="lt" onclick="jumptoTime(4037, this.id)">язык полностью не переведен.</a>
+				<a href="#01:07:19.62" id="01:07:19.62" class="lt" onclick="jumptoTime(4039, this.id)">Вот сейчас, кстати, различные роды гуманитарной организации,</a>
+				<a href="#01:07:23.70" id="01:07:23.70" class="lt" onclick="jumptoTime(4043, this.id)">не гуманитарная организация, а которая специализируется</a>
+				<a href="#01:07:26.46" id="01:07:26.46" class="lt" onclick="jumptoTime(4046, this.id)">на добровольческом содействии российской армии, начинают</a>
+				<a href="#01:07:30.06" id="01:07:30.06" class="lt" onclick="jumptoTime(4050, this.id)">переводить различные мануалы, которые появились в американской</a>
+				<a href="#01:07:36.86" id="01:07:36.86" class="lt" onclick="jumptoTime(4056, this.id)">армии, в армии оппонентов.</a>
+				<a href="#01:07:39.18" id="01:07:39.18" class="lt" onclick="jumptoTime(4059, this.id)">Я, насколько знаю, есть такой проект «Народный перевод»,</a>
+				<a href="#01:07:43.82" id="01:07:43.82" class="lt" onclick="jumptoTime(4063, this.id)">где можно с чем-то ознакомиться.</a>
+				<a href="#01:07:46.30" id="01:07:46.30" class="lt" onclick="jumptoTime(4066, this.id)">Я думаю, что в ходе войны-то как раз таки будет взаимопроникновение</a>
+				<a href="#01:07:50.50" id="01:07:50.50" class="lt" onclick="jumptoTime(4070, this.id)">различных школ.</a>
+				<a href="#01:07:52.06" id="01:07:52.06" class="lt" onclick="jumptoTime(4072, this.id)">Кстати, в России изучали как раз средства РЭП для</a>
+				<a href="#01:07:58.50" id="01:07:58.50" class="lt" onclick="jumptoTime(4078, this.id)">противодействия СВУ, самодельным взрывным устройствам,</a>
+				<a href="#01:08:7.50" id="01:08:7.50" class="lt" onclick="jumptoTime(4087, this.id)">американский опыт ИРАК, о котором мы рассказывали.</a>
+				<a href="#01:08:9.90" id="01:08:9.90" class="lt" onclick="jumptoTime(4089, this.id)">Были опытные образцы российских джаммеров, так называемых,</a>
+				<a href="#01:08:14.26" id="01:08:14.26" class="lt" onclick="jumptoTime(4094, this.id)">то есть и постоянных, и реактивных, которые на определенные</a>
+				<a href="#01:08:18.14" id="01:08:18.14" class="lt" onclick="jumptoTime(4098, this.id)">излучения или на какую-то опасность реагируют, создавались</a>
+				<a href="#01:08:21.98" id="01:08:21.98" class="lt" onclick="jumptoTime(4101, this.id)">информационные системы для этого.</a>
+				<a href="#01:08:24.34" id="01:08:24.34" class="lt" onclick="jumptoTime(4104, this.id)">О ходе таких разработок мы ничего не знаем, и если</a>
+				<a href="#01:08:27.38" id="01:08:27.38" class="lt" onclick="jumptoTime(4107, this.id)">бы знали, вряд ли бы стали рассказывать, пометуя о</a>
+				<a href="#01:08:31.38" id="01:08:31.38" class="lt" onclick="jumptoTime(4111, this.id)">законодательстве в этой области.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:08:35.31" id="01:08:35.31" class="lt" onclick="jumptoTime(4115, this.id)">Владимир, бросьте пока конкретно Donation Alerts, а я пока буду читать следующий вопрос по теме</a>
+				<a href="#01:08:43.87" id="01:08:43.87" class="lt" onclick="jumptoTime(4123, this.id)">«Ваши предпочтительные источники по военному делу?»</a>
+				<a href="#01:08:47.47" id="01:08:47.47" class="lt" onclick="jumptoTime(4127, this.id)">RAND Corporation и различные синктенки читаем регулярно, стараемся читать в основном их.</a>
+				<a href="#01:08:55.39" id="01:08:55.39" class="lt" onclick="jumptoTime(4135, this.id)">Это если мы говорим про американские источники.</a>
+				<a href="#01:08:58.19" id="01:08:58.19" class="lt" onclick="jumptoTime(4138, this.id)">Так что у нас на самом деле список источников, наверное, займет 2-3 страниц.</a>
+				<a href="#01:09:3.39" id="01:09:3.39" class="lt" onclick="jumptoTime(4143, this.id)">Кстати, нам регулярно пишут «Анна, пишите, чуть ли не требуете ссылки дать, нет, уважаемые, мы работаем в особым режиме, ссылки мы предъявлять не будем, это наша политика, мы не собираемся нашу работу делать еще более трудоемкой».</a>
+				<a href="#01:09:22.67" id="01:09:22.67" class="lt" onclick="jumptoTime(4162, this.id)">К тому же, как правило, это вопросы провокативного характера.</a>
+				<a href="#01:09:26.51" id="01:09:26.51" class="lt" onclick="jumptoTime(4166, this.id)">Это я не к нашему зрителю, Алексею, обращаюсь безусловно, а к другим, а так Владимир меня дополнит со списка.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:09:34.99" id="01:09:34.99" class="lt" onclick="jumptoTime(4174, this.id)">со списком, дело в том, что видео это определенный жанр, вот например в публикации печатают...</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:09:39.37" id="01:09:39.37" class="lt" onclick="jumptoTime(4179, this.id)">Нет, Вадим, вопрос про то, какими мы источниками пользуемся вообще.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:09:46.35" id="01:09:46.35" class="lt" onclick="jumptoTime(4186, this.id)">Ну, действительно, используем Think Tank и наподобие RAND, но</a>
+				<a href="#01:09:51.75" id="01:09:51.75" class="lt" onclick="jumptoTime(4191, this.id)">и, ко всему прочему, мы используем то, что мы находим на просторах</a>
+				<a href="#01:09:57.31" id="01:09:57.31" class="lt" onclick="jumptoTime(4197, this.id)">интернета, есть телеграм-каналы, которые сейчас поставляют</a>
+				<a href="#01:10:1.67" id="01:10:1.67" class="lt" onclick="jumptoTime(4201, this.id)">таким любителям военного дела, как мы, достаточно</a>
+				<a href="#01:10:5.19" id="01:10:5.19" class="lt" onclick="jumptoTime(4205, this.id)">много военной информации, различных учебников, различных</a>
+				<a href="#01:10:9.79" id="01:10:9.79" class="lt" onclick="jumptoTime(4209, this.id)">американских, неамериканских изданий.</a>
+				<a href="#01:10:13.07" id="01:10:13.07" class="lt" onclick="jumptoTime(4213, this.id)">Вот, например, если мы говорим про Think Tank и наподобие</a>
+				<a href="#01:10:16.43" id="01:10:16.43" class="lt" onclick="jumptoTime(4216, this.id)">RAND, то мы изучаем скорее стратегический уровень,</a>
+				<a href="#01:10:19.71" id="01:10:19.71" class="lt" onclick="jumptoTime(4219, this.id)">а не тактический, хотя по тактике и по оперативно-тактическому</a>
+				<a href="#01:10:23.15" id="01:10:23.15" class="lt" onclick="jumptoTime(4223, this.id)">уровню там тоже кое-что есть почитать, но на самом</a>
+				<a href="#01:10:26.27" id="01:10:26.27" class="lt" onclick="jumptoTime(4226, this.id)">деле нет никакой проблемы найти кое-какие интересные</a>
+				<a href="#01:10:30.83" id="01:10:30.83" class="lt" onclick="jumptoTime(4230, this.id)">материалы, например, мы пытаемся изучить различные</a>
+				<a href="#01:10:33.99" id="01:10:33.99" class="lt" onclick="jumptoTime(4233, this.id)">наставления, опять же, читаем про инженерное обеспечение</a>
+				<a href="#01:10:39.95" id="01:10:39.95" class="lt" onclick="jumptoTime(4239, this.id)">войск в тех PDF-файлах, которые можно найти на просторах</a>
+				<a href="#01:10:44.27" id="01:10:44.27" class="lt" onclick="jumptoTime(4244, this.id)">Telegram, это, например, зачастую копии советских учебников,</a>
+				<a href="#01:10:48.47" id="01:10:48.47" class="lt" onclick="jumptoTime(4248, this.id)">которые предназначены были для офицерского состава,</a>
+				<a href="#01:10:51.99" id="01:10:51.99" class="lt" onclick="jumptoTime(4251, this.id)">для сержантского состава, соответственно, мы используем</a>
+				<a href="#01:10:57.03" id="01:10:57.03" class="lt" onclick="jumptoTime(4257, this.id)">разные способы для поиска.</a>
+				<a href="#01:10:58.87" id="01:10:58.87" class="lt" onclick="jumptoTime(4258, this.id)">Кстати, очень много мы нашли, исследуя большой комплекс</a>
+				<a href="#01:11:4.03" id="01:11:4.03" class="lt" onclick="jumptoTime(4264, this.id)">данных, дамп данных, который был на WikiLeaks, там мы, например,</a>
+				<a href="#01:11:9.35" id="01:11:9.35" class="lt" onclick="jumptoTime(4269, this.id)">изучали в свое время способы американского ведения</a>
+				<a href="#01:11:14.63" id="01:11:14.63" class="lt" onclick="jumptoTime(4274, this.id)">войны на территории Ирака, некоторые скачали любопытные</a>
+				<a href="#01:11:18.91" id="01:11:18.91" class="lt" onclick="jumptoTime(4278, this.id)">мануалы и документы, с которыми было небессмысленно познакомиться,</a>
+				<a href="#01:11:24.15" id="01:11:24.15" class="lt" onclick="jumptoTime(4284, this.id)">когда WikiLeaks, кстати, был еще открытый, можно было</a>
+				<a href="#01:11:26.99" id="01:11:26.99" class="lt" onclick="jumptoTime(4286, this.id)">парсить этот сайт достаточно свободный и находить различные</a>
+				<a href="#01:11:31.79" id="01:11:31.79" class="lt" onclick="jumptoTime(4291, this.id)">стандарты, различные документы, различные доклады довольно</a>
+				<a href="#01:11:37.95" id="01:11:37.95" class="lt" onclick="jumptoTime(4297, this.id)">любопытные и вот на протяжении нашего интереса к военному</a>
+				<a href="#01:11:43.31" id="01:11:43.31" class="lt" onclick="jumptoTime(4303, this.id)">искусству мы к этому обращались.</a>
+				<a href="#01:11:46.39" id="01:11:46.39" class="lt" onclick="jumptoTime(4306, this.id)">У Глеба, кстати, библиотека неплохая достаточно, литература</a>
+				<a href="#01:11:50.83" id="01:11:50.83" class="lt" onclick="jumptoTime(4310, this.id)">по военному делу, Глеб, кстати, замечательный букинист,</a>
+				<a href="#01:11:54.75" id="01:11:54.75" class="lt" onclick="jumptoTime(4314, this.id)">у него отличная библиотека.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:11:57.55" id="01:11:57.55" class="lt" onclick="jumptoTime(4317, this.id)">В прошлом.</a>
+				<a href="#01:11:58.55" id="01:11:58.55" class="lt" onclick="jumptoTime(4318, this.id)">Сейчас я предпочитаю электронный формат уже давно, потому</a>
+				<a href="#01:12:2.27" id="01:12:2.27" class="lt" onclick="jumptoTime(4322, this.id)">что если бы все это было в печатном варианте, мне</a>
+				<a href="#01:12:4.99" id="01:12:4.99" class="lt" onclick="jumptoTime(4324, this.id)">пришлось бы покупать три квартиры.</a>
+				<a href="#01:12:6.87" id="01:12:6.87" class="lt" onclick="jumptoTime(4326, this.id)">Да.</a>
+				<a href="#01:12:7.87" id="01:12:7.87" class="lt" onclick="jumptoTime(4327, this.id)">Что за довольно сложность.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:12:6.66" id="01:12:6.66" class="lt" onclick="jumptoTime(4326, this.id)">Да, что довольно сложно в России сделать, не только.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:12:10.69" id="01:12:10.69" class="lt" onclick="jumptoTime(4330, this.id)">Ну и вопрос еще один. Зачитаем. Так, так, так, так. Вопрос, вопрос, вопрос, вопрос. Вопросов пока я не вижу, пока я не вижу.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:12:28.23" id="01:12:28.23" class="lt" onclick="jumptoTime(4348, this.id)">Да, а на Donation Alerts у нас ничего не происходит.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:12:35.30" id="01:12:35.30" class="lt" onclick="jumptoTime(4355, this.id)">Да, вопрос. Какова цинамина, заложенной Лениным, Алина Сыркина?</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:12:40.04" id="01:12:40.04" class="lt" onclick="jumptoTime(4360, this.id)">Угу.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:12:42.62" id="01:12:42.62" class="lt" onclick="jumptoTime(4362, this.id)">Привет передавайте. Это вопрос не имеющий отношения к стриму, но мы ответим, что мин</a>
+				<a href="#01:12:52.78" id="01:12:52.78" class="lt" onclick="jumptoTime(4372, this.id)">заложили предшественники и последующие правители за Лениным в гораздо большем количестве.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:12:59.29" id="01:12:59.29" class="lt" onclick="jumptoTime(4379, this.id)">Я бы сказал, что это настоящая минная галерея, заполненная</a>
+				<a href="#01:13:3.33" id="01:13:3.33" class="lt" onclick="jumptoTime(4383, this.id)">порохом.</a>
+				<a href="#01:13:4.33" id="01:13:4.33" class="lt" onclick="jumptoTime(4384, this.id)">Это был пороховой заговор, до которого Гаю Фоксу было</a>
+				<a href="#01:13:8.01" id="01:13:8.01" class="lt" onclick="jumptoTime(4388, this.id)">очень далеко.</a>
+				<a href="#01:13:9.01" id="01:13:9.01" class="lt" onclick="jumptoTime(4389, this.id)">На мой взгляд, там не баченок пороха и не две тонны, а</a>
+				<a href="#01:13:12.45" id="01:13:12.45" class="lt" onclick="jumptoTime(4392, this.id)">миллионы тонн были заложены под фундамент государственности.</a>
+				<a href="#01:13:17.09" id="01:13:17.09" class="lt" onclick="jumptoTime(4397, this.id)">Кстати, метафора так себе, на мой взгляд, про мину,</a>
+				<a href="#01:13:21.17" id="01:13:21.17" class="lt" onclick="jumptoTime(4401, this.id)">которую заложил Ленин.</a>
+				<a href="#01:13:22.17" id="01:13:22.17" class="lt" onclick="jumptoTime(4402, this.id)">Персонификация, определенная фальсификация, есть история</a>
+				<a href="#01:13:27.45" id="01:13:27.45" class="lt" onclick="jumptoTime(4407, this.id)">в этих словах.</a>
+				<a href="#01:13:28.45" id="01:13:28.45" class="lt" onclick="jumptoTime(4408, this.id)">Так что, здесь даже не о чем говорить.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:13:32.94" id="01:13:32.94" class="lt" onclick="jumptoTime(4412, this.id)">Ну, это просто жупел определенный пропагандистский, понятно.</a>
+				<a href="#01:13:37.94" id="01:13:37.94" class="lt" onclick="jumptoTime(4417, this.id)">К тому же попахивает истории знаменитой, что Ленин был якобы немецким шпионом, ну и так далее.</a>
+				<a href="#01:13:44.94" id="01:13:44.94" class="lt" onclick="jumptoTime(4424, this.id)">Так, а если вопросов на Donation Alert нет, то у вас сейчас, уважаемые зрители и слушатели, есть возможность задать еще один вопрос, если таковы.</a>
+				<a href="#01:13:56.94" id="01:13:56.94" class="lt" onclick="jumptoTime(4436, this.id)">У вас есть. Владимир, нету ничего на Donation Alert?</a>
+				<a href="#01:14:1.94" id="01:14:1.94" class="lt" onclick="jumptoTime(4441, this.id)">Нет.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:14:1.45" id="01:14:1.45" class="lt" onclick="jumptoTime(4441, this.id)">Нет, ничего.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:14:4.25" id="01:14:4.25" class="lt" onclick="jumptoTime(4444, this.id)">Понятно.</a>
+				<a href="#01:14:5.25" id="01:14:5.25" class="lt" onclick="jumptoTime(4445, this.id)">Ну что ж, тогда мы, наверное, подведем определенный</a>
+				<a href="#01:14:9.21" id="01:14:9.21" class="lt" onclick="jumptoTime(4449, this.id)">итог.</a>
+				<a href="#01:14:10.21" id="01:14:10.21" class="lt" onclick="jumptoTime(4450, this.id)">Естественно, мы сегодня совсем чуть-чуть затронули</a>
+				<a href="#01:14:12.57" id="01:14:12.57" class="lt" onclick="jumptoTime(4452, this.id)">вопрос минного дела, безусловно.</a>
+				<a href="#01:14:16.09" id="01:14:16.09" class="lt" onclick="jumptoTime(4456, this.id)">Это всего лишь набросок к теме.</a>
+				<a href="#01:14:20.05" id="01:14:20.05" class="lt" onclick="jumptoTime(4460, this.id)">Это мы сказали вначале, повторим и сейчас.</a>
+				<a href="#01:14:24.57" id="01:14:24.57" class="lt" onclick="jumptoTime(4464, this.id)">В следующий наш стрим мы, наверное, посвятим какому-нибудь</a>
+				<a href="#01:14:27.53" id="01:14:27.53" class="lt" onclick="jumptoTime(4467, this.id)">вопросу, посвященному Корейскому народу Демократической</a>
+				<a href="#01:14:30.41" id="01:14:30.41" class="lt" onclick="jumptoTime(4470, this.id)">Республики, может быть, какому-нибудь военному</a>
+				<a href="#01:14:32.89" id="01:14:32.89" class="lt" onclick="jumptoTime(4472, this.id)">аспекту.</a>
+				<a href="#01:14:33.89" id="01:14:33.89" class="lt" onclick="jumptoTime(4473, this.id)">Мы бы хотели наших зрителей и слушателей быть более</a>
+				<a href="#01:14:35.77" id="01:14:35.77" class="lt" onclick="jumptoTime(4475, this.id)">активными, писать в комментариях, какой бы аспект они хотели</a>
+				<a href="#01:14:39.93" id="01:14:39.93" class="lt" onclick="jumptoTime(4479, this.id)">посмотреть, о чем хотели бы узнать.</a>
+				<a href="#01:14:42.81" id="01:14:42.81" class="lt" onclick="jumptoTime(4482, this.id)">Ну и, наверное, с такой частью все.</a>
+				<a href="#01:14:47.37" id="01:14:47.37" class="lt" onclick="jumptoTime(4487, this.id)">Вот вопрос один есть.</a>
+				<a href="#01:14:49.37" id="01:14:49.37" class="lt" onclick="jumptoTime(4489, this.id)">Были ли особенности использования мин в японской армии в</a>
+				<a href="#01:14:54.01" id="01:14:54.01" class="lt" onclick="jumptoTime(4494, this.id)">Японо-Китайской войне?</a>
+				<a href="#01:14:55.81" id="01:14:55.81" class="lt" onclick="jumptoTime(4495, this.id)">Ну, надо отметить, что применялись они в основном японцами,</a>
+				<a href="#01:15:0.13" id="01:15:0.13" class="lt" onclick="jumptoTime(4500, this.id)">использовались достаточно активно, но японцы не та</a>
+				<a href="#01:15:4.05" id="01:15:4.05" class="lt" onclick="jumptoTime(4504, this.id)">нация, которую можно, извиняюсь, армия японско-императорская</a>
+				<a href="#01:15:7.77" id="01:15:7.77" class="lt" onclick="jumptoTime(4507, this.id)">не та армия, которую можно назвать какой-нибудь выдающейся</a>
+				<a href="#01:15:11.73" id="01:15:11.73" class="lt" onclick="jumptoTime(4511, this.id)">в деле развития минного дела.</a>
+				<a href="#01:15:13.97" id="01:15:13.97" class="lt" onclick="jumptoTime(4513, this.id)">Она гораздо уступала и Германии, и Советскому Союзу, и Америке.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:15:19.70" id="01:15:19.70" class="lt" onclick="jumptoTime(4519, this.id)">Редактор субтитров А.Синецкая Корректор А.Егорова</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:15:19.73" id="01:15:19.73" class="lt" onclick="jumptoTime(4519, this.id)">Владимир Моисеевич.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:15:20.50" id="01:15:20.50" class="lt" onclick="jumptoTime(4520, this.id)">Думаю, что стоит согласиться. Надо сказать, что и китайская сторона использовала мины и</a>
+				<a href="#01:15:26.62" id="01:15:26.62" class="lt" onclick="jumptoTime(4526, this.id)">самодельные взрывные устройства, в особенности, когда бои шли в сельской местности, в поселках</a>
+				<a href="#01:15:32.98" id="01:15:32.98" class="lt" onclick="jumptoTime(4532, this.id)">и в городах. Это было вполне логично. Кстати, японцы использовали мины, точнее их тестировали</a>
+				<a href="#01:15:41.58" id="01:15:41.58" class="lt" onclick="jumptoTime(4541, this.id)">на живых людях, в том числе в период Японо-Китайской войны. Если говорить о периоде 30-х годов,</a>
+				<a href="#01:15:50.06" id="01:15:50.06" class="lt" onclick="jumptoTime(4550, this.id)">тут надо вспомнить о японских военных преступлениях. Японцы отрабатывали свою школу разработки</a>
+				<a href="#01:15:57.34" id="01:15:57.34" class="lt" onclick="jumptoTime(4557, this.id)">мин с точки зрения того, ведь у мина задача не убить человека, а покалечить и создать для</a>
+				<a href="#01:16:7.14" id="01:16:7.14" class="lt" onclick="jumptoTime(4567, this.id)">противника задачу эвакуации, расстроить его боевые порядки. Здесь японцы испытывали их на</a>
+				<a href="#01:16:14.70" id="01:16:14.70" class="lt" onclick="jumptoTime(4574, this.id)">военнопленных китайских солдатах, на гражданском населении, на всем, что только возможно. Они</a>
+				<a href="#01:16:23.10" id="01:16:23.10" class="lt" onclick="jumptoTime(4583, this.id)">испытывали свои вариации на тему прыгающей мины, например, испытывали свои мины для поражения</a>
+				<a href="#01:16:31.42" id="01:16:31.42" class="lt" onclick="jumptoTime(4591, this.id)">бронированных целей. Этот аспект, наверное, интересен.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:16:36.90" id="01:16:36.90" class="lt" onclick="jumptoTime(4596, this.id)">Нет, я отмечу, что японцы, например, перед самой войной вообще не разделяли мины на противопехотные и противотанковые.</a>
+				<a href="#01:16:44.90" id="01:16:44.90" class="lt" onclick="jumptoTime(4604, this.id)">Заряды были у мины японские всегда очень слабые.</a>
+				<a href="#01:16:47.90" id="01:16:47.90" class="lt" onclick="jumptoTime(4607, this.id)">Это была отсталая армия по сравнению со своими противниками в деле применения мин.</a>
+				<a href="#01:16:53.90" id="01:16:53.90" class="lt" onclick="jumptoTime(4613, this.id)">И они компенсировали это.</a>
+				<a href="#01:16:55.90" id="01:16:55.90" class="lt" onclick="jumptoTime(4615, this.id)">Понятно, когда мы говорим про борьбу с Китаем, там еще более слабый противник.</a>
+				<a href="#01:17:1.90" id="01:17:1.90" class="lt" onclick="jumptoTime(4621, this.id)">Но если мы говорим про Техоокеанский театр военных действий, там они нехватку своих мин и их маломощность компенсировали различными ловушками механического, как правило, характера.</a>
+				<a href="#01:17:12.90" id="01:17:12.90" class="lt" onclick="jumptoTime(4632, this.id)">Но это уже из разряда более на выводке хитра.</a>
+				<a href="#01:17:15.90" id="01:17:15.90" class="lt" onclick="jumptoTime(4635, this.id)">И вопрос еще один.</a>
+				<a href="#01:17:19.90" id="01:17:19.90" class="lt" onclick="jumptoTime(4639, this.id)">Они пытались сотрудничать с профессиональными военными историками того же тактик-медиа по тематике той же Корейской войны.</a>
+				<a href="#01:17:29.90" id="01:17:29.90" class="lt" onclick="jumptoTime(4649, this.id)">Я обращался к одному из редакторов тактик-медиа.</a>
+				<a href="#01:17:34.90" id="01:17:34.90" class="lt" onclick="jumptoTime(4654, this.id)">Ему показалось это неинтересно.</a>
+				<a href="#01:17:36.90" id="01:17:36.90" class="lt" onclick="jumptoTime(4656, this.id)">Обращался я к нему, по-моему, полгода назад, кажется, если не ошибаюсь.</a>
+				<a href="#01:17:42.90" id="01:17:42.90" class="lt" onclick="jumptoTime(4662, this.id)">И еще вопрос.</a>
+				<a href="#01:17:44.90" id="01:17:44.90" class="lt" onclick="jumptoTime(4664, this.id)">Что можете рассказать о морских минах?</a>
+				<a href="#01:17:46.90" id="01:17:46.90" class="lt" onclick="jumptoTime(4666, this.id)">Насколько они вредоносны сейчас, например, на Одесском побережье?</a>
+				<a href="#01:17:49.90" id="01:17:49.90" class="lt" onclick="jumptoTime(4669, this.id)">Ну, извините, эта тема, конечно, отдельной передачи.</a>
+				<a href="#01:17:52.90" id="01:17:52.90" class="lt" onclick="jumptoTime(4672, this.id)">Но морские мины, они по-прежнему крайне актуальны.</a>
+				<a href="#01:17:55.90" id="01:17:55.90" class="lt" onclick="jumptoTime(4675, this.id)">Они могут парализовать работу вражеского флота.</a>
+				<a href="#01:17:58.90" id="01:17:58.90" class="lt" onclick="jumptoTime(4678, this.id)">Они могут парализовать перевозки.</a>
+				<a href="#01:18:0.90" id="01:18:0.90" class="lt" onclick="jumptoTime(4680, this.id)">Они могут парализовать работу порта, военно-морской базы.</a>
+				<a href="#01:18:4.90" id="01:18:4.90" class="lt" onclick="jumptoTime(4684, this.id)">Безусловно.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:18:6.81" id="01:18:6.81" class="lt" onclick="jumptoTime(4686, this.id)">В Корейской войне помните, как северкорейские войска,</a>
+				<a href="#01:18:12.81" id="01:18:12.81" class="lt" onclick="jumptoTime(4692, this.id)">у которых не было фактически флота, как они затруднили</a>
+				<a href="#01:18:19.55" id="01:18:19.55" class="lt" onclick="jumptoTime(4699, this.id)">высадку в Вансане, но морские мины это совершенно другая</a>
+				<a href="#01:18:23.95" id="01:18:23.95" class="lt" onclick="jumptoTime(4703, this.id)">тематика.</a>
+				<a href="#01:18:24.95" id="01:18:24.95" class="lt" onclick="jumptoTime(4704, this.id)">Можно вспомнить, допустим, ошибки в минировании акватории</a>
+				<a href="#01:18:30.85" id="01:18:30.85" class="lt" onclick="jumptoTime(4710, this.id)">Черного моря в период Второй мировой войны Великоотечественной</a>
+				<a href="#01:18:36.17" id="01:18:36.17" class="lt" onclick="jumptoTime(4716, this.id)">и издержки, которые были связаны с этим, трудности</a>
+				<a href="#01:18:39.13" id="01:18:39.13" class="lt" onclick="jumptoTime(4719, this.id)">в обороне Крымского полуострова, но все-таки это совершенно</a>
+				<a href="#01:18:44.33" id="01:18:44.33" class="lt" onclick="jumptoTime(4724, this.id)">другая тематика, мы сегодня говорили о войне на суше</a>
+				<a href="#01:18:48.37" id="01:18:48.37" class="lt" onclick="jumptoTime(4728, this.id)">преимущественно.</a>
+</div>
+<div class="e" style="background-color: #e1ffc7">
+<span style="color: darkgreen">Глеб Таргонский</span><br>
+				<a href="#01:18:51.40" id="01:18:51.40" class="lt" onclick="jumptoTime(4731, this.id)">Так, ну и больше вопросов нет, я думаю, что мы можем</a>
+				<a href="#01:18:57.10" id="01:18:57.10" class="lt" onclick="jumptoTime(4737, this.id)">уже завершать наш стрим сегодняшний.</a>
+				<a href="#01:19:0.38" id="01:19:0.38" class="lt" onclick="jumptoTime(4740, this.id)">Благодарю всех, кто был сегодня с нами, будем разбирать</a>
+				<a href="#01:19:5.10" id="01:19:5.10" class="lt" onclick="jumptoTime(4745, this.id)">другие темы, ну и до новых встреч, впереди еще много</a>
+				<a href="#01:19:8.74" id="01:19:8.74" class="lt" onclick="jumptoTime(4748, this.id)">интересного.</a>
+</div>
+<div class="e" style="background-color: white">
+<span style="color: darkorange">Владимир Зайцев</span><br>
+				<a href="#01:19:10.01" id="01:19:10.01" class="lt" onclick="jumptoTime(4750, this.id)">Огромное спасибо за то, что приняли участие в нашей</a>
+				<a href="#01:19:13.06" id="01:19:13.06" class="lt" onclick="jumptoTime(4753, this.id)">сегодняшней беседе.</a>
+				<a href="#01:19:14.59" id="01:19:14.59" class="lt" onclick="jumptoTime(4754, this.id)">Я думаю, что вскоре встретимся вновь.</a>
+				<a href="#01:19:17.15" id="01:19:17.15" class="lt" onclick="jumptoTime(4757, this.id)">Большое спасибо вам за внимание и до свидания.</a>
+</div>
+	</body>
+</html>
